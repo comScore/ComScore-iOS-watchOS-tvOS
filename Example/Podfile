@@ -1,0 +1,14 @@
+use_frameworks!
+
+target 'HelloWorld' do
+  pod 'ComScore', :path => '../'
+end
+
+target 'HelloWorld-tvOS' do
+    pod 'ComScore', :path => '../'
+end
+
+target 'HelloWorld-watchOS Extension' do
+    pod 'ComScore', :path => '../'
+end
+

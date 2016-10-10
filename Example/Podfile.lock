@@ -1,0 +1,16 @@
+PODS:
+  - ComScore (5.1.7.161004)
+
+DEPENDENCIES:
+  - ComScore (from `../`)
+
+EXTERNAL SOURCES:
+  ComScore:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ComScore: 37cb516f7bb0eec57a7b1f193b4a8516c9dff5c0
+
+PODFILE CHECKSUM: fd1af31e5828d5e1488d5bb3421bdf5f9286ae02
+
+COCOAPODS: 1.0.1

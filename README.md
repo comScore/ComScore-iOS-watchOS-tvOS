@@ -1,8 +1,8 @@
 # ComScore SDK for iOS, watchOS & tvOS
 
-[![Version](https://img.shields.io/cocoapods/v/ComScore-iOS.svg?style=flat)](http://cocoapods.org/pods/ComScore)
-[![License](https://img.shields.io/cocoapods/l/ComScore-iOS.svg?style=flat)](http://cocoapods.org/pods/ComScore)
-[![Platform](https://img.shields.io/cocoapods/p/ComScore-iOS.svg?style=flat)](http://cocoapods.org/pods/ComScore)
+[![Version](https://img.shields.io/cocoapods/v/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
+[![License](https://img.shields.io/cocoapods/l/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
+[![Platform](https://img.shields.io/cocoapods/p/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 
 Usage
 =====

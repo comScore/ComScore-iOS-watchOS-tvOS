@@ -15,22 +15,22 @@ Pod::Spec.new do |s|
   s.frameworks = "Security"
 
   s.ios.deployment_target = '6.0'
-  s.ios.vendored_frameworks = 'comScore/iOS/ComScore.framework'
-  s.ios.preserve_paths = 'comScore/iOS/ComScore.framework'
-  s.ios.public_header_files = 'comScore/iOS/ComScore.framework/Versions/A/Headers/*.h'
+  s.ios.vendored_frameworks = 'comScore/iOS/ComScore-iOS.framework'
+  s.ios.preserve_paths = 'comScore/iOS/ComScore-iOS.framework'
+  s.ios.public_header_files = 'comScore/iOS/ComScore-iOS.framework/Versions/A/Headers/*.h'
   s.ios.frameworks = "SystemConfiguration"
 
 
   s.tvos.deployment_target = '9.0'
-  s.tvos.vendored_frameworks = 'comScore/tvOS/ComScore.framework'
-  s.tvos.preserve_paths = "comScore/tvOS/ComScore.framework"
-  s.tvos.public_header_files = "comScore/tvOS/ComScore.framework/Versions/A/Headers/*.h"
+  s.tvos.vendored_frameworks = 'comScore/tvOS/ComScore-tvOS.framework'
+  s.tvos.preserve_paths = "comScore/tvOS/ComScore-tvOS.framework"
+  s.tvos.public_header_files = "comScore/tvOS/ComScore-tvOS.framework/Versions/A/Headers/*.h"
   s.tvos.frameworks = "SystemConfiguration"
 
   s.watchos.deployment_target = '2.0'
-  s.watchos.vendored_frameworks = 'comScore/watchOS/ComScore.framework'
-  s.watchos.preserve_paths = "comScore/watchOS/ComScore.framework"
-  s.watchos.public_header_files = "comScore/watchOS/ComScore.framework/Versions/A/Headers/*.h"
+  s.watchos.vendored_frameworks = 'comScore/watchOS/ComScore-watchOS.framework'
+  s.watchos.preserve_paths = "comScore/watchOS/ComScore-watchOS.framework"
+  s.watchos.public_header_files = "comScore/watchOS/ComScore-watchOS.framework/Versions/A/Headers/*.h"
 
   s.header_dir = 'ComScore'
   s.module_name = 'ComScore'

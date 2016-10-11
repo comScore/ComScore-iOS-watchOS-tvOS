@@ -1,14 +1,14 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore'
   s.version          = '5.1.7.161004'
-  s.summary          = 'Official Application and Streaming Tag library for iOS from comScore'
+  s.summary          = 'Official application and streaming analytics library for iOS, watchOS and tvOS from comScore'
   s.description      = <<-DESC
-  This library is used to collect application and streaming tagging data from iOS applications. The library supports apps developed in native Objective C with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
+  This library is used to collect application and streaming analytics data from iOS, watchOS and tvOS applications. The library supports apps developed in native Objective C or Swift with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
                        DESC
-  s.homepage         = 'https://github.com/comscore/ComScore-iOS-SDK'
+  s.homepage         = 'https://github.com/comscore/ComScore-iOS-watchOS-tvOS'
   s.license          = 'Custom'
   s.author           = { "comScore" => "www.comscore.com" }
-  s.source           = { :git => "https://github.com/comscore/ComScore-iOS-SDK.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/comscore/ComScore-iOS-watchOS-tvOS.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/comScore'
 
   s.libraries = "c++"
@@ -19,7 +19,6 @@ Pod::Spec.new do |s|
   s.ios.preserve_paths = 'comScore/iOS/ComScore-iOS.framework'
   s.ios.public_header_files = 'comScore/iOS/ComScore-iOS.framework/Versions/A/Headers/*.h'
   s.ios.frameworks = "SystemConfiguration"
-
 
   s.tvos.deployment_target = '9.0'
   s.tvos.vendored_frameworks = 'comScore/tvOS/ComScore-tvOS.framework'

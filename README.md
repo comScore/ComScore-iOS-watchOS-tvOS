@@ -1,4 +1,4 @@
-# ComScore Application and Streaming Analytics SDK for iOS, watchOS & tvOS
+# ComScore Analytics SDK for iOS, watchOS & tvOS
 
 [![Version](https://img.shields.io/cocoapods/v/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![License](https://img.shields.io/cocoapods/l/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)

@@ -1,4 +1,4 @@
-# ComScore Analytics SDK for iOS, watchOS & tvOS
+# comScore Analytics SDK for iOS, watchOS & tvOS
 
 [![Version](https://img.shields.io/cocoapods/v/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![License](https://img.shields.io/cocoapods/l/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
@@ -12,12 +12,12 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Installation
 ============
 
-The ComScore Analytics SDK can be installed in several ways.
+The comScore Analytics SDK can be installed in several ways.
 
 CocoaPods
 ---------
 
-ComScore Analytics is also available through [CocoaPods](http://cocoapods.org). The podspec supports iOS, watchOS & tvOS devices only. 
+comScore Analytics is also available through [CocoaPods](http://cocoapods.org). The podspec supports iOS, watchOS & tvOS devices only. 
 
 To install it, simply add the following line to your Podfile:
 

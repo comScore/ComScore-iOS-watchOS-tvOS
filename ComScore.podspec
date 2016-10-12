@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore'
   s.version          = '5.1.7.161004'
-  s.summary          = 'Official application and streaming analytics library for iOS, watchOS and tvOS from comScore'
+  s.summary          = 'Official analytics library for iOS, watchOS and tvOS from comScore'
   s.description      = <<-DESC
-  This library is used to collect application and streaming analytics data from iOS, watchOS and tvOS applications. The library supports apps developed in native Objective C or Swift with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
+  This library is used to collect analytics from iOS, watchOS and tvOS applications. The library supports apps developed in native Objective C or Swift with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
                        DESC
   s.homepage         = 'https://github.com/comscore/ComScore-iOS-watchOS-tvOS'
   s.license          = 'Custom'

@@ -28,7 +28,7 @@ pod "ComScore"
 Manual
 ------
 
-Refer to the implementation guides for information on how to manually add the static framework to your project.
+Refer to the implementation guides for information on how to manually add the framework to your project.
 
 Author
 ======

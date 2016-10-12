@@ -25,6 +25,17 @@ To install it, simply add the following line to your Podfile:
 pod "ComScore"
 ```
 
+Carthage
+--------
+
+For projects targeting iOS 8 and above, the comScore Analytics SDK can be installed using [Carthage](https://github.com/Carthage/Carthage) by simply adding the associated dependency to your `Cartfile`:
+
+```
+github "comScore/ComScore-iOS-watchOS-tvOS"
+```
+
+Then run `carthage update` to update the dependencies. Unlike CocoaPods, your project is not changed. You will need to manually add the `.framework` generated in the `Carthage/Build/iOS` folder to your projet. Refer to the [official Carthage documentation](https://github.com/Carthage/Carthage) for more information.
+
 Manual
 ------
 

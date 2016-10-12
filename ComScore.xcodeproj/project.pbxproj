@@ -1,0 +1,984 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8CA80B3D1DAE6EDF00C3277F /* SCORAdType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B1D1DAE6EDF00C3277F /* SCORAdType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B3E1DAE6EDF00C3277F /* SCORAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B1E1DAE6EDF00C3277F /* SCORAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B3F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B1F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B401DAE6EDF00C3277F /* SCORApplicationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B201DAE6EDF00C3277F /* SCORApplicationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B411DAE6EDF00C3277F /* SCORApplicationState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B211DAE6EDF00C3277F /* SCORApplicationState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B421DAE6EDF00C3277F /* SCORClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B221DAE6EDF00C3277F /* SCORClientConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B431DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B231DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B441DAE6EDF00C3277F /* SCORConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B241DAE6EDF00C3277F /* SCORConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B451DAE6EDF00C3277F /* SCORConfigurationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B251DAE6EDF00C3277F /* SCORConfigurationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B461DAE6EDF00C3277F /* SCORConfigurationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B261DAE6EDF00C3277F /* SCORConfigurationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B471DAE6EDF00C3277F /* SCORContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B271DAE6EDF00C3277F /* SCORContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B481DAE6EDF00C3277F /* SCOREventInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B281DAE6EDF00C3277F /* SCOREventInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B491DAE6EDF00C3277F /* SCORExtensionType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B291DAE6EDF00C3277F /* SCORExtensionType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4B1DAE6EDF00C3277F /* SCORLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2B1DAE6EDF00C3277F /* SCORLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B4F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B2F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B501DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B301DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B511DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B311DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B521DAE6EDF00C3277F /* SCORSessionState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B321DAE6EDF00C3277F /* SCORSessionState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B531DAE6EDF00C3277F /* SCORStreamingAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B331DAE6EDF00C3277F /* SCORStreamingAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B541DAE6EDF00C3277F /* SCORStreamingAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B341DAE6EDF00C3277F /* SCORStreamingAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B551DAE6EDF00C3277F /* SCORStreamingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B351DAE6EDF00C3277F /* SCORStreamingConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B561DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B361DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B571DAE6EDF00C3277F /* SCORStreamingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B371DAE6EDF00C3277F /* SCORStreamingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B581DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B381DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B591DAE6EDF00C3277F /* SCORStreamingState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B391DAE6EDF00C3277F /* SCORStreamingState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B5A1DAE6EDF00C3277F /* SCORTrackingProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B3A1DAE6EDF00C3277F /* SCORTrackingProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B5B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B3B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B5C1DAE6EDF00C3277F /* SCORVCE.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B3C1DAE6EDF00C3277F /* SCORVCE.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80B601DAE6FB500C3277F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA80B5F1DAE6FB500C3277F /* libc++.tbd */; };
+		8CA80B651DAE813B00C3277F /* ComScore in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA80B631DAE812500C3277F /* ComScore */; };
+		8CA80B6A1DAE815900C3277F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA80B5F1DAE6FB500C3277F /* libc++.tbd */; };
+		8CA80B6B1DAE815900C3277F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4E1D62EF1A00CFB080 /* Security.framework */; };
+		8CA80B6C1DAE815900C3277F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4C1D62EF0800CFB080 /* SystemConfiguration.framework */; };
+		8CA80B6D1DAE815900C3277F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4A1D62EF0100CFB080 /* UIKit.framework */; };
+		8CA80B6E1DAE815900C3277F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA481D62EEFA00CFB080 /* Foundation.framework */; };
+		8CA80BD21DAE827300C3277F /* SCORAdType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B981DAE81A300C3277F /* SCORAdType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BD31DAE827300C3277F /* SCORAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B991DAE81A300C3277F /* SCORAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BD41DAE827300C3277F /* SCORApplicationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B9A1DAE81A300C3277F /* SCORApplicationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BD51DAE827300C3277F /* SCORApplicationState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B9B1DAE81A300C3277F /* SCORApplicationState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BD61DAE827300C3277F /* SCORClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B9C1DAE81A300C3277F /* SCORClientConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BD71DAE827300C3277F /* SCORClientConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B9D1DAE81A300C3277F /* SCORClientConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BD81DAE827300C3277F /* SCORConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B9E1DAE81A300C3277F /* SCORConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BD91DAE827300C3277F /* SCORConfigurationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80B9F1DAE81A300C3277F /* SCORConfigurationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BDA1DAE827300C3277F /* SCORConfigurationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA01DAE81A300C3277F /* SCORConfigurationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BDB1DAE827300C3277F /* SCORContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA11DAE81A300C3277F /* SCORContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BDC1DAE827300C3277F /* SCOREventInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA21DAE81A300C3277F /* SCOREventInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BDD1DAE827300C3277F /* SCORLiveTransmissionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA31DAE81A300C3277F /* SCORLiveTransmissionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BDE1DAE827300C3277F /* SCORLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA41DAE81A300C3277F /* SCORLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BDF1DAE827300C3277F /* SCOROfflineCacheMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA51DAE81A300C3277F /* SCOROfflineCacheMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE01DAE827300C3277F /* SCORPartnerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA61DAE81A300C3277F /* SCORPartnerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE11DAE827300C3277F /* SCORPartnerConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA71DAE81A300C3277F /* SCORPartnerConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE21DAE827300C3277F /* SCORPublisherConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA81DAE81A300C3277F /* SCORPublisherConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE31DAE827300C3277F /* SCORPublisherConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BA91DAE81A300C3277F /* SCORPublisherConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE41DAE827300C3277F /* SCORReducedRequirementsStreamingAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BAA1DAE81A300C3277F /* SCORReducedRequirementsStreamingAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE51DAE827300C3277F /* SCORSessionState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BAB1DAE81A300C3277F /* SCORSessionState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE61DAE827300C3277F /* SCORStreamingAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BAC1DAE81A300C3277F /* SCORStreamingAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE71DAE827300C3277F /* SCORStreamingAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BAD1DAE81A300C3277F /* SCORStreamingAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE81DAE827300C3277F /* SCORStreamingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BAE1DAE81A300C3277F /* SCORStreamingConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BE91DAE827300C3277F /* SCORStreamingConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BAF1DAE81A300C3277F /* SCORStreamingConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BEA1DAE827300C3277F /* SCORStreamingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BB01DAE81A300C3277F /* SCORStreamingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BEB1DAE827300C3277F /* SCORStreamingPlaybackSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BB11DAE81A300C3277F /* SCORStreamingPlaybackSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BEC1DAE827300C3277F /* SCORStreamingState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BB21DAE81A300C3277F /* SCORStreamingState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BED1DAE827300C3277F /* SCORTrackingProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BB31DAE81A300C3277F /* SCORTrackingProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BEE1DAE827300C3277F /* SCORUsagePropertiesAutoUpdateMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80BB41DAE81A300C3277F /* SCORUsagePropertiesAutoUpdateMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80BF11DAE82B100C3277F /* ComScore in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA80BF01DAE82B100C3277F /* ComScore */; };
+		8CA80BF61DAE82D300C3277F /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA80B5F1DAE6FB500C3277F /* libc++.tbd */; };
+		8CA80BF71DAE82D300C3277F /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4E1D62EF1A00CFB080 /* Security.framework */; };
+		8CA80BF91DAE82D300C3277F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4A1D62EF0100CFB080 /* UIKit.framework */; };
+		8CA80BFA1DAE82D300C3277F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA481D62EEFA00CFB080 /* Foundation.framework */; };
+		8CA80C621DAE833200C3277F /* ComScore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C241DAE832C00C3277F /* ComScore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C631DAE833200C3277F /* SCORAdType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C251DAE832C00C3277F /* SCORAdType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C641DAE833200C3277F /* SCORAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C261DAE832C00C3277F /* SCORAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C651DAE833200C3277F /* SCORApplicationEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C271DAE832C00C3277F /* SCORApplicationEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C661DAE833200C3277F /* SCORApplicationState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C281DAE832C00C3277F /* SCORApplicationState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C671DAE833200C3277F /* SCORClientConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C291DAE832C00C3277F /* SCORClientConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C681DAE833200C3277F /* SCORClientConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C2A1DAE832C00C3277F /* SCORClientConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C691DAE833200C3277F /* SCORConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C2B1DAE832C00C3277F /* SCORConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C6A1DAE833200C3277F /* SCORConfigurationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C2C1DAE832C00C3277F /* SCORConfigurationDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C6B1DAE833200C3277F /* SCORConfigurationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C2D1DAE832C00C3277F /* SCORConfigurationType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C6C1DAE833200C3277F /* SCORContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C2E1DAE832C00C3277F /* SCORContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C6D1DAE833200C3277F /* SCOREventInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C2F1DAE832C00C3277F /* SCOREventInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C6E1DAE833200C3277F /* SCORExtensionType.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C301DAE832C00C3277F /* SCORExtensionType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C6F1DAE833200C3277F /* SCORLiveTransmissionMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C311DAE832C00C3277F /* SCORLiveTransmissionMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C701DAE833200C3277F /* SCORLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C321DAE832C00C3277F /* SCORLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C711DAE833200C3277F /* SCOROfflineCacheMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C331DAE832C00C3277F /* SCOROfflineCacheMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C721DAE833200C3277F /* SCORPartnerConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C341DAE832C00C3277F /* SCORPartnerConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C731DAE833200C3277F /* SCORPartnerConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C351DAE832C00C3277F /* SCORPartnerConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C741DAE833200C3277F /* SCORPublisherConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C361DAE832C00C3277F /* SCORPublisherConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C751DAE833200C3277F /* SCORPublisherConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C371DAE832C00C3277F /* SCORPublisherConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C761DAE833200C3277F /* SCORReducedRequirementsStreamingAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C381DAE832C00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C771DAE833200C3277F /* SCORSessionState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C391DAE832C00C3277F /* SCORSessionState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C781DAE833200C3277F /* SCORStreamingAnalytics.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C3A1DAE832C00C3277F /* SCORStreamingAnalytics.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C791DAE833200C3277F /* SCORStreamingAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C3B1DAE832C00C3277F /* SCORStreamingAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C7A1DAE833200C3277F /* SCORStreamingConfiguration.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C3C1DAE832C00C3277F /* SCORStreamingConfiguration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C7B1DAE833200C3277F /* SCORStreamingConfigurationBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C3D1DAE832C00C3277F /* SCORStreamingConfigurationBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C7C1DAE833200C3277F /* SCORStreamingDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C3E1DAE832C00C3277F /* SCORStreamingDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C7D1DAE833200C3277F /* SCORStreamingPlaybackSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C3F1DAE832C00C3277F /* SCORStreamingPlaybackSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C7E1DAE833200C3277F /* SCORStreamingState.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C401DAE832C00C3277F /* SCORStreamingState.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C7F1DAE833200C3277F /* SCORTrackingProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C411DAE832C00C3277F /* SCORTrackingProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C801DAE833200C3277F /* SCORUsagePropertiesAutoUpdateMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C421DAE832C00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8CA80C831DAE844800C3277F /* ComScore in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA80C821DAE844800C3277F /* ComScore */; };
+		8CA80C861DAE848A00C3277F /* ComScore.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CA80C841DAE848600C3277F /* ComScore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E672EA451D62E8FB00CFB080 /* ComScore.h in Headers */ = {isa = PBXBuildFile; fileRef = E672EA441D62E8FB00CFB080 /* ComScore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E672EA491D62EEFA00CFB080 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA481D62EEFA00CFB080 /* Foundation.framework */; };
+		E672EA4B1D62EF0200CFB080 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4A1D62EF0100CFB080 /* UIKit.framework */; };
+		E672EA4D1D62EF0800CFB080 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4C1D62EF0800CFB080 /* SystemConfiguration.framework */; };
+		E672EA4F1D62EF1A00CFB080 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E672EA4E1D62EF1A00CFB080 /* Security.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8CA80B1D1DAE6EDF00C3277F /* SCORAdType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORAdType.h; sourceTree = "<group>"; };
+		8CA80B1E1DAE6EDF00C3277F /* SCORAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORAnalytics.h; sourceTree = "<group>"; };
+		8CA80B1F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SCORAnalytics+VCE.h"; sourceTree = "<group>"; };
+		8CA80B201DAE6EDF00C3277F /* SCORApplicationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORApplicationEvent.h; sourceTree = "<group>"; };
+		8CA80B211DAE6EDF00C3277F /* SCORApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORApplicationState.h; sourceTree = "<group>"; };
+		8CA80B221DAE6EDF00C3277F /* SCORClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORClientConfiguration.h; sourceTree = "<group>"; };
+		8CA80B231DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORClientConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B241DAE6EDF00C3277F /* SCORConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfiguration.h; sourceTree = "<group>"; };
+		8CA80B251DAE6EDF00C3277F /* SCORConfigurationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfigurationDelegate.h; sourceTree = "<group>"; };
+		8CA80B261DAE6EDF00C3277F /* SCORConfigurationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfigurationType.h; sourceTree = "<group>"; };
+		8CA80B271DAE6EDF00C3277F /* SCORContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORContentType.h; sourceTree = "<group>"; };
+		8CA80B281DAE6EDF00C3277F /* SCOREventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOREventInfo.h; sourceTree = "<group>"; };
+		8CA80B291DAE6EDF00C3277F /* SCORExtensionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORExtensionType.h; sourceTree = "<group>"; };
+		8CA80B2A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORLiveTransmissionMode.h; sourceTree = "<group>"; };
+		8CA80B2B1DAE6EDF00C3277F /* SCORLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORLogLevel.h; sourceTree = "<group>"; };
+		8CA80B2C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOROfflineCacheMode.h; sourceTree = "<group>"; };
+		8CA80B2D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPartnerConfiguration.h; sourceTree = "<group>"; };
+		8CA80B2E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPartnerConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B2F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPublisherConfiguration.h; sourceTree = "<group>"; };
+		8CA80B301DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPublisherConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B311DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORReducedRequirementsStreamingAnalytics.h; sourceTree = "<group>"; };
+		8CA80B321DAE6EDF00C3277F /* SCORSessionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORSessionState.h; sourceTree = "<group>"; };
+		8CA80B331DAE6EDF00C3277F /* SCORStreamingAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingAnalytics.h; sourceTree = "<group>"; };
+		8CA80B341DAE6EDF00C3277F /* SCORStreamingAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingAsset.h; sourceTree = "<group>"; };
+		8CA80B351DAE6EDF00C3277F /* SCORStreamingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingConfiguration.h; sourceTree = "<group>"; };
+		8CA80B361DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B371DAE6EDF00C3277F /* SCORStreamingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingDelegate.h; sourceTree = "<group>"; };
+		8CA80B381DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingPlaybackSession.h; sourceTree = "<group>"; };
+		8CA80B391DAE6EDF00C3277F /* SCORStreamingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingState.h; sourceTree = "<group>"; };
+		8CA80B3A1DAE6EDF00C3277F /* SCORTrackingProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORTrackingProperty.h; sourceTree = "<group>"; };
+		8CA80B3B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORUsagePropertiesAutoUpdateMode.h; sourceTree = "<group>"; };
+		8CA80B3C1DAE6EDF00C3277F /* SCORVCE.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORVCE.h; sourceTree = "<group>"; };
+		8CA80B5F1DAE6FB500C3277F /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		8CA80B631DAE812500C3277F /* ComScore */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ComScore; path = ComScore/iOS/ComScore.framework/Versions/A/ComScore; sourceTree = "<group>"; };
+		8CA80B951DAE815900C3277F /* ComScore_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComScore_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA80B981DAE81A300C3277F /* SCORAdType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORAdType.h; sourceTree = "<group>"; };
+		8CA80B991DAE81A300C3277F /* SCORAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORAnalytics.h; sourceTree = "<group>"; };
+		8CA80B9A1DAE81A300C3277F /* SCORApplicationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORApplicationEvent.h; sourceTree = "<group>"; };
+		8CA80B9B1DAE81A300C3277F /* SCORApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORApplicationState.h; sourceTree = "<group>"; };
+		8CA80B9C1DAE81A300C3277F /* SCORClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORClientConfiguration.h; sourceTree = "<group>"; };
+		8CA80B9D1DAE81A300C3277F /* SCORClientConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORClientConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80B9E1DAE81A300C3277F /* SCORConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfiguration.h; sourceTree = "<group>"; };
+		8CA80B9F1DAE81A300C3277F /* SCORConfigurationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfigurationDelegate.h; sourceTree = "<group>"; };
+		8CA80BA01DAE81A300C3277F /* SCORConfigurationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfigurationType.h; sourceTree = "<group>"; };
+		8CA80BA11DAE81A300C3277F /* SCORContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORContentType.h; sourceTree = "<group>"; };
+		8CA80BA21DAE81A300C3277F /* SCOREventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOREventInfo.h; sourceTree = "<group>"; };
+		8CA80BA31DAE81A300C3277F /* SCORLiveTransmissionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORLiveTransmissionMode.h; sourceTree = "<group>"; };
+		8CA80BA41DAE81A300C3277F /* SCORLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORLogLevel.h; sourceTree = "<group>"; };
+		8CA80BA51DAE81A300C3277F /* SCOROfflineCacheMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOROfflineCacheMode.h; sourceTree = "<group>"; };
+		8CA80BA61DAE81A300C3277F /* SCORPartnerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPartnerConfiguration.h; sourceTree = "<group>"; };
+		8CA80BA71DAE81A300C3277F /* SCORPartnerConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPartnerConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80BA81DAE81A300C3277F /* SCORPublisherConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPublisherConfiguration.h; sourceTree = "<group>"; };
+		8CA80BA91DAE81A300C3277F /* SCORPublisherConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPublisherConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80BAA1DAE81A300C3277F /* SCORReducedRequirementsStreamingAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORReducedRequirementsStreamingAnalytics.h; sourceTree = "<group>"; };
+		8CA80BAB1DAE81A300C3277F /* SCORSessionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORSessionState.h; sourceTree = "<group>"; };
+		8CA80BAC1DAE81A300C3277F /* SCORStreamingAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingAnalytics.h; sourceTree = "<group>"; };
+		8CA80BAD1DAE81A300C3277F /* SCORStreamingAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingAsset.h; sourceTree = "<group>"; };
+		8CA80BAE1DAE81A300C3277F /* SCORStreamingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingConfiguration.h; sourceTree = "<group>"; };
+		8CA80BAF1DAE81A300C3277F /* SCORStreamingConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80BB01DAE81A300C3277F /* SCORStreamingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingDelegate.h; sourceTree = "<group>"; };
+		8CA80BB11DAE81A300C3277F /* SCORStreamingPlaybackSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingPlaybackSession.h; sourceTree = "<group>"; };
+		8CA80BB21DAE81A300C3277F /* SCORStreamingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingState.h; sourceTree = "<group>"; };
+		8CA80BB31DAE81A300C3277F /* SCORTrackingProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORTrackingProperty.h; sourceTree = "<group>"; };
+		8CA80BB41DAE81A300C3277F /* SCORUsagePropertiesAutoUpdateMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORUsagePropertiesAutoUpdateMode.h; sourceTree = "<group>"; };
+		8CA80BF01DAE82B100C3277F /* ComScore */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ComScore; path = ComScore/tvOS/ComScore.framework/Versions/A/ComScore; sourceTree = "<group>"; };
+		8CA80C211DAE82D300C3277F /* ComScore_watchOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComScore_watchOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA80C241DAE832C00C3277F /* ComScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComScore.h; sourceTree = "<group>"; };
+		8CA80C251DAE832C00C3277F /* SCORAdType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORAdType.h; sourceTree = "<group>"; };
+		8CA80C261DAE832C00C3277F /* SCORAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORAnalytics.h; sourceTree = "<group>"; };
+		8CA80C271DAE832C00C3277F /* SCORApplicationEvent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORApplicationEvent.h; sourceTree = "<group>"; };
+		8CA80C281DAE832C00C3277F /* SCORApplicationState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORApplicationState.h; sourceTree = "<group>"; };
+		8CA80C291DAE832C00C3277F /* SCORClientConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORClientConfiguration.h; sourceTree = "<group>"; };
+		8CA80C2A1DAE832C00C3277F /* SCORClientConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORClientConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80C2B1DAE832C00C3277F /* SCORConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfiguration.h; sourceTree = "<group>"; };
+		8CA80C2C1DAE832C00C3277F /* SCORConfigurationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfigurationDelegate.h; sourceTree = "<group>"; };
+		8CA80C2D1DAE832C00C3277F /* SCORConfigurationType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORConfigurationType.h; sourceTree = "<group>"; };
+		8CA80C2E1DAE832C00C3277F /* SCORContentType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORContentType.h; sourceTree = "<group>"; };
+		8CA80C2F1DAE832C00C3277F /* SCOREventInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOREventInfo.h; sourceTree = "<group>"; };
+		8CA80C301DAE832C00C3277F /* SCORExtensionType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORExtensionType.h; sourceTree = "<group>"; };
+		8CA80C311DAE832C00C3277F /* SCORLiveTransmissionMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORLiveTransmissionMode.h; sourceTree = "<group>"; };
+		8CA80C321DAE832C00C3277F /* SCORLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORLogLevel.h; sourceTree = "<group>"; };
+		8CA80C331DAE832C00C3277F /* SCOROfflineCacheMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCOROfflineCacheMode.h; sourceTree = "<group>"; };
+		8CA80C341DAE832C00C3277F /* SCORPartnerConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPartnerConfiguration.h; sourceTree = "<group>"; };
+		8CA80C351DAE832C00C3277F /* SCORPartnerConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPartnerConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80C361DAE832C00C3277F /* SCORPublisherConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPublisherConfiguration.h; sourceTree = "<group>"; };
+		8CA80C371DAE832C00C3277F /* SCORPublisherConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORPublisherConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80C381DAE832C00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORReducedRequirementsStreamingAnalytics.h; sourceTree = "<group>"; };
+		8CA80C391DAE832C00C3277F /* SCORSessionState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORSessionState.h; sourceTree = "<group>"; };
+		8CA80C3A1DAE832C00C3277F /* SCORStreamingAnalytics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingAnalytics.h; sourceTree = "<group>"; };
+		8CA80C3B1DAE832C00C3277F /* SCORStreamingAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingAsset.h; sourceTree = "<group>"; };
+		8CA80C3C1DAE832C00C3277F /* SCORStreamingConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingConfiguration.h; sourceTree = "<group>"; };
+		8CA80C3D1DAE832C00C3277F /* SCORStreamingConfigurationBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingConfigurationBuilder.h; sourceTree = "<group>"; };
+		8CA80C3E1DAE832C00C3277F /* SCORStreamingDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingDelegate.h; sourceTree = "<group>"; };
+		8CA80C3F1DAE832C00C3277F /* SCORStreamingPlaybackSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingPlaybackSession.h; sourceTree = "<group>"; };
+		8CA80C401DAE832C00C3277F /* SCORStreamingState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORStreamingState.h; sourceTree = "<group>"; };
+		8CA80C411DAE832C00C3277F /* SCORTrackingProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORTrackingProperty.h; sourceTree = "<group>"; };
+		8CA80C421DAE832C00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SCORUsagePropertiesAutoUpdateMode.h; sourceTree = "<group>"; };
+		8CA80C821DAE844800C3277F /* ComScore */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = ComScore; path = ComScore/watchOS/ComScore.framework/Versions/A/ComScore; sourceTree = "<group>"; };
+		8CA80C841DAE848600C3277F /* ComScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComScore.h; sourceTree = "<group>"; };
+		E672EA081D62E86D00CFB080 /* ComScore_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ComScore_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E672EA441D62E8FB00CFB080 /* ComScore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComScore.h; sourceTree = "<group>"; };
+		E672EA481D62EEFA00CFB080 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E672EA4A1D62EF0100CFB080 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E672EA4C1D62EF0800CFB080 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		E672EA4E1D62EF1A00CFB080 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8CA80B681DAE815900C3277F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA80BF11DAE82B100C3277F /* ComScore in Frameworks */,
+				8CA80B6A1DAE815900C3277F /* libc++.tbd in Frameworks */,
+				8CA80B6B1DAE815900C3277F /* Security.framework in Frameworks */,
+				8CA80B6C1DAE815900C3277F /* SystemConfiguration.framework in Frameworks */,
+				8CA80B6D1DAE815900C3277F /* UIKit.framework in Frameworks */,
+				8CA80B6E1DAE815900C3277F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA80BF41DAE82D300C3277F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA80C831DAE844800C3277F /* ComScore in Frameworks */,
+				8CA80BF61DAE82D300C3277F /* libc++.tbd in Frameworks */,
+				8CA80BF71DAE82D300C3277F /* Security.framework in Frameworks */,
+				8CA80BF91DAE82D300C3277F /* UIKit.framework in Frameworks */,
+				8CA80BFA1DAE82D300C3277F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672EA041D62E86D00CFB080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA80B651DAE813B00C3277F /* ComScore in Frameworks */,
+				8CA80B601DAE6FB500C3277F /* libc++.tbd in Frameworks */,
+				E672EA4F1D62EF1A00CFB080 /* Security.framework in Frameworks */,
+				E672EA4D1D62EF0800CFB080 /* SystemConfiguration.framework in Frameworks */,
+				E672EA4B1D62EF0200CFB080 /* UIKit.framework in Frameworks */,
+				E672EA491D62EEFA00CFB080 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8CA80B611DAE80CF00C3277F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80B621DAE811000C3277F /* Library */,
+				E672EA151D62E8EF00CFB080 /* Headers */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		8CA80B621DAE811000C3277F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80B631DAE812500C3277F /* ComScore */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		8CA80B961DAE817E00C3277F /* tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80BEF1DAE829B00C3277F /* Library */,
+				8CA80B971DAE818400C3277F /* Headers */,
+			);
+			name = tvOS;
+			sourceTree = "<group>";
+		};
+		8CA80B971DAE818400C3277F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80C841DAE848600C3277F /* ComScore.h */,
+				8CA80B981DAE81A300C3277F /* SCORAdType.h */,
+				8CA80B991DAE81A300C3277F /* SCORAnalytics.h */,
+				8CA80B9A1DAE81A300C3277F /* SCORApplicationEvent.h */,
+				8CA80B9B1DAE81A300C3277F /* SCORApplicationState.h */,
+				8CA80B9C1DAE81A300C3277F /* SCORClientConfiguration.h */,
+				8CA80B9D1DAE81A300C3277F /* SCORClientConfigurationBuilder.h */,
+				8CA80B9E1DAE81A300C3277F /* SCORConfiguration.h */,
+				8CA80B9F1DAE81A300C3277F /* SCORConfigurationDelegate.h */,
+				8CA80BA01DAE81A300C3277F /* SCORConfigurationType.h */,
+				8CA80BA11DAE81A300C3277F /* SCORContentType.h */,
+				8CA80BA21DAE81A300C3277F /* SCOREventInfo.h */,
+				8CA80BA31DAE81A300C3277F /* SCORLiveTransmissionMode.h */,
+				8CA80BA41DAE81A300C3277F /* SCORLogLevel.h */,
+				8CA80BA51DAE81A300C3277F /* SCOROfflineCacheMode.h */,
+				8CA80BA61DAE81A300C3277F /* SCORPartnerConfiguration.h */,
+				8CA80BA71DAE81A300C3277F /* SCORPartnerConfigurationBuilder.h */,
+				8CA80BA81DAE81A300C3277F /* SCORPublisherConfiguration.h */,
+				8CA80BA91DAE81A300C3277F /* SCORPublisherConfigurationBuilder.h */,
+				8CA80BAA1DAE81A300C3277F /* SCORReducedRequirementsStreamingAnalytics.h */,
+				8CA80BAB1DAE81A300C3277F /* SCORSessionState.h */,
+				8CA80BAC1DAE81A300C3277F /* SCORStreamingAnalytics.h */,
+				8CA80BAD1DAE81A300C3277F /* SCORStreamingAsset.h */,
+				8CA80BAE1DAE81A300C3277F /* SCORStreamingConfiguration.h */,
+				8CA80BAF1DAE81A300C3277F /* SCORStreamingConfigurationBuilder.h */,
+				8CA80BB01DAE81A300C3277F /* SCORStreamingDelegate.h */,
+				8CA80BB11DAE81A300C3277F /* SCORStreamingPlaybackSession.h */,
+				8CA80BB21DAE81A300C3277F /* SCORStreamingState.h */,
+				8CA80BB31DAE81A300C3277F /* SCORTrackingProperty.h */,
+				8CA80BB41DAE81A300C3277F /* SCORUsagePropertiesAutoUpdateMode.h */,
+			);
+			name = Headers;
+			path = ComScore/tvOS/ComScore.framework/Versions/A/Headers;
+			sourceTree = "<group>";
+		};
+		8CA80BEF1DAE829B00C3277F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80BF01DAE82B100C3277F /* ComScore */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		8CA80C221DAE82FF00C3277F /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80C811DAE833900C3277F /* Library */,
+				8CA80C231DAE830600C3277F /* Headers */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		8CA80C231DAE830600C3277F /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80C241DAE832C00C3277F /* ComScore.h */,
+				8CA80C251DAE832C00C3277F /* SCORAdType.h */,
+				8CA80C261DAE832C00C3277F /* SCORAnalytics.h */,
+				8CA80C271DAE832C00C3277F /* SCORApplicationEvent.h */,
+				8CA80C281DAE832C00C3277F /* SCORApplicationState.h */,
+				8CA80C291DAE832C00C3277F /* SCORClientConfiguration.h */,
+				8CA80C2A1DAE832C00C3277F /* SCORClientConfigurationBuilder.h */,
+				8CA80C2B1DAE832C00C3277F /* SCORConfiguration.h */,
+				8CA80C2C1DAE832C00C3277F /* SCORConfigurationDelegate.h */,
+				8CA80C2D1DAE832C00C3277F /* SCORConfigurationType.h */,
+				8CA80C2E1DAE832C00C3277F /* SCORContentType.h */,
+				8CA80C2F1DAE832C00C3277F /* SCOREventInfo.h */,
+				8CA80C301DAE832C00C3277F /* SCORExtensionType.h */,
+				8CA80C311DAE832C00C3277F /* SCORLiveTransmissionMode.h */,
+				8CA80C321DAE832C00C3277F /* SCORLogLevel.h */,
+				8CA80C331DAE832C00C3277F /* SCOROfflineCacheMode.h */,
+				8CA80C341DAE832C00C3277F /* SCORPartnerConfiguration.h */,
+				8CA80C351DAE832C00C3277F /* SCORPartnerConfigurationBuilder.h */,
+				8CA80C361DAE832C00C3277F /* SCORPublisherConfiguration.h */,
+				8CA80C371DAE832C00C3277F /* SCORPublisherConfigurationBuilder.h */,
+				8CA80C381DAE832C00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */,
+				8CA80C391DAE832C00C3277F /* SCORSessionState.h */,
+				8CA80C3A1DAE832C00C3277F /* SCORStreamingAnalytics.h */,
+				8CA80C3B1DAE832C00C3277F /* SCORStreamingAsset.h */,
+				8CA80C3C1DAE832C00C3277F /* SCORStreamingConfiguration.h */,
+				8CA80C3D1DAE832C00C3277F /* SCORStreamingConfigurationBuilder.h */,
+				8CA80C3E1DAE832C00C3277F /* SCORStreamingDelegate.h */,
+				8CA80C3F1DAE832C00C3277F /* SCORStreamingPlaybackSession.h */,
+				8CA80C401DAE832C00C3277F /* SCORStreamingState.h */,
+				8CA80C411DAE832C00C3277F /* SCORTrackingProperty.h */,
+				8CA80C421DAE832C00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */,
+			);
+			name = Headers;
+			path = ComScore/watchOS/ComScore.framework/Versions/A/Headers;
+			sourceTree = "<group>";
+		};
+		8CA80C811DAE833900C3277F /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80C821DAE844800C3277F /* ComScore */,
+			);
+			name = Library;
+			sourceTree = "<group>";
+		};
+		E672E9FE1D62E86D00CFB080 = {
+			isa = PBXGroup;
+			children = (
+				8CA80B611DAE80CF00C3277F /* iOS */,
+				8CA80B961DAE817E00C3277F /* tvOS */,
+				8CA80C221DAE82FF00C3277F /* watchOS */,
+				E672EA501D62EF2900CFB080 /* Frameworks */,
+				E672EA091D62E86D00CFB080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E672EA091D62E86D00CFB080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E672EA081D62E86D00CFB080 /* ComScore_iOS.framework */,
+				8CA80B951DAE815900C3277F /* ComScore_tvOS.framework */,
+				8CA80C211DAE82D300C3277F /* ComScore_watchOS.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E672EA151D62E8EF00CFB080 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				E672EA441D62E8FB00CFB080 /* ComScore.h */,
+				8CA80B1D1DAE6EDF00C3277F /* SCORAdType.h */,
+				8CA80B1E1DAE6EDF00C3277F /* SCORAnalytics.h */,
+				8CA80B1F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h */,
+				8CA80B201DAE6EDF00C3277F /* SCORApplicationEvent.h */,
+				8CA80B211DAE6EDF00C3277F /* SCORApplicationState.h */,
+				8CA80B221DAE6EDF00C3277F /* SCORClientConfiguration.h */,
+				8CA80B231DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h */,
+				8CA80B241DAE6EDF00C3277F /* SCORConfiguration.h */,
+				8CA80B251DAE6EDF00C3277F /* SCORConfigurationDelegate.h */,
+				8CA80B261DAE6EDF00C3277F /* SCORConfigurationType.h */,
+				8CA80B271DAE6EDF00C3277F /* SCORContentType.h */,
+				8CA80B281DAE6EDF00C3277F /* SCOREventInfo.h */,
+				8CA80B291DAE6EDF00C3277F /* SCORExtensionType.h */,
+				8CA80B2A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h */,
+				8CA80B2B1DAE6EDF00C3277F /* SCORLogLevel.h */,
+				8CA80B2C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h */,
+				8CA80B2D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h */,
+				8CA80B2E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h */,
+				8CA80B2F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h */,
+				8CA80B301DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h */,
+				8CA80B311DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h */,
+				8CA80B321DAE6EDF00C3277F /* SCORSessionState.h */,
+				8CA80B331DAE6EDF00C3277F /* SCORStreamingAnalytics.h */,
+				8CA80B341DAE6EDF00C3277F /* SCORStreamingAsset.h */,
+				8CA80B351DAE6EDF00C3277F /* SCORStreamingConfiguration.h */,
+				8CA80B361DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h */,
+				8CA80B371DAE6EDF00C3277F /* SCORStreamingDelegate.h */,
+				8CA80B381DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h */,
+				8CA80B391DAE6EDF00C3277F /* SCORStreamingState.h */,
+				8CA80B3A1DAE6EDF00C3277F /* SCORTrackingProperty.h */,
+				8CA80B3B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h */,
+				8CA80B3C1DAE6EDF00C3277F /* SCORVCE.h */,
+			);
+			name = Headers;
+			path = ComScore/iOS/ComScore.framework/Versions/A/Headers;
+			sourceTree = "<group>";
+		};
+		E672EA501D62EF2900CFB080 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CA80B5F1DAE6FB500C3277F /* libc++.tbd */,
+				E672EA4E1D62EF1A00CFB080 /* Security.framework */,
+				E672EA4C1D62EF0800CFB080 /* SystemConfiguration.framework */,
+				E672EA4A1D62EF0100CFB080 /* UIKit.framework */,
+				E672EA481D62EEFA00CFB080 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8CA80B6F1DAE815900C3277F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA80BDC1DAE827300C3277F /* SCOREventInfo.h in Headers */,
+				8CA80BE61DAE827300C3277F /* SCORStreamingAnalytics.h in Headers */,
+				8CA80BE41DAE827300C3277F /* SCORReducedRequirementsStreamingAnalytics.h in Headers */,
+				8CA80C861DAE848A00C3277F /* ComScore.h in Headers */,
+				8CA80BE31DAE827300C3277F /* SCORPublisherConfigurationBuilder.h in Headers */,
+				8CA80BD81DAE827300C3277F /* SCORConfiguration.h in Headers */,
+				8CA80BDD1DAE827300C3277F /* SCORLiveTransmissionMode.h in Headers */,
+				8CA80BDA1DAE827300C3277F /* SCORConfigurationType.h in Headers */,
+				8CA80BE21DAE827300C3277F /* SCORPublisherConfiguration.h in Headers */,
+				8CA80BEB1DAE827300C3277F /* SCORStreamingPlaybackSession.h in Headers */,
+				8CA80BD51DAE827300C3277F /* SCORApplicationState.h in Headers */,
+				8CA80BE91DAE827300C3277F /* SCORStreamingConfigurationBuilder.h in Headers */,
+				8CA80BE71DAE827300C3277F /* SCORStreamingAsset.h in Headers */,
+				8CA80BDB1DAE827300C3277F /* SCORContentType.h in Headers */,
+				8CA80BD61DAE827300C3277F /* SCORClientConfiguration.h in Headers */,
+				8CA80BD91DAE827300C3277F /* SCORConfigurationDelegate.h in Headers */,
+				8CA80BE81DAE827300C3277F /* SCORStreamingConfiguration.h in Headers */,
+				8CA80BEC1DAE827300C3277F /* SCORStreamingState.h in Headers */,
+				8CA80BD71DAE827300C3277F /* SCORClientConfigurationBuilder.h in Headers */,
+				8CA80BEE1DAE827300C3277F /* SCORUsagePropertiesAutoUpdateMode.h in Headers */,
+				8CA80BE01DAE827300C3277F /* SCORPartnerConfiguration.h in Headers */,
+				8CA80BD41DAE827300C3277F /* SCORApplicationEvent.h in Headers */,
+				8CA80BEA1DAE827300C3277F /* SCORStreamingDelegate.h in Headers */,
+				8CA80BE11DAE827300C3277F /* SCORPartnerConfigurationBuilder.h in Headers */,
+				8CA80BDE1DAE827300C3277F /* SCORLogLevel.h in Headers */,
+				8CA80BE51DAE827300C3277F /* SCORSessionState.h in Headers */,
+				8CA80BD31DAE827300C3277F /* SCORAnalytics.h in Headers */,
+				8CA80BD21DAE827300C3277F /* SCORAdType.h in Headers */,
+				8CA80BDF1DAE827300C3277F /* SCOROfflineCacheMode.h in Headers */,
+				8CA80BED1DAE827300C3277F /* SCORTrackingProperty.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA80BFB1DAE82D300C3277F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA80C691DAE833200C3277F /* SCORConfiguration.h in Headers */,
+				8CA80C781DAE833200C3277F /* SCORStreamingAnalytics.h in Headers */,
+				8CA80C631DAE833200C3277F /* SCORAdType.h in Headers */,
+				8CA80C6E1DAE833200C3277F /* SCORExtensionType.h in Headers */,
+				8CA80C661DAE833200C3277F /* SCORApplicationState.h in Headers */,
+				8CA80C7C1DAE833200C3277F /* SCORStreamingDelegate.h in Headers */,
+				8CA80C6C1DAE833200C3277F /* SCORContentType.h in Headers */,
+				8CA80C7A1DAE833200C3277F /* SCORStreamingConfiguration.h in Headers */,
+				8CA80C741DAE833200C3277F /* SCORPublisherConfiguration.h in Headers */,
+				8CA80C731DAE833200C3277F /* SCORPartnerConfigurationBuilder.h in Headers */,
+				8CA80C7B1DAE833200C3277F /* SCORStreamingConfigurationBuilder.h in Headers */,
+				8CA80C651DAE833200C3277F /* SCORApplicationEvent.h in Headers */,
+				8CA80C7D1DAE833200C3277F /* SCORStreamingPlaybackSession.h in Headers */,
+				8CA80C7E1DAE833200C3277F /* SCORStreamingState.h in Headers */,
+				8CA80C801DAE833200C3277F /* SCORUsagePropertiesAutoUpdateMode.h in Headers */,
+				8CA80C6F1DAE833200C3277F /* SCORLiveTransmissionMode.h in Headers */,
+				8CA80C641DAE833200C3277F /* SCORAnalytics.h in Headers */,
+				8CA80C791DAE833200C3277F /* SCORStreamingAsset.h in Headers */,
+				8CA80C771DAE833200C3277F /* SCORSessionState.h in Headers */,
+				8CA80C681DAE833200C3277F /* SCORClientConfigurationBuilder.h in Headers */,
+				8CA80C6B1DAE833200C3277F /* SCORConfigurationType.h in Headers */,
+				8CA80C721DAE833200C3277F /* SCORPartnerConfiguration.h in Headers */,
+				8CA80C761DAE833200C3277F /* SCORReducedRequirementsStreamingAnalytics.h in Headers */,
+				8CA80C621DAE833200C3277F /* ComScore.h in Headers */,
+				8CA80C6A1DAE833200C3277F /* SCORConfigurationDelegate.h in Headers */,
+				8CA80C6D1DAE833200C3277F /* SCOREventInfo.h in Headers */,
+				8CA80C671DAE833200C3277F /* SCORClientConfiguration.h in Headers */,
+				8CA80C751DAE833200C3277F /* SCORPublisherConfigurationBuilder.h in Headers */,
+				8CA80C701DAE833200C3277F /* SCORLogLevel.h in Headers */,
+				8CA80C711DAE833200C3277F /* SCOROfflineCacheMode.h in Headers */,
+				8CA80C7F1DAE833200C3277F /* SCORTrackingProperty.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672EA051D62E86D00CFB080 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8CA80B521DAE6EDF00C3277F /* SCORSessionState.h in Headers */,
+				8CA80B571DAE6EDF00C3277F /* SCORStreamingDelegate.h in Headers */,
+				8CA80B3D1DAE6EDF00C3277F /* SCORAdType.h in Headers */,
+				8CA80B3F1DAE6EDF00C3277F /* SCORAnalytics+VCE.h in Headers */,
+				8CA80B591DAE6EDF00C3277F /* SCORStreamingState.h in Headers */,
+				8CA80B3E1DAE6EDF00C3277F /* SCORAnalytics.h in Headers */,
+				8CA80B471DAE6EDF00C3277F /* SCORContentType.h in Headers */,
+				8CA80B5C1DAE6EDF00C3277F /* SCORVCE.h in Headers */,
+				E672EA451D62E8FB00CFB080 /* ComScore.h in Headers */,
+				8CA80B561DAE6EDF00C3277F /* SCORStreamingConfigurationBuilder.h in Headers */,
+				8CA80B581DAE6EDF00C3277F /* SCORStreamingPlaybackSession.h in Headers */,
+				8CA80B4B1DAE6EDF00C3277F /* SCORLogLevel.h in Headers */,
+				8CA80B5B1DAE6EDF00C3277F /* SCORUsagePropertiesAutoUpdateMode.h in Headers */,
+				8CA80B531DAE6EDF00C3277F /* SCORStreamingAnalytics.h in Headers */,
+				8CA80B421DAE6EDF00C3277F /* SCORClientConfiguration.h in Headers */,
+				8CA80B4C1DAE6EDF00C3277F /* SCOROfflineCacheMode.h in Headers */,
+				8CA80B481DAE6EDF00C3277F /* SCOREventInfo.h in Headers */,
+				8CA80B451DAE6EDF00C3277F /* SCORConfigurationDelegate.h in Headers */,
+				8CA80B4E1DAE6EDF00C3277F /* SCORPartnerConfigurationBuilder.h in Headers */,
+				8CA80B551DAE6EDF00C3277F /* SCORStreamingConfiguration.h in Headers */,
+				8CA80B4F1DAE6EDF00C3277F /* SCORPublisherConfiguration.h in Headers */,
+				8CA80B4A1DAE6EDF00C3277F /* SCORLiveTransmissionMode.h in Headers */,
+				8CA80B501DAE6EDF00C3277F /* SCORPublisherConfigurationBuilder.h in Headers */,
+				8CA80B411DAE6EDF00C3277F /* SCORApplicationState.h in Headers */,
+				8CA80B491DAE6EDF00C3277F /* SCORExtensionType.h in Headers */,
+				8CA80B431DAE6EDF00C3277F /* SCORClientConfigurationBuilder.h in Headers */,
+				8CA80B461DAE6EDF00C3277F /* SCORConfigurationType.h in Headers */,
+				8CA80B511DAE6EDF00C3277F /* SCORReducedRequirementsStreamingAnalytics.h in Headers */,
+				8CA80B4D1DAE6EDF00C3277F /* SCORPartnerConfiguration.h in Headers */,
+				8CA80B5A1DAE6EDF00C3277F /* SCORTrackingProperty.h in Headers */,
+				8CA80B401DAE6EDF00C3277F /* SCORApplicationEvent.h in Headers */,
+				8CA80B541DAE6EDF00C3277F /* SCORStreamingAsset.h in Headers */,
+				8CA80B441DAE6EDF00C3277F /* SCORConfiguration.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8CA80B661DAE815900C3277F /* ComScore-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA80B921DAE815900C3277F /* Build configuration list for PBXNativeTarget "ComScore-tvOS" */;
+			buildPhases = (
+				8CA80B671DAE815900C3277F /* Sources */,
+				8CA80B681DAE815900C3277F /* Frameworks */,
+				8CA80B6F1DAE815900C3277F /* Headers */,
+				8CA80B911DAE815900C3277F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ComScore-tvOS";
+			productName = ComScore;
+			productReference = 8CA80B951DAE815900C3277F /* ComScore_tvOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CA80BF21DAE82D300C3277F /* ComScore-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CA80C1E1DAE82D300C3277F /* Build configuration list for PBXNativeTarget "ComScore-watchOS" */;
+			buildPhases = (
+				8CA80BF31DAE82D300C3277F /* Sources */,
+				8CA80BF41DAE82D300C3277F /* Frameworks */,
+				8CA80BFB1DAE82D300C3277F /* Headers */,
+				8CA80C1D1DAE82D300C3277F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ComScore-watchOS";
+			productName = ComScore;
+			productReference = 8CA80C211DAE82D300C3277F /* ComScore_watchOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E672EA071D62E86D00CFB080 /* ComScore-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E672EA101D62E86D00CFB080 /* Build configuration list for PBXNativeTarget "ComScore-iOS" */;
+			buildPhases = (
+				E672EA031D62E86D00CFB080 /* Sources */,
+				E672EA041D62E86D00CFB080 /* Frameworks */,
+				E672EA051D62E86D00CFB080 /* Headers */,
+				E672EA061D62E86D00CFB080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ComScore-iOS";
+			productName = ComScore;
+			productReference = E672EA081D62E86D00CFB080 /* ComScore_iOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E672E9FF1D62E86D00CFB080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = comScore;
+				TargetAttributes = {
+					E672EA071D62E86D00CFB080 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = E672EA021D62E86D00CFB080 /* Build configuration list for PBXProject "ComScore" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E672E9FE1D62E86D00CFB080;
+			productRefGroup = E672EA091D62E86D00CFB080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E672EA071D62E86D00CFB080 /* ComScore-iOS */,
+				8CA80B661DAE815900C3277F /* ComScore-tvOS */,
+				8CA80BF21DAE82D300C3277F /* ComScore-watchOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8CA80B911DAE815900C3277F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA80C1D1DAE82D300C3277F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672EA061D62E86D00CFB080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8CA80B671DAE815900C3277F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA80BF31DAE82D300C3277F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E672EA031D62E86D00CFB080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8CA80B931DAE815900C3277F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/comScore/tvOS/ComScore.framework/module.map";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comscore.ComScore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		8CA80B941DAE815900C3277F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/comScore/tvOS/ComScore.framework/module.map";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comscore.ComScore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+		8CA80C1F1DAE82D300C3277F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/comScore/watchOS/ComScore.framework/module.map";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comscore.ComScore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		8CA80C201DAE82D300C3277F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/comScore/watchOS/ComScore.framework/module.map";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comscore.ComScore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		E672EA0E1D62E86D00CFB080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3.1607.27;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E672EA0F1D62E86D00CFB080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 3.1607.27;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E672EA111D62E86D00CFB080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/comScore/iOS/ComScore.framework/module.map";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comscore.ComScore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		E672EA121D62E86D00CFB080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "$(PROJECT_DIR)/comScore/iOS/ComScore.framework/module.map";
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.comscore.ComScore;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8CA80B921DAE815900C3277F /* Build configuration list for PBXNativeTarget "ComScore-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA80B931DAE815900C3277F /* Debug */,
+				8CA80B941DAE815900C3277F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CA80C1E1DAE82D300C3277F /* Build configuration list for PBXNativeTarget "ComScore-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8CA80C1F1DAE82D300C3277F /* Debug */,
+				8CA80C201DAE82D300C3277F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E672EA021D62E86D00CFB080 /* Build configuration list for PBXProject "ComScore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E672EA0E1D62E86D00CFB080 /* Debug */,
+				E672EA0F1D62E86D00CFB080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E672EA101D62E86D00CFB080 /* Build configuration list for PBXNativeTarget "ComScore-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E672EA111D62E86D00CFB080 /* Debug */,
+				E672EA121D62E86D00CFB080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E672E9FF1D62E86D00CFB080 /* Project object */;
+}

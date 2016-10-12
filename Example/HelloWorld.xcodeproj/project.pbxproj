@@ -1,0 +1,1015 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		40279B4D4E424442A83B2B62 /* Pods_HelloWorld_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C545D30F7C30990A0E0215F /* Pods_HelloWorld_tvOS.framework */; };
+		8491D4997542562A34D21CA8 /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE8CD7CFAF75BF47E91CDCA /* Pods_HelloWorld.framework */; };
+		8C41A7361DABA0D5005C7665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7351DABA0D5005C7665 /* main.m */; };
+		8C41A7391DABA0D5005C7665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7381DABA0D5005C7665 /* AppDelegate.m */; };
+		8C41A73C1DABA0D5005C7665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A73B1DABA0D5005C7665 /* ViewController.m */; };
+		8C41A73F1DABA0D5005C7665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A73D1DABA0D5005C7665 /* Main.storyboard */; };
+		8C41A7411DABA0D5005C7665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A7401DABA0D5005C7665 /* Assets.xcassets */; };
+		8C41A7441DABA0D5005C7665 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A7421DABA0D5005C7665 /* LaunchScreen.storyboard */; };
+		8C41A7511DABB5A5005C7665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7501DABB5A5005C7665 /* main.m */; };
+		8C41A7541DABB5A5005C7665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7531DABB5A5005C7665 /* AppDelegate.m */; };
+		8C41A7571DABB5A5005C7665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7561DABB5A5005C7665 /* ViewController.m */; };
+		8C41A75A1DABB5A5005C7665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A7581DABB5A5005C7665 /* Main.storyboard */; };
+		8C41A75C1DABB5A5005C7665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A75B1DABB5A5005C7665 /* Assets.xcassets */; };
+		8C41A7671DABB5DE005C7665 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A7651DABB5DE005C7665 /* Interface.storyboard */; };
+		8C41A7691DABB5DE005C7665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A7681DABB5DE005C7665 /* Assets.xcassets */; };
+		8C41A7701DABB5DE005C7665 /* HelloWorld-watchOS Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8C41A76F1DABB5DE005C7665 /* HelloWorld-watchOS Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8C41A7761DABB5DE005C7665 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7751DABB5DE005C7665 /* InterfaceController.m */; };
+		8C41A7791DABB5DE005C7665 /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7781DABB5DE005C7665 /* ExtensionDelegate.m */; };
+		8C41A77B1DABB5DE005C7665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A77A1DABB5DE005C7665 /* Assets.xcassets */; };
+		8C41A77F1DABB5DE005C7665 /* HelloWorld-watchOS.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 8C41A7631DABB5DE005C7665 /* HelloWorld-watchOS.app */; };
+		C504242E12C6A25C76AABBDA /* Pods_HelloWorld_watchOS_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6238B48464EC1C03551CEE69 /* Pods_HelloWorld_watchOS_Extension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C41A7711DABB5DE005C7665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C41A76E1DABB5DE005C7665;
+			remoteInfo = "HelloWorld-watchOS Extension";
+		};
+		8C41A77D1DABB5DE005C7665 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C41A7621DABB5DE005C7665;
+			remoteInfo = "HelloWorld-watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8C41A7831DABB5DE005C7665 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8C41A7701DABB5DE005C7665 /* HelloWorld-watchOS Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A7871DABB5DE005C7665 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				8C41A77F1DABB5DE005C7665 /* HelloWorld-watchOS.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		16E280B17F30D4F9ED452F3D /* Pods-HelloWorld-watchOS Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-watchOS Extension.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		1EE8CD7CFAF75BF47E91CDCA /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		234637349B86FADA3C88898C /* Pods-HelloWorld-watchOS Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-watchOS Extension.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension.release.xcconfig"; sourceTree = "<group>"; };
+		2726F7E3D85402A5899DA158 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2C545D30F7C30990A0E0215F /* Pods_HelloWorld_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6238B48464EC1C03551CEE69 /* Pods_HelloWorld_watchOS_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld_watchOS_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		80F37D9AE4571757BB84133A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8C41A7321DABA0D5005C7665 /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C41A7351DABA0D5005C7665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C41A7371DABA0D5005C7665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C41A7381DABA0D5005C7665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C41A73A1DABA0D5005C7665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C41A73B1DABA0D5005C7665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C41A73E1DABA0D5005C7665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C41A7401DABA0D5005C7665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C41A7431DABA0D5005C7665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8C41A7451DABA0D5005C7665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C41A74D1DABB5A5005C7665 /* HelloWorld-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorld-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C41A7501DABB5A5005C7665 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C41A7521DABB5A5005C7665 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C41A7531DABB5A5005C7665 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C41A7551DABB5A5005C7665 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8C41A7561DABB5A5005C7665 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8C41A7591DABB5A5005C7665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8C41A75B1DABB5A5005C7665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C41A75D1DABB5A5005C7665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C41A7631DABB5DE005C7665 /* HelloWorld-watchOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HelloWorld-watchOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C41A7661DABB5DE005C7665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		8C41A7681DABB5DE005C7665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C41A76A1DABB5DE005C7665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C41A76F1DABB5DE005C7665 /* HelloWorld-watchOS Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HelloWorld-watchOS Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C41A7741DABB5DE005C7665 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		8C41A7751DABB5DE005C7665 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		8C41A7771DABB5DE005C7665 /* ExtensionDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ExtensionDelegate.h; sourceTree = "<group>"; };
+		8C41A7781DABB5DE005C7665 /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
+		8C41A77A1DABB5DE005C7665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8C41A77C1DABB5DE005C7665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3ADC57953C3DDBAE6F12F37 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+		B4C1EEBDED24BC46D70FA2F2 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
+		C55EFE6C0043A78CAEE9935E /* Pods-HelloWorld-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CAA4DC48F1E1438932FB2F7D /* ComScore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ComScore.podspec; path = ../ComScore.podspec; sourceTree = "<group>"; };
+		CF5C7EB70F1592642ED0DF9F /* Pods-HelloWorld-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C41A72F1DABA0D5005C7665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8491D4997542562A34D21CA8 /* Pods_HelloWorld.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A74A1DABB5A5005C7665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40279B4D4E424442A83B2B62 /* Pods_HelloWorld_tvOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A76C1DABB5DE005C7665 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C504242E12C6A25C76AABBDA /* Pods_HelloWorld_watchOS_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCCD8C8DFD6B1D89C2839B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6003F581195388D10070C39A = {
+			isa = PBXGroup;
+			children = (
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				8C41A7331DABA0D5005C7665 /* HelloWorld */,
+				8C41A74E1DABB5A5005C7665 /* HelloWorld-tvOS */,
+				8C41A7641DABB5DE005C7665 /* HelloWorld-watchOS */,
+				8C41A7731DABB5DE005C7665 /* HelloWorld-watchOS Extension */,
+				6003F58C195388D20070C39A /* Frameworks */,
+				6003F58B195388D20070C39A /* Products */,
+				FFF6298F4ACE8550401EAA83 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		6003F58B195388D20070C39A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A7321DABA0D5005C7665 /* HelloWorld.app */,
+				8C41A74D1DABB5A5005C7665 /* HelloWorld-tvOS.app */,
+				8C41A7631DABB5DE005C7665 /* HelloWorld-watchOS.app */,
+				8C41A76F1DABB5DE005C7665 /* HelloWorld-watchOS Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6003F58C195388D20070C39A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6003F58D195388D20070C39A /* Foundation.framework */,
+				6003F58F195388D20070C39A /* CoreGraphics.framework */,
+				6003F591195388D20070C39A /* UIKit.framework */,
+				6003F5AF195388D20070C39A /* XCTest.framework */,
+				1EE8CD7CFAF75BF47E91CDCA /* Pods_HelloWorld.framework */,
+				2C545D30F7C30990A0E0215F /* Pods_HelloWorld_tvOS.framework */,
+				6238B48464EC1C03551CEE69 /* Pods_HelloWorld_watchOS_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
+			isa = PBXGroup;
+			children = (
+				CAA4DC48F1E1438932FB2F7D /* ComScore.podspec */,
+				2726F7E3D85402A5899DA158 /* README.md */,
+				80F37D9AE4571757BB84133A /* LICENSE */,
+			);
+			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8C41A7331DABA0D5005C7665 /* HelloWorld */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A7371DABA0D5005C7665 /* AppDelegate.h */,
+				8C41A7381DABA0D5005C7665 /* AppDelegate.m */,
+				8C41A73A1DABA0D5005C7665 /* ViewController.h */,
+				8C41A73B1DABA0D5005C7665 /* ViewController.m */,
+				8C41A73D1DABA0D5005C7665 /* Main.storyboard */,
+				8C41A7401DABA0D5005C7665 /* Assets.xcassets */,
+				8C41A7421DABA0D5005C7665 /* LaunchScreen.storyboard */,
+				8C41A7451DABA0D5005C7665 /* Info.plist */,
+				8C41A7341DABA0D5005C7665 /* Supporting Files */,
+			);
+			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		8C41A7341DABA0D5005C7665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A7351DABA0D5005C7665 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C41A74E1DABB5A5005C7665 /* HelloWorld-tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A7521DABB5A5005C7665 /* AppDelegate.h */,
+				8C41A7531DABB5A5005C7665 /* AppDelegate.m */,
+				8C41A7551DABB5A5005C7665 /* ViewController.h */,
+				8C41A7561DABB5A5005C7665 /* ViewController.m */,
+				8C41A7581DABB5A5005C7665 /* Main.storyboard */,
+				8C41A75B1DABB5A5005C7665 /* Assets.xcassets */,
+				8C41A75D1DABB5A5005C7665 /* Info.plist */,
+				8C41A74F1DABB5A5005C7665 /* Supporting Files */,
+			);
+			path = "HelloWorld-tvOS";
+			sourceTree = "<group>";
+		};
+		8C41A74F1DABB5A5005C7665 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A7501DABB5A5005C7665 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C41A7641DABB5DE005C7665 /* HelloWorld-watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A7651DABB5DE005C7665 /* Interface.storyboard */,
+				8C41A7681DABB5DE005C7665 /* Assets.xcassets */,
+				8C41A76A1DABB5DE005C7665 /* Info.plist */,
+			);
+			path = "HelloWorld-watchOS";
+			sourceTree = "<group>";
+		};
+		8C41A7731DABB5DE005C7665 /* HelloWorld-watchOS Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8C41A7741DABB5DE005C7665 /* InterfaceController.h */,
+				8C41A7751DABB5DE005C7665 /* InterfaceController.m */,
+				8C41A7771DABB5DE005C7665 /* ExtensionDelegate.h */,
+				8C41A7781DABB5DE005C7665 /* ExtensionDelegate.m */,
+				8C41A77A1DABB5DE005C7665 /* Assets.xcassets */,
+				8C41A77C1DABB5DE005C7665 /* Info.plist */,
+			);
+			path = "HelloWorld-watchOS Extension";
+			sourceTree = "<group>";
+		};
+		FFF6298F4ACE8550401EAA83 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B4C1EEBDED24BC46D70FA2F2 /* Pods-HelloWorld.debug.xcconfig */,
+				A3ADC57953C3DDBAE6F12F37 /* Pods-HelloWorld.release.xcconfig */,
+				C55EFE6C0043A78CAEE9935E /* Pods-HelloWorld-tvOS.debug.xcconfig */,
+				CF5C7EB70F1592642ED0DF9F /* Pods-HelloWorld-tvOS.release.xcconfig */,
+				16E280B17F30D4F9ED452F3D /* Pods-HelloWorld-watchOS Extension.debug.xcconfig */,
+				234637349B86FADA3C88898C /* Pods-HelloWorld-watchOS Extension.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C41A7311DABA0D5005C7665 /* HelloWorld */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C41A7461DABA0D5005C7665 /* Build configuration list for PBXNativeTarget "HelloWorld" */;
+			buildPhases = (
+				5AC6C06E96E9180251403721 /* [CP] Check Pods Manifest.lock */,
+				8C41A72E1DABA0D5005C7665 /* Sources */,
+				8C41A72F1DABA0D5005C7665 /* Frameworks */,
+				8C41A7301DABA0D5005C7665 /* Resources */,
+				1AC20C8C6C11806BFFA25387 /* [CP] Embed Pods Frameworks */,
+				3A30096F45DAD0EF7D65E350 /* [CP] Copy Pods Resources */,
+				8C41A7871DABB5DE005C7665 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C41A77E1DABB5DE005C7665 /* PBXTargetDependency */,
+			);
+			name = HelloWorld;
+			productName = HelloWorld;
+			productReference = 8C41A7321DABA0D5005C7665 /* HelloWorld.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C41A74C1DABB5A5005C7665 /* HelloWorld-tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C41A7601DABB5A5005C7665 /* Build configuration list for PBXNativeTarget "HelloWorld-tvOS" */;
+			buildPhases = (
+				E0ECD5AC8BC2A6A077244B57 /* [CP] Check Pods Manifest.lock */,
+				8C41A7491DABB5A5005C7665 /* Sources */,
+				8C41A74A1DABB5A5005C7665 /* Frameworks */,
+				8C41A74B1DABB5A5005C7665 /* Resources */,
+				39CBDF222FFDD2ACAE481F2C /* [CP] Embed Pods Frameworks */,
+				D1323F399A3268C96B48CCE0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloWorld-tvOS";
+			productName = "HelloWorld-tvOS";
+			productReference = 8C41A74D1DABB5A5005C7665 /* HelloWorld-tvOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C41A7621DABB5DE005C7665 /* HelloWorld-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C41A7841DABB5DE005C7665 /* Build configuration list for PBXNativeTarget "HelloWorld-watchOS" */;
+			buildPhases = (
+				8C41A7611DABB5DE005C7665 /* Resources */,
+				8C41A7831DABB5DE005C7665 /* Embed App Extensions */,
+				AFCCD8C8DFD6B1D89C2839B4 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C41A7721DABB5DE005C7665 /* PBXTargetDependency */,
+			);
+			name = "HelloWorld-watchOS";
+			productName = "HelloWorld-watchOS";
+			productReference = 8C41A7631DABB5DE005C7665 /* HelloWorld-watchOS.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		8C41A76E1DABB5DE005C7665 /* HelloWorld-watchOS Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C41A7801DABB5DE005C7665 /* Build configuration list for PBXNativeTarget "HelloWorld-watchOS Extension" */;
+			buildPhases = (
+				F9203F97C228020DFA21FE58 /* [CP] Check Pods Manifest.lock */,
+				8C41A76B1DABB5DE005C7665 /* Sources */,
+				8C41A76C1DABB5DE005C7665 /* Frameworks */,
+				8C41A76D1DABB5DE005C7665 /* Resources */,
+				875336DC88602961147E0471 /* [CP] Embed Pods Frameworks */,
+				A4D4A3BE624C4CDB924E21BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HelloWorld-watchOS Extension";
+			productName = "HelloWorld-watchOS Extension";
+			productReference = 8C41A76F1DABB5DE005C7665 /* HelloWorld-watchOS Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6003F582195388D10070C39A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCOR;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Illanes, Juan Pablo";
+				TargetAttributes = {
+					8C41A7311DABA0D5005C7665 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8C41A74C1DABB5A5005C7665 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8C41A7621DABB5DE005C7665 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					8C41A76E1DABB5DE005C7665 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "HelloWorld" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6003F581195388D10070C39A;
+			productRefGroup = 6003F58B195388D20070C39A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C41A7311DABA0D5005C7665 /* HelloWorld */,
+				8C41A74C1DABB5A5005C7665 /* HelloWorld-tvOS */,
+				8C41A7621DABB5DE005C7665 /* HelloWorld-watchOS */,
+				8C41A76E1DABB5DE005C7665 /* HelloWorld-watchOS Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C41A7301DABA0D5005C7665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41A7441DABA0D5005C7665 /* LaunchScreen.storyboard in Resources */,
+				8C41A7411DABA0D5005C7665 /* Assets.xcassets in Resources */,
+				8C41A73F1DABA0D5005C7665 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A74B1DABB5A5005C7665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41A75C1DABB5A5005C7665 /* Assets.xcassets in Resources */,
+				8C41A75A1DABB5A5005C7665 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A7611DABB5DE005C7665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41A7691DABB5DE005C7665 /* Assets.xcassets in Resources */,
+				8C41A7671DABB5DE005C7665 /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A76D1DABB5DE005C7665 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41A77B1DABB5DE005C7665 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AC20C8C6C11806BFFA25387 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		39CBDF222FFDD2ACAE481F2C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A30096F45DAD0EF7D65E350 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5AC6C06E96E9180251403721 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		875336DC88602961147E0471 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D4A3BE624C4CDB924E21BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1323F399A3268C96B48CCE0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E0ECD5AC8BC2A6A077244B57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F9203F97C228020DFA21FE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C41A72E1DABA0D5005C7665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41A73C1DABA0D5005C7665 /* ViewController.m in Sources */,
+				8C41A7391DABA0D5005C7665 /* AppDelegate.m in Sources */,
+				8C41A7361DABA0D5005C7665 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A7491DABB5A5005C7665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41A7571DABB5A5005C7665 /* ViewController.m in Sources */,
+				8C41A7541DABB5A5005C7665 /* AppDelegate.m in Sources */,
+				8C41A7511DABB5A5005C7665 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C41A76B1DABB5DE005C7665 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C41A7791DABB5DE005C7665 /* ExtensionDelegate.m in Sources */,
+				8C41A7761DABB5DE005C7665 /* InterfaceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C41A7721DABB5DE005C7665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C41A76E1DABB5DE005C7665 /* HelloWorld-watchOS Extension */;
+			targetProxy = 8C41A7711DABB5DE005C7665 /* PBXContainerItemProxy */;
+		};
+		8C41A77E1DABB5DE005C7665 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C41A7621DABB5DE005C7665 /* HelloWorld-watchOS */;
+			targetProxy = 8C41A77D1DABB5DE005C7665 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C41A73D1DABA0D5005C7665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C41A73E1DABA0D5005C7665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C41A7421DABA0D5005C7665 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C41A7431DABA0D5005C7665 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		8C41A7581DABB5A5005C7665 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C41A7591DABB5A5005C7665 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8C41A7651DABB5DE005C7665 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C41A7661DABB5DE005C7665 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6003F5BD195388D20070C39A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6003F5BE195388D20070C39A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C41A7471DABA0D5005C7665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C1EEBDED24BC46D70FA2F2 /* Pods-HelloWorld.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comScore.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8C41A7481DABA0D5005C7665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A3ADC57953C3DDBAE6F12F37 /* Pods-HelloWorld.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = HelloWorld/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comScore.HelloWorld;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8C41A75E1DABB5A5005C7665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C55EFE6C0043A78CAEE9935E /* Pods-HelloWorld-tvOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "HelloWorld-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comScore.HelloWorld-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8C41A75F1DABB5A5005C7665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF5C7EB70F1592642ED0DF9F /* Pods-HelloWorld-tvOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "HelloWorld-tvOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.comScore.HelloWorld-tvOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		8C41A7811DABB5DE005C7665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16E280B17F30D4F9ED452F3D /* Pods-HelloWorld-watchOS Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "HelloWorld-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comScore.HelloWorld.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		8C41A7821DABB5DE005C7665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 234637349B86FADA3C88898C /* Pods-HelloWorld-watchOS Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "HelloWorld-watchOS Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comScore.HelloWorld.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		8C41A7851DABB5DE005C7665 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = HelloWorld_watchOS_Extension;
+				INFOPLIST_FILE = "HelloWorld-watchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comScore.HelloWorld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		8C41A7861DABB5DE005C7665 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IBSC_MODULE = HelloWorld_watchOS_Extension;
+				INFOPLIST_FILE = "HelloWorld-watchOS/Info.plist";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.comScore.HelloWorld.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6003F5BD195388D20070C39A /* Debug */,
+				6003F5BE195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C41A7461DABA0D5005C7665 /* Build configuration list for PBXNativeTarget "HelloWorld" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C41A7471DABA0D5005C7665 /* Debug */,
+				8C41A7481DABA0D5005C7665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C41A7601DABB5A5005C7665 /* Build configuration list for PBXNativeTarget "HelloWorld-tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C41A75E1DABB5A5005C7665 /* Debug */,
+				8C41A75F1DABB5A5005C7665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C41A7801DABB5DE005C7665 /* Build configuration list for PBXNativeTarget "HelloWorld-watchOS Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C41A7811DABB5DE005C7665 /* Debug */,
+				8C41A7821DABB5DE005C7665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C41A7841DABB5DE005C7665 /* Build configuration list for PBXNativeTarget "HelloWorld-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C41A7851DABB5DE005C7665 /* Debug */,
+				8C41A7861DABB5DE005C7665 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6003F582195388D10070C39A /* Project object */;
+}

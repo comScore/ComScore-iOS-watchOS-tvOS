@@ -27,6 +27,7 @@
 #import "SCORStreamingConfigurationBuilder.h"
 #import "SCORReducedRequirementsStreamingAnalytics.h"
 #import "SCORStreamingAnalytics.h"
+#import "SCORStreamingAnalyticsProtocol.h"
 #import "SCORStreamingAsset.h"
 #import "SCORStreamingDelegate.h"
 #import "SCORStreamingPlaybackSession.h"

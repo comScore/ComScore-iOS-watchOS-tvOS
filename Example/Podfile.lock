@@ -1,5 +1,5 @@
 PODS:
-  - ComScore (5.1.7.161004)
+  - ComScore (5.1.8)
 
 DEPENDENCIES:
   - ComScore (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  ComScore: 8ce76c324dfe8584cd85ee7607eb699b23ff2cdf
+  ComScore: fd9a83e16eea860959c0785441a01e392e426bf1
 
 PODFILE CHECKSUM: fd1af31e5828d5e1488d5bb3421bdf5f9286ae02
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.3

@@ -1,3 +1,7 @@
+//
+//  Copyright © 2016 comScore. All rights reserved.
+//
+
 #import "SCORStreamingState.h"
 
 /** Delegate to get notified when the state is changed. */

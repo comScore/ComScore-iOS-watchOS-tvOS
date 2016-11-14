@@ -87,7 +87,7 @@
  *  Track native display view with the given impression pixel.
  *
  *  @param nativeDisplayView Instance of native display view.
- *  @param withTrackingURL URL of the impression pixel.
+ *  @param displayImpressionURL URL of the impression pixel.
  */
 - (void) trackNativeView:(UIView *)nativeDisplayView withTrackingURL:(NSURL *)displayImpressionURL;
 
@@ -96,8 +96,8 @@
  *
  *  @param nativeView Instance of native video view.
  *  @param videoEventName Name of the video event.
- *  @param withEventURL URL of the video event.
- *  @param withParamsDict Dictionary having additional parameters for the video ad.
+ *  @param url URL of the video event.
+ *  @param dict Dictionary having additional parameters for the video ad.
  */
 - (void) trackNativeView:(UIView *)nativeView forEventName:(NSString *)videoEventName withEventURL:(NSURL *) url withParamsDict:(NSDictionary *)dict;
 

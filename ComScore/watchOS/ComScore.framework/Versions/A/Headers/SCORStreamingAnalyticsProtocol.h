@@ -155,39 +155,39 @@
 - (BOOL)notifyBufferStart;
 
 /**
- *  Notifies of a new Buffer End event with the given position of playback (in milliseconds) and associated labels.
+ *  Notifies of a new Buffer Stop event with the given position of playback (in milliseconds) and associated labels.
  *
  *  @param position  (OPTIONAL) Playback position, if you don't want to specify a position set the position to -1
  *  @param labels    (OPTIONAL) NSDictionary of labels associated with the current event
  *
  *  @return YES if it was possible to notify the event
  */
-- (BOOL)notifyBufferEndWithPosition:(long)position labels:(NSDictionary *)labels;
+- (BOOL)notifyBufferStopWithPosition:(long)position labels:(NSDictionary *)labels;
 
 /**
- *  Notifies of a new Buffer End event with the given position of playback (in milliseconds).
+ *  Notifies of a new Buffer Stop event with the given position of playback (in milliseconds).
  *
  *  @param position  (OPTIONAL) Playback position, if you don't want to specify a position set the position to -1
  *
  *  @return YES if it was possible to notify the event
  */
-- (BOOL)notifyBufferEndWithPosition:(long)position;
+- (BOOL)notifyBufferStopWithPosition:(long)position;
 
 /**
- *  Notifies of a new Buffer End event with the associated labels.
+ *  Notifies of a new Buffer Stop event with the associated labels.
  *
  *  @param labels    (OPTIONAL) NSDictionary of labels associated with the current event
  *
  *  @return YES if it was possible to notify the event
  */
-- (BOOL)notifyBufferEndWithLabels:(NSDictionary *)labels;
+- (BOOL)notifyBufferStopWithLabels:(NSDictionary *)labels;
 
 /**
- *  Notifies of a new Buffer End event.
+ *  Notifies of a new Buffer Stop event.
  *
  *  @return YES if it was possible to notify the event
  */
-- (BOOL)notifyBufferEnd;
+- (BOOL)notifyBufferStop;
 
 /**
  *  Notifies of a new Load event with the given position of playback (in milliseconds) and associated labels.
@@ -330,6 +330,41 @@
 - (BOOL)notifySkipAd;
 
 /**
+ *  Notifies of a new Custom streaming event with the given position of playback (in milliseconds) and associated labels.
+ *
+ *  @param position  (OPTIONAL) Playback position, if you don't want to specify a position set the position to -1
+ *  @param labels    (OPTIONAL) NSDictionary of labels associated with the current event
+ *
+ *  @return YES if it was possible to notify the event
+ */
+- (BOOL)notifyCustomEventWithPosition:(long)position labels:(NSDictionary *)labels;
+
+/**
+ *  Notifies of a new Custom streaming event with the given position of playback (in milliseconds).
+ *
+ *  @param position  (OPTIONAL) Playback position, if you don't want to specify a position set the position to -1
+ *
+ *  @return YES if it was possible to notify the event
+ */
+- (BOOL)notifyCustomEventWithPosition:(long)position;
+
+/**
+ *  Notifies of a new Custom streaming event with the associated labels.
+ *
+ *  @param labels    (OPTIONAL) NSDictionary of labels associated with the current event
+ *
+ *  @return YES if it was possible to notify the event
+ */
+- (BOOL)notifyCustomEventWithLabels:(NSDictionary *)labels;
+
+/**
+ *  Notifies of a new Custom streaming event.
+ *
+ *  @return YES if it was possible to notify the event
+ */
+- (BOOL)notifyCustomEvent;
+
+/**
  *  Notifies of a new Call to Action event with the given position of playback (in milliseconds) and associated labels.
  *
  *  @param position  (OPTIONAL) Playback position, if you don't want to specify a position set the position to -1
@@ -469,7 +504,6 @@
  */
 - (BOOL)notifyDRMFail;
 
-
 /**
  *  Notifies of a new DRM Approve event with the given position of playback (in milliseconds) and associated labels.
  *
@@ -575,7 +609,7 @@
 /**
  *  Notifies of a new Change of Bitrate event with the given new rate (in bps).
  *
- *  @param newRate   The new bitrate in bps
+ *  @param newBitrate   The new bitrate in bps
  *
  *  @return YES if it was possible to notify the event
  */

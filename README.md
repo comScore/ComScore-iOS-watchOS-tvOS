@@ -26,7 +26,7 @@ pod "ComScore"
 Manual
 ------
 
-Refer to the implementation guides for information on how to manually add the framework to your project.
+Please contact your comScore client services representative to acquire the implementation documentation appropriate for your reporting needs. The implementation documentation contains instructions for adding the framework to your project, configuring the comScore library and tagging your project.
 
 Author
 ======

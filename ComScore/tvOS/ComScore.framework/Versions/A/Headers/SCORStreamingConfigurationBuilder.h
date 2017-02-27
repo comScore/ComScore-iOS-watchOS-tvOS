@@ -17,6 +17,9 @@
  */
 @property(copy) NSArray *restrictedPublishersList;
 
+/** True if the System Clock Jump Detection is enabled. */
+@property(nonatomic) BOOL systemClockJumpDetection;
+
 /**
  *  Builds a SCORStreamingConfiguration with the current parameters.
  *

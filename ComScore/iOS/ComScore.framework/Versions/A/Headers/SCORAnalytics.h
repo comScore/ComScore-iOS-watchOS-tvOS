@@ -202,6 +202,16 @@
 + (void)flushOfflineCache;
 
 /**
+ *  Clears offline cached measurements without transmitting them.
+ */
++ (void)clearOfflineCache;
+
+/**
+ *  Clears internally stored registers from disk.
+ */
++ (void)clearInternalData;
+
+/**
  *  Returns the current <SCORConfiguration> object.
  *
  *  @return <SCORConfiguration>, the using Configuration object

@@ -13,6 +13,9 @@
  */
 @property(readonly) NSArray *restrictedPublishersList;
 
+/** True if the System Clock Jump Detection is enabled. */
+@property(readonly) BOOL systemClockJumpDetection;
+
 /**
  *  Creates a new streamingConfiguration using the given <SCORStreamingConfigurationBuilder> block.
  *

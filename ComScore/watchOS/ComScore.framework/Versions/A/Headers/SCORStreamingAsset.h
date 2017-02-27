@@ -11,6 +11,8 @@
 
 @property (readonly) NSDictionary                        * labels;
 @property (readonly) NSInteger                           clipNumber;
+@property (nonatomic) bool                               autoCalculatePositions;
+
 
 /**
  *  Sets a label. If the label already exists it will be overridden with the new value

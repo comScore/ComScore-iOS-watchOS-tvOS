@@ -4,7 +4,6 @@
 
 // Analytics
 #import "SCORAnalytics.h"
-#import "SCORApplicationEvent.h"
 #import "SCORApplicationState.h"
 #import "SCORClientConfiguration.h"
 #import "SCORClientConfigurationBuilder.h"
@@ -13,7 +12,6 @@
 #import "SCORConfigurationType.h"
 #import "SCOREventInfo.h"
 #import "SCORLiveTransmissionMode.h"
-#import "SCOROfflineCacheMode.h"
 #import "SCORPartnerConfiguration.h"
 #import "SCORPartnerConfigurationBuilder.h"
 #import "SCORPublisherConfiguration.h"

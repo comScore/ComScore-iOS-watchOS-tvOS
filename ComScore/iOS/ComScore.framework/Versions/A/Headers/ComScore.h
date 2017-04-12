@@ -1,10 +1,9 @@
 //
-// Copyright (c) 2016 comScore. All rights reserved.
+// Copyright (c) 2017 comScore. All rights reserved.
 //
 
 // Analytics
 #import "SCORAnalytics.h"
-#import "SCORApplicationEvent.h"
 #import "SCORApplicationState.h"
 #import "SCORClientConfiguration.h"
 #import "SCORClientConfigurationBuilder.h"
@@ -14,7 +13,6 @@
 #import "SCOREventInfo.h"
 #import "SCORExtensionType.h"
 #import "SCORLiveTransmissionMode.h"
-#import "SCOROfflineCacheMode.h"
 #import "SCORPartnerConfiguration.h"
 #import "SCORPartnerConfigurationBuilder.h"
 #import "SCORPublisherConfiguration.h"
@@ -36,6 +34,15 @@
 #import "SCORAdType.h"
 #import "SCORStreamingState.h"
 
+// OfflineCache
+#import "SCOROfflineCacheMode.h"
+#import "SCORClientConfiguration+OfflineCache.h"
+#import "SCORClientConfigurationBuilder+OfflineCache.h"
+#import "SCORConfiguration+OfflineCache.h"
+
 // VCE
 #import "SCORVCE.h"
 #import "SCORAnalytics+VCE.h"
+#import "SCORClientConfiguration+VCE.h"
+#import "SCORClientConfigurationBuilder+VCE.h"
+#import "SCORConfiguration+VCE.h"

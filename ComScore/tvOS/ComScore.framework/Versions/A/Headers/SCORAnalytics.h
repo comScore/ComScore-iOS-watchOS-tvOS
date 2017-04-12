@@ -7,6 +7,7 @@
 
 @class SCOREventInfo;
 @class SCORConfiguration;
+@class SCORPublisherConfiguration;
 
 /**
  Static class exposing all the public methods to use the ComScore Tagging library.
@@ -202,16 +203,6 @@
 + (void)flushOfflineCache;
 
 /**
- *  Clears offline cached measurements without transmitting them.
- */
-+ (void)clearOfflineCache;
-
-/**
- *  Clears internally stored registers from disk.
- */
-+ (void)clearInternalData;
-
-/**
  *  Returns the current <SCORConfiguration> object.
  *
  *  @return <SCORConfiguration>, the using Configuration object
@@ -224,5 +215,29 @@
  *  are finally set.
  */
 + (void)start;
+
+/**
+ *  Clears offline cached measurements without transmitting them.
+ */
++ (void)clearOfflineCache;
+
+/**
+ *  Clears internally stored registers from disk.
+ */
++ (void)clearInternalData;
+
+/**
+ *  Requests the categories associated with the provided Page URL and, upon receipt
+ *  of the data, executes a block with all categories as its parameters.
+ *
+ *  @param key                      Client identifier assigned by comScore
+ *  @param url                      URL of the page needing categorization
+ *  @param publisherConfiguration   SCORPublisherConfiguration instance to use
+ *  @param callback                 Block to be called with the result of the operation
+ */
++ (void) getActivationCategoriesWithKey:(NSString *)key
+                          url:(NSString *)url
+       publisherConfiguration:(SCORPublisherConfiguration *)publisherConfiguration
+                        block:(void (^)(NSArray *data))callback;
 
 @end

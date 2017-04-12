@@ -4,7 +4,6 @@
 
 #import <Foundation/Foundation.h>
 #import "SCORLiveTransmissionMode.h"
-#import "SCOROfflineCacheMode.h"
 #import "SCORUsagePropertiesAutoUpdateMode.h"
 #import "SCORConfigurationDelegate.h"
 
@@ -25,41 +24,30 @@
  *  Value returned by CFBundleName from the main bundle if not nil, "none" otherwise.
  */
 @property(readonly) NSString *applicationName;
+
 /**
  *  The current application version.
  *  Value returned by CFBundleVersion from the main bundle by default.
  */
 @property(readonly) NSString *applicationVersion;
+
 /**
  *  Labels to be sent on the start event.
  *  Empty dictionary by default.
  */
 @property(nonatomic, copy) NSDictionary *startLabels;
-/**
- *  Enables or disables VCE.
- *  Enabled by default.
- */
-@property(readonly) BOOL vce;
+
 /**
  *  The endpoint where to dispatch the live measurements.
  *  Defaults to main comScore live endpoint.
  */
 @property(readonly) NSString *liveEndpointURL;
-/**
- *  The endpoint where to dispatch the stored measurements.
- *  Defaults to main comScore offline endpoint.
- */
-@property(readonly) NSString *offlineFlushEndpointURL;
+
 /**
  *  Live transmission mode.
  *  SCORLiveTransmissionModeStandard by default.
  */
 @property(readonly) SCORLiveTransmissionMode liveTransmissionMode;
-/**
- *  Cache policy.
- *  Defaults to SCOROfflineCacheModeEnabled for iOS and SCOROfflineCacheModeDisabled for tvOS.
- */
-@property(readonly) SCOROfflineCacheMode offlineCacheMode;
 
 /**
  *  The preferred order for the labels.
@@ -72,55 +60,35 @@
  *  SCORUsagePropertiesAutoUpdateModeForegroundOnly by default.
  */
 @property(readonly) SCORUsagePropertiesAutoUpdateMode usagePropertiesAutoUpdateMode;
+
 /**
  *  The auto update interval for the usage properties.
  */
 @property(readonly) int usagePropertiesAutoUpdateInterval;
-/**
- *  Maximum number of measurements to keep on cache.
- *  2000 by default.
- */
-@property(readonly) int cacheMaxMeasurements;
-/**
- *  Maximum number of batch files that the SDK can generate.
- *  100 by default.
- */
-@property(readonly) int cacheMaxBatchFiles;
-/**
- *  Maximum number of cahes flushes allowed in a row.
- *  10 by default.
- */
-@property(readonly) int cacheMaxFlushesInARow;
-/**
- *  Number of minutes to wait before re-trying a flush.
- *  30 min. by default.
- */
-@property(readonly) int cacheMinutesToRetry;
-/**
- *  Number of days before the stored measurements expire.
- *  31 days by default.
- */
-@property(readonly) int cacheMeasurementExpiry;
-/**
- *  The interval in seconds to wait for every measurements flush.
- *  0 by default.
- */
-@property(readonly) long cacheFlushingInterval;
+
 /**
  *  Enables or disables the keep alive measurements.
  *  YES by default.
  */
 @property(readonly) BOOL keepAliveMeasurement;
+
 /**
  *  Enables or disables the secure transmission of measurements.
  *  YES by default for iOS 9.0 or greater.
  */
 @property(readonly) BOOL secureTransmission;
+
 /**
  *  Enables or disables the tracking of uncaught exceptions.
  *  NO by default.
  */
 @property(readonly) BOOL uncaughtExceptionTracking;
+
+#if COMSCORE_MAC
+// TODO: Improve this part for MACOS
+/** Full path to a directory assigned to the package for its persistent data. */
+@property(readonly) NSString applicationDataDirectory;
+#endif
 
 /**
  *  Labels to send with every measurement.

@@ -79,6 +79,13 @@
 @property(readonly) BOOL secureTransmission;
 
 /**
+ *  Enables or disables the caching of measurements that were redirected by the server (With status code 301 
+ *  or 302).
+ *  YES by default.
+ */
+@property(readonly) BOOL httpRedirectCaching;
+
+/**
  *  Enables or disables the tracking of uncaught exceptions.
  *  NO by default.
  */

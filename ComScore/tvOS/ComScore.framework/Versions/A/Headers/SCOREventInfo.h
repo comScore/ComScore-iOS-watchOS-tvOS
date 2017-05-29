@@ -33,10 +33,10 @@
 /** Sets a label for the event. This label will be sent for all the specified publishers. */
 - (void)setLabelWithName:(NSString *) name value:(NSString *)value;
 
-/** Returns the current value for the given label, or nil if not shuch label exist. */
+/** Returns the current value for the given label, or nil if not such label exist. */
 - (NSString *)labelWithName:(NSString *)name;
 
-/** Returns the current value for the given publisher label, or nil if not shuch label exist. */
+/** Returns the current value for the given publisher label, or nil if not such label exist. */
 - (NSString *)labelWithName:(NSString *)name publisherId:(NSString *) publisherId;
 
 /** Removes a publisher from the EventInfo. */

@@ -13,6 +13,9 @@ Pod::Spec.new do |s|
 
   s.libraries = 'c++'
   s.frameworks = 'Security'
+  s.prepare_command = <<-CMD
+                         touch .comscore
+                      CMD
 
   s.ios.deployment_target = '6.0'
   s.ios.vendored_frameworks = 'ComScore/iOS/ComScore.framework'
@@ -20,6 +23,7 @@ Pod::Spec.new do |s|
   s.ios.public_header_files = 'ComScore/iOS/ComScore.framework/Versions/A/Headers/*.h'
   s.ios.source_files = 'ComScore/iOS/ComScore.framework/Versions/A/Headers/*.h'
   s.ios.frameworks = 'SystemConfiguration'
+  s.ios.resource_bundle = { 'SCORBundle' => '.comscore' }
 
   s.tvos.deployment_target = '9.0'
   s.tvos.vendored_frameworks = 'ComScore/tvOS/ComScore.framework'
@@ -27,12 +31,15 @@ Pod::Spec.new do |s|
   s.tvos.public_header_files = 'ComScore/tvOS/ComScore.framework/Versions/A/Headers/*.h'
   s.tvos.source_files = 'ComScore/tvOS/ComScore.framework/Versions/A/Headers/*.h'
   s.tvos.frameworks = 'SystemConfiguration'
+  s.tvos.resource_bundle = { 'SCORBundle' => '.comscore' }
 
   s.watchos.deployment_target = '2.0'
   s.watchos.vendored_frameworks = 'ComScore/watchOS/ComScore.framework'
   s.watchos.preserve_paths = 'ComScore/watchOS/ComScore.framework'
   s.watchos.public_header_files = 'ComScore/watchOS/ComScore.framework/Versions/A/Headers/*.h'
   s.watchos.source_files = 'ComScore/watchOS/ComScore.framework/Versions/A/Headers/*.h'
+  s.watchos.resource_bundle = { 'SCORBundle' => '.comscore' }
+
 
   s.header_dir = 'ComScore'
   s.module_name = 'ComScore'

@@ -56,6 +56,16 @@
  */
 - (void)createPlaybackSession;
 
+/** 
+ * Sets the DVR window length.
+ */
+- (void) setDVRWindowLength:(NSInteger)newDVRWindowLength;
+
+/**
+ * Sets the DVR window offset.
+ */
+- (void) setDVRWindowOffset:(NSInteger)newDVRWindowOffset;
+
 #pragma mark - Delegates
 
 /**

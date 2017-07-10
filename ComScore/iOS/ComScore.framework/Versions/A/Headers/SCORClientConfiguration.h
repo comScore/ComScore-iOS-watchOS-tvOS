@@ -4,6 +4,7 @@
 
 #import <Foundation/Foundation.h>
 #import "SCORLiveTransmissionMode.h"
+#import "SCOROfflineCacheMode.h"
 #import "SCORUsagePropertiesAutoUpdateMode.h"
 #import "SCORConfigurationDelegate.h"
 
@@ -15,9 +16,6 @@
  *  <SCORPartnerConfiguration> or <SCORPublisherConfiguration>
  */
 @interface SCORClientConfiguration : NSObject
-
-/** Returns the publisher unique device id of the client. This value is set once the Analytics class has been configured. */
-@property(readonly) NSString *publisherUniqueDeviceId;
 
 /**
  *  The current application name.
@@ -44,10 +42,22 @@
 @property(readonly) NSString *liveEndpointURL;
 
 /**
+ *  The endpoint where to dispatch the stored measurements.
+ *  Defaults to main comScore offline endpoint.
+ */
+@property(readonly) NSString *offlineFlushEndpointURL;
+
+/**
  *  Live transmission mode.
  *  SCORLiveTransmissionModeStandard by default.
  */
 @property(readonly) SCORLiveTransmissionMode liveTransmissionMode;
+
+/**
+ *  Cache policy.
+ *  Defaults to SCOROfflineCacheModeEnabled for iOS and SCOROfflineCacheModeDisabled for tvOS.
+ */
+@property(readonly) SCOROfflineCacheMode offlineCacheMode;
 
 /**
  *  The preferred order for the labels.
@@ -65,6 +75,42 @@
  *  The auto update interval for the usage properties.
  */
 @property(readonly) int usagePropertiesAutoUpdateInterval;
+
+/**
+ *  Maximum number of measurements to keep on cache.
+ *  2000 by default.
+ */
+@property(readonly) int cacheMaxMeasurements;
+
+/**
+ *  Maximum number of batch files that the SDK can generate.
+ *  100 by default.
+ */
+@property(readonly) int cacheMaxBatchFiles;
+
+/**
+ *  Maximum number of cahes flushes allowed in a row.
+ *  10 by default.
+ */
+@property(readonly) int cacheMaxFlushesInARow;
+
+/**
+ *  Number of minutes to wait before re-trying a flush.
+ *  30 min. by default.
+ */
+@property(readonly) int cacheMinutesToRetry;
+
+/**
+ *  Number of days before the stored measurements expire.
+ *  31 days by default.
+ */
+@property(readonly) int cacheMeasurementExpiry;
+
+/**
+ *  The interval in seconds to wait for every measurements flush.
+ *  0 by default.
+ */
+@property(readonly) long cacheFlushingInterval;
 
 /**
  *  Enables or disables the keep alive measurements.

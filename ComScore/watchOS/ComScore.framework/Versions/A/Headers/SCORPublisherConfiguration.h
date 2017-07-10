@@ -28,6 +28,8 @@
 @interface SCORPublisherConfiguration : SCORClientConfiguration
 @property(readonly, nonatomic, copy) NSString *publisherId;
 @property(readonly, nonatomic, copy) NSString *publisherSecret;
+/** Returns the publisher unique device id. This value is set once the Analytics class has been configured. */
+@property(readonly) NSString *publisherUniqueDeviceId;
 
 /**
  *  Creates a new publisherConfiguration using the given <SCORPublisherConfigurationBuilder> block.

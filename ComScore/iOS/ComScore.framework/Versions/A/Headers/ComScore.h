@@ -20,6 +20,7 @@
 #import "SCORSessionState.h"
 #import "SCORTrackingProperty.h"
 #import "SCORUsagePropertiesAutoUpdateMode.h"
+#import "SCOROfflineCacheMode.h"
 
 // Streaming Analytics
 #import "SCORStreamingConfiguration.h"
@@ -33,12 +34,6 @@
 #import "SCORContentType.h"
 #import "SCORAdType.h"
 #import "SCORStreamingState.h"
-
-// OfflineCache
-#import "SCOROfflineCacheMode.h"
-#import "SCORClientConfiguration+OfflineCache.h"
-#import "SCORClientConfigurationBuilder+OfflineCache.h"
-#import "SCORConfiguration+OfflineCache.h"
 
 // VCE
 #import "SCORVCE.h"

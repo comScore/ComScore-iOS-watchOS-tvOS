@@ -4,12 +4,14 @@
 
 #import <Foundation/Foundation.h>
 #import "SCORLiveTransmissionMode.h"
+#import "SCOROfflineCacheMode.h"
 #import "SCORConfigurationDelegate.h"
 #import "SCORLogLevel.h"
 #import "SCORUsagePropertiesAutoUpdateMode.h"
 
 @class SCORTaskExecutor;
 @class SCORKeepAlive;
+@class SCOROfflineCache;
 @class SCORPartnerConfiguration;
 @class SCORPublisherConfiguration;
 @class SCORClientConfiguration;
@@ -27,6 +29,35 @@
  *  The configured transmission mode.
  */
 @property SCORLiveTransmissionMode liveTransmissionMode;
+
+/**
+ *  The configured offline cache mode.
+ */
+@property SCOROfflineCacheMode offlineCacheMode;
+/**
+ *  Maximum number of measurements to keep on cache.
+ */
+@property(readonly) int cacheMaxMeasurements;
+/**
+ *  Maximum number of batch files that the SDK can generate.
+ */
+@property(readonly) int cacheMaxBatchFiles;
+/**
+ *  Maximum number of cahes flushes allowed in a row.
+ */
+@property(readonly) int cacheMaxFlushesInARow;
+/**
+ *  Number of minutes to wait before re-trying a flush.
+ */
+@property(readonly) int cacheMinutesToRetry;
+/**
+ *  Expiration time for the stored measurements.
+ */
+@property(readonly) int cacheMeasurementExpiry;
+/**
+ *  The interval, in seconds, to wait for every measurements flush.
+ */
+@property(readonly) long cacheFlushingInterval;
 
 /**
  *  All <SCORPartnerConfiguration> instances currently added.
@@ -52,6 +83,11 @@
  *  The configured endpoint where to dispatch the live measurements.
  */
 @property(readonly) NSString *liveEndpointURL;
+
+/**
+ *  The configured endpoint where to dispatch the stored measurements.
+ */
+@property(readonly) NSString *offlineFlushEndpointURL;
 
 /**
  *  The current application name.

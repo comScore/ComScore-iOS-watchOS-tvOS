@@ -15,6 +15,9 @@ Pod::Spec.new do |s|
   s.frameworks = 'Security'
   s.prepare_command = <<-CMD
                          touch .pod
+                         rm -rf ComScore/iOS/ComScore.framework/strip-framework.sh
+                         rm -rf ComScore/tvOS/ComScore.framework/strip-framework.sh
+                         rm -rf ComScore/watchOS/ComScore.framework/strip-framework.sh
                       CMD
 
   s.ios.deployment_target = '8.0'

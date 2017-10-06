@@ -15,35 +15,62 @@ Pod::Spec.new do |s|
   s.frameworks = 'Security'
   s.prepare_command = <<-CMD
                          touch .pod
-                         rm -rf ComScore/iOS/ComScore.framework/strip-framework.sh
-                         rm -rf ComScore/tvOS/ComScore.framework/strip-framework.sh
-                         rm -rf ComScore/watchOS/ComScore.framework/strip-framework.sh
+                         rm -rf ComScore/dynamic/iOS/ComScore.framework/strip-framework.sh
+                         rm -rf ComScore/dynamic/tvOS/ComScore.framework/strip-framework.sh
+                         rm -rf ComScore/dynamic/watchOS/ComScore.framework/strip-framework.sh
                       CMD
 
-  s.ios.deployment_target = '8.0'
-  s.ios.vendored_frameworks = 'ComScore/iOS/ComScore.framework'
-  s.ios.preserve_paths = 'ComScore/iOS/ComScore.framework'
-  s.ios.public_header_files = 'ComScore/iOS/ComScore.framework/Headers/*.h'
-  s.ios.source_files = 'ComScore/iOS/ComScore.framework/Headers/*.h'
-  s.ios.frameworks = 'SystemConfiguration'
-  s.ios.resource_bundle = { 'SCORBundle' => '.pod' }
+  s.subspec 'Dynamic' do |ds|
+      ds.ios.deployment_target = '8.0'
+      ds.ios.vendored_frameworks = 'ComScore/dynamic/iOS/ComScore.framework'
+      ds.ios.preserve_paths = 'ComScore/dynamic/iOS/ComScore.framework'
+      ds.ios.public_header_files = 'ComScore/dynamic/iOS/ComScore.framework/Headers/*.h'
+      ds.ios.source_files = 'ComScore/dynamic/iOS/ComScore.framework/Headers/*.h'
+      ds.ios.frameworks = 'SystemConfiguration'
+      ds.ios.resource_bundle = { 'SCORBundle' => '.pod' }
 
-  s.tvos.deployment_target = '9.0'
-  s.tvos.vendored_frameworks = 'ComScore/tvOS/ComScore.framework'
-  s.tvos.preserve_paths = 'ComScore/tvOS/ComScore.framework'
-  s.tvos.public_header_files = 'ComScore/tvOS/ComScore.framework/Headers/*.h'
-  s.tvos.source_files = 'ComScore/tvOS/ComScore.framework/Headers/*.h'
-  s.tvos.frameworks = 'SystemConfiguration'
-  s.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
+      ds.tvos.deployment_target = '9.0'
+      ds.tvos.vendored_frameworks = 'ComScore/dynamic/tvOS/ComScore.framework'
+      ds.tvos.preserve_paths = 'ComScore/dynamic/tvOS/ComScore.framework'
+      ds.tvos.public_header_files = 'ComScore/dynamic/tvOS/ComScore.framework/Headers/*.h'
+      ds.tvos.source_files = 'ComScore/dynamic/tvOS/ComScore.framework/Headers/*.h'
+      ds.tvos.frameworks = 'SystemConfiguration'
+      ds.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
 
-  s.watchos.deployment_target = '2.0'
-  s.watchos.vendored_frameworks = 'ComScore/watchOS/ComScore.framework'
-  s.watchos.preserve_paths = 'ComScore/watchOS/ComScore.framework'
-  s.watchos.public_header_files = 'ComScore/watchOS/ComScore.framework/Headers/*.h'
-  s.watchos.source_files = 'ComScore/watchOS/ComScore.framework/Headers/*.h'
-  s.watchos.resource_bundle = { 'SCORBundle' => '.pod' }
+      ds.watchos.deployment_target = '2.0'
+      ds.watchos.vendored_frameworks = 'ComScore/dynamic/watchOS/ComScore.framework'
+      ds.watchos.preserve_paths = 'ComScore/dynamic/watchOS/ComScore.framework'
+      ds.watchos.public_header_files = 'ComScore/dynamic/watchOS/ComScore.framework/Headers/*.h'
+      ds.watchos.source_files = 'ComScore/dynamic/watchOS/ComScore.framework/Headers/*.h'
+      ds.watchos.resource_bundle = { 'SCORBundle' => '.pod' }
+  end
 
+  s.subspec 'Static' do |ss|
+      ss.ios.deployment_target = '6.0'
+      ss.ios.vendored_frameworks = 'ComScore/static/iOS/ComScore.framework'
+      ss.ios.preserve_paths = 'ComScore/static/iOS/ComScore.framework'
+      ss.ios.public_header_files = 'ComScore/static/iOS/ComScore.framework/Headers/*.h'
+      ss.ios.source_files = 'ComScore/static/iOS/ComScore.framework/Headers/*.h'
+      ss.ios.frameworks = 'SystemConfiguration'
+      ss.ios.resource_bundle = { 'SCORBundle' => '.pod' }
 
+      ss.tvos.deployment_target = '9.0'
+      ss.tvos.vendored_frameworks = 'ComScore/static/tvOS/ComScore.framework'
+      ss.tvos.preserve_paths = 'ComScore/static/tvOS/ComScore.framework'
+      ss.tvos.public_header_files = 'ComScore/static/tvOS/ComScore.framework/Headers/*.h'
+      ss.tvos.source_files = 'ComScore/static/tvOS/ComScore.framework/Headers/*.h'
+      ss.tvos.frameworks = 'SystemConfiguration'
+      ss.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
+
+      ss.watchos.deployment_target = '2.0'
+      ss.watchos.vendored_frameworks = 'ComScore/static/watchOS/ComScore.framework'
+      ss.watchos.preserve_paths = 'ComScore/static/watchOS/ComScore.framework'
+      ss.watchos.public_header_files = 'ComScore/static/watchOS/ComScore.framework/Headers/*.h'
+      ss.watchos.source_files = 'ComScore/static/watchOS/ComScore.framework/Headers/*.h'
+      ss.watchos.resource_bundle = { 'SCORBundle' => '.pod' }
+  end
+
+  s.default_subspec = 'Dynamic'
   s.header_dir = 'ComScore'
   s.module_name = 'ComScore'
 end

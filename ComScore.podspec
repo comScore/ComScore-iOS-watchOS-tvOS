@@ -49,24 +49,24 @@ Pod::Spec.new do |s|
       ss.ios.deployment_target = '6.0'
       ss.ios.vendored_frameworks = 'ComScore/static/iOS/ComScore.framework'
       ss.ios.preserve_paths = 'ComScore/static/iOS/ComScore.framework'
-      ss.ios.public_header_files = 'ComScore/static/iOS/ComScore.framework/Headers/*.h'
-      ss.ios.source_files = 'ComScore/static/iOS/ComScore.framework/Headers/*.h'
+      ss.ios.public_header_files = 'ComScore/static/iOS/ComScore.framework/Versions/A/Headers/*.h'
+      ss.ios.source_files = 'ComScore/static/iOS/ComScore.framework/Versions/A/Headers/*.h'
       ss.ios.frameworks = 'SystemConfiguration'
       ss.ios.resource_bundle = { 'SCORBundle' => '.pod' }
 
       ss.tvos.deployment_target = '9.0'
       ss.tvos.vendored_frameworks = 'ComScore/static/tvOS/ComScore.framework'
       ss.tvos.preserve_paths = 'ComScore/static/tvOS/ComScore.framework'
-      ss.tvos.public_header_files = 'ComScore/static/tvOS/ComScore.framework/Headers/*.h'
-      ss.tvos.source_files = 'ComScore/static/tvOS/ComScore.framework/Headers/*.h'
+      ss.tvos.public_header_files = 'ComScore/static/tvOS/ComScore.framework/Versions/A/Headers/*.h'
+      ss.tvos.source_files = 'ComScore/static/tvOS/ComScore.framework/Versions/A/Headers/*.h'
       ss.tvos.frameworks = 'SystemConfiguration'
       ss.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
 
       ss.watchos.deployment_target = '2.0'
       ss.watchos.vendored_frameworks = 'ComScore/static/watchOS/ComScore.framework'
       ss.watchos.preserve_paths = 'ComScore/static/watchOS/ComScore.framework'
-      ss.watchos.public_header_files = 'ComScore/static/watchOS/ComScore.framework/Headers/*.h'
-      ss.watchos.source_files = 'ComScore/static/watchOS/ComScore.framework/Headers/*.h'
+      ss.watchos.public_header_files = 'ComScore/static/watchOS/ComScore.framework/Versions/A/Headers/*.h'
+      ss.watchos.source_files = 'ComScore/static/watchOS/ComScore.framework/Versions/A/Headers/*.h'
       ss.watchos.resource_bundle = { 'SCORBundle' => '.pod' }
   end
 

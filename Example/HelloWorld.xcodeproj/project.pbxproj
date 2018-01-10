@@ -467,7 +467,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh",
-				"${PODS_ROOT}/../../ComScore/iOS/ComScore.framework",
+				"${PODS_ROOT}/../../ComScore/dynamic/iOS/ComScore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -485,7 +485,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh",
-				"${PODS_ROOT}/../../ComScore/tvOS/ComScore.framework",
+				"${PODS_ROOT}/../../ComScore/dynamic/tvOS/ComScore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -539,7 +539,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-frameworks.sh",
-				"${PODS_ROOT}/../../ComScore/watchOS/ComScore.framework",
+				"${PODS_ROOT}/../../ComScore/dynamic/watchOS/ComScore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

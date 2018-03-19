@@ -140,12 +140,6 @@
  */
 @property(readonly) BOOL httpRedirectCaching;
 
-/**
- *  Enables or disables the tracking of uncaught exceptions.
- *  NO by default.
- */
-@property(readonly) BOOL uncaughtExceptionTracking;
-
 #if COMSCORE_MAC
 // TODO: Improve this part for MACOS
 /** Full path to a directory assigned to the package for its persistent data. */

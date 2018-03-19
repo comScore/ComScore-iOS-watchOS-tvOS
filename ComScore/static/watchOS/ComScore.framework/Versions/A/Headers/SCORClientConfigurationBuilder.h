@@ -118,9 +118,4 @@
  */
 @property(nonatomic) BOOL httpRedirectCaching;
 
-/**
- *  Enables or disables the tracking of uncaught exceptions.
- */
-@property(nonatomic) BOOL uncaughtExceptionTracking;
-
 @end

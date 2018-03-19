@@ -557,7 +557,7 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/ComScore-watchOS/SCORBundle.bundle",
+				"$PODS_CONFIGURATION_BUILD_DIR/ComScore-Static/SCORBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

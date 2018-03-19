@@ -1,18 +1,20 @@
 PODS:
-  - ComScore (5.7.0):
-    - ComScore/Dynamic (= 5.7.0)
-  - ComScore/Dynamic (5.7.0)
+  - ComScore (5.8.0):
+    - ComScore/Dynamic (= 5.8.0)
+  - ComScore/Dynamic (5.8.0)
+  - ComScore/Static (5.8.0)
 
 DEPENDENCIES:
   - ComScore (from `../`)
+  - ComScore/Static (from `../`)
 
 EXTERNAL SOURCES:
   ComScore:
     :path: ../
 
 SPEC CHECKSUMS:
-  ComScore: baf4b900301ce5c85455b9e706a566d07b53b00d
+  ComScore: e9f37d5da9ce5b3be314f923890da79f00b28ce6
 
-PODFILE CHECKSUM: fd1af31e5828d5e1488d5bb3421bdf5f9286ae02
+PODFILE CHECKSUM: 9d75161217b8a879d4f19bb2268b6bee76223f7c
 
 COCOAPODS: 1.3.1

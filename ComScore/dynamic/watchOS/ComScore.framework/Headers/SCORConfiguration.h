@@ -104,6 +104,12 @@
  */
 @property(copy) NSDictionary *startLabels;
 
+
+/**
+ *  If enabled we won't check for AdSupport presence on runtime. Disabled by default.
+ */
+@property(nonatomic) bool preventAdSupportUsage;
+
 /**
  * Returns the value of the specified start label.
  *
@@ -167,11 +173,6 @@
  *  The configured mode of usage properties auto-update.
  */
 @property(readonly) SCORUsagePropertiesAutoUpdateMode usagePropertiesAutoUpdateMode;
-
-/**
- *  Either if the the auto generation of the start event is enabled or not.
- */
-@property(readonly) BOOL uncaughtExceptionTracking;
 
 /**
  *  If either the SDK is currently enabled or not.

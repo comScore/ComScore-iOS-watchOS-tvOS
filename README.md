@@ -39,5 +39,5 @@ comScore, Inc.
 License
 =======
 
-Copyright (c) 2016 comScore, Inc.
+Copyright (c) 2019 comScore, Inc.
 FOR MORE INFORMATION, PLEASE VISIT [DIRECT.COMSCORE.COM](http://direct.comscore.com).

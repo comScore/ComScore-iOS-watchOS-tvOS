@@ -4,6 +4,13 @@
 [![License](https://img.shields.io/cocoapods/l/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![Platform](https://img.shields.io/cocoapods/p/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 
+License
+=======
+
+Copyright (c) 2019 comScore, Inc.
+
+Use of this SDK is subject to the licenses and other terms and conditions set forth herein, including the materials provided in the SDK deliverables. Your use of this SDK and/or transmission of data to Comscore constitutes your agreement to these licenses and other terms and conditions, including the Data Sharing Agreement.
+
 Usage
 =====
 
@@ -35,9 +42,3 @@ Author
 ======
 
 comScore, Inc.
-
-License
-=======
-
-Copyright (c) 2019 comScore, Inc.
-FOR MORE INFORMATION, PLEASE VISIT [DIRECT.COMSCORE.COM](http://direct.comscore.com).

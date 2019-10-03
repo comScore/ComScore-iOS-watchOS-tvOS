@@ -359,7 +359,6 @@
 				8C41A76B1DABB5DE005C7665 /* Sources */,
 				8C41A76C1DABB5DE005C7665 /* Frameworks */,
 				8C41A76D1DABB5DE005C7665 /* Resources */,
-				875336DC88602961147E0471 /* [CP] Embed Pods Frameworks */,
 				A4D4A3BE624C4CDB924E21BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -466,7 +465,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh",
 				"${PODS_ROOT}/../../ComScore/dynamic/iOS/ComScore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -475,7 +474,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		39CBDF222FFDD2ACAE481F2C /* [CP] Embed Pods Frameworks */ = {
@@ -484,7 +483,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh",
 				"${PODS_ROOT}/../../ComScore/dynamic/tvOS/ComScore.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
@@ -493,7 +492,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		3A30096F45DAD0EF7D65E350 /* [CP] Copy Pods Resources */ = {
@@ -502,16 +501,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/ComScore-iOS/SCORBundle.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ComScore-iOS/SCORBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SCORBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5AC6C06E96E9180251403721 /* [CP] Check Pods Manifest.lock */ = {
@@ -532,40 +531,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		875336DC88602961147E0471 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-frameworks.sh",
-				"${PODS_ROOT}/../../ComScore/dynamic/watchOS/ComScore.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComScore.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		A4D4A3BE624C4CDB924E21BC /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/ComScore-Static/SCORBundle.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ComScore-Static/SCORBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SCORBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-watchOS Extension/Pods-HelloWorld-watchOS Extension-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D1323F399A3268C96B48CCE0 /* [CP] Copy Pods Resources */ = {
@@ -574,16 +555,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-resources.sh",
-				"$PODS_CONFIGURATION_BUILD_DIR/ComScore-tvOS/SCORBundle.bundle",
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ComScore-tvOS/SCORBundle.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SCORBundle.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E0ECD5AC8BC2A6A077244B57 /* [CP] Check Pods Manifest.lock */ = {

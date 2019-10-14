@@ -8,6 +8,7 @@
 #import "SCORConfigurationDelegate.h"
 #import "SCORLogLevel.h"
 #import "SCORUsagePropertiesAutoUpdateMode.h"
+#import "SCORCrossPublisherUniqueDeviceIdChangeDelegate.h"
 
 @class SCORTaskExecutor;
 @class SCORKeepAlive;
@@ -28,36 +29,32 @@
 /**
  *  The configured transmission mode.
  */
-@property SCORLiveTransmissionMode liveTransmissionMode;
+@property(nonatomic) SCORLiveTransmissionMode liveTransmissionMode;
 
 /**
  *  The configured offline cache mode.
  */
-@property SCOROfflineCacheMode offlineCacheMode;
+@property(nonatomic) SCOROfflineCacheMode offlineCacheMode;
 /**
  *  Maximum number of measurements to keep on cache.
  */
-@property(readonly) int cacheMaxMeasurements;
+@property(nonatomic) int cacheMaxMeasurements;
 /**
  *  Maximum number of batch files that the SDK can generate.
  */
-@property(readonly) int cacheMaxBatchFiles;
+@property(nonatomic) int cacheMaxBatchFiles;
 /**
  *  Maximum number of cahes flushes allowed in a row.
  */
-@property(readonly) int cacheMaxFlushesInARow;
+@property(nonatomic) int cacheMaxFlushesInARow;
 /**
  *  Number of minutes to wait before re-trying a flush.
  */
-@property(readonly) int cacheMinutesToRetry;
+@property(nonatomic) int cacheMinutesToRetry;
 /**
  *  Expiration time for the stored measurements.
  */
-@property(readonly) int cacheMeasurementExpiry;
-/**
- *  The interval, in seconds, to wait for every measurements flush.
- */
-@property(readonly) long cacheFlushingInterval;
+@property(nonatomic) int cacheMeasurementExpiry;
 
 /**
  *  All <SCORPartnerConfiguration> instances currently added.
@@ -72,7 +69,7 @@
 /**
  *  The interval, in seconds, to calculate the usage properties.
  */
-@property(readonly) int usagePropertiesAutoUpdateInterval;
+@property(nonatomic) int usagePropertiesAutoUpdateInterval;
 
 /**
  *  The preferred label order.
@@ -82,12 +79,12 @@
 /**
  *  The configured endpoint where to dispatch the live measurements.
  */
-@property(readonly) NSString *liveEndpointURL;
+@property(copy) NSString *liveEndpointURL;
 
 /**
  *  The configured endpoint where to dispatch the stored measurements.
  */
-@property(readonly) NSString *offlineFlushEndpointURL;
+@property(copy) NSString *offlineFlushEndpointURL;
 
 /**
  *  The current application name.
@@ -100,15 +97,31 @@
 @property(copy) NSString *applicationVersion;
 
 /**
- *  The auto start labels currently in use.
- */
-@property(copy) NSDictionary *startLabels;
-
-
-/**
  *  If enabled we won't check for AdSupport presence on runtime. Disabled by default.
  */
 @property(nonatomic) bool preventAdSupportUsage;
+
+/**
+ *  The auto start labels currently in use.
+ */
+@property (readonly) NSDictionary *startLabels;
+
+/**
+ *  Dictionary of all the set persistent labels.
+ */
+@property (readonly) NSDictionary *persistentLabels;
+
+/** True if the System Clock Jump Detection is enabled. */
+@property(nonatomic) BOOL systemClockJumpDetection;
+
+@property(nonatomic) long systemClockJumpDetectionInterval;
+
+@property(nonatomic) long systemClockJumpDetectionPrecision;
+
+/**
+ * Adds a group of start labels.
+ */
+- (void)addStartLabels:(NSDictionary *)startLabels;
 
 /**
  * Returns the value of the specified start label.
@@ -121,9 +134,7 @@
 /**
  * Sets a start label. If the label exist it will override it with the new value
  * and if the value is nil the label will be removed. Start labels are included
- * in the start event. Once the <SCORClientConfiguration> is added to the <SCORConfiguration>
- * this method will be asynchronous. Use the <addDelegate> in order to get notified when
- * this change is completed.
+ * in the start event.
  *
  * @param name NSString
  * @param value NSString or *nil*
@@ -155,34 +166,31 @@
 /**
  *  Enables or disables the keep alive measurements.
  */
-@property BOOL keepAliveMeasurement;
+@property BOOL keepAliveMeasurementEnabled;
 
 /**
  *  Either if the secure transmission of measurements is enabled or not.
  */
-@property(readonly) BOOL secureTransmission;
+@property(readonly) BOOL secureTransmissionEnabled;
 
 /**
  *  Enables or disables the caching of measurements that were redirected by the server (With status code 301
  *  or 302).
  *  YES by default.
  */
-@property(readonly) BOOL httpRedirectCaching;
+@property(readonly) BOOL httpRedirectCachingEnabled;
 
 /**
  *  The configured mode of usage properties auto-update.
  */
-@property(readonly) SCORUsagePropertiesAutoUpdateMode usagePropertiesAutoUpdateMode;
+@property(nonatomic) SCORUsagePropertiesAutoUpdateMode usagePropertiesAutoUpdateMode;
 
 /**
  *  If either the SDK is currently enabled or not.
  */
 @property(readonly) BOOL enabled;
 
-/**
- *  Dictionary of all the set persistent labels.
- */
-- (NSDictionary *)persistentLabels;
+- (void)addIncludedPublisher:(NSString *)publisherId;
 
 /**
  *  Adds or update the given persistent labels. If any of the provided labels have a *NSNull*
@@ -191,15 +199,13 @@
  *
  *  @param persistentLabels NSDictionary
  */
-- (void)setPersistentLabels:(NSDictionary *)persistentLabels;
+- (void)addPersistentLabels:(NSDictionary *)persistentLabels;
 
 /**
  * Sets a persistent label. If the label exist it will override it with the new value
  * and if the value is nil the label will be removed. Persistent labels are included
  * in all further events. Persistent labels overrides sdk labels but they can be overridden
- * by event labels. Once the <SCORClientConfiguration> is added to the <SCORConfiguration>
- * this method will be asynchronous. Use the <addDelegate> in order to get notified when 
- * this change is completed.
+ * by event labels.
  *
  * @param name NSString
  * @param value NSString or *nil*
@@ -269,6 +275,9 @@
  */
 - (void)disable;
 
+
+- (void)enableImplementationValidationMode;
+
 /**
  *  Adds a new delegate to be notified of every change of this configuration. 
  *  @warning SCORConfiguration will keep a weak reference to the provided delegate.
@@ -285,5 +294,9 @@
  *  @param delegate An object that responds to <SCORConfigurationDelegate>
  */
 - (void)removeDelegate:(id <SCORConfigurationDelegate>)delegate;
+
+- (void)addCrossPublisherUniqueDeviceIdChangeDelegate:(id <SCORCrossPublisherUniqueDeviceIdChangeDelegate>)delegate;
+
+- (void)removeCrossPublisherUniqueDeviceIdChangeDelegate:(id <SCORCrossPublisherUniqueDeviceIdChangeDelegate>)delegate;
 
 @end

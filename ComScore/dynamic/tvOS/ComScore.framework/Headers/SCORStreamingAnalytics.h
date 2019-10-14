@@ -4,7 +4,6 @@
 
 #import <Foundation/Foundation.h>
 #import "SCORStreamingAnalyticsProtocol.h"
-#import "SCORStreamingState.h"
 #import "SCORStreamingDelegate.h"
 
 @class SCORStreamingConfiguration;
@@ -19,16 +18,6 @@
  where the parent is this class.
  */
 @interface SCORStreamingAnalytics : NSObject<SCORStreamingAnalyticsProtocol>
-@property (readonly)  SCORStreamingState               state;
-
-@property (nonatomic) BOOL                             pauseOnBufferingEnabled;
-@property (nonatomic) BOOL                             throttlingEnabled;
-@property (nonatomic) NSTimeInterval                   playbackIntervalMergeTolerance;
-@property (nonatomic) NSTimeInterval                   throttlingDelay;
-@property (nonatomic) NSTimeInterval                   pauseOnBufferingInterval;
-@property (nonatomic) NSTimeInterval                   keepAliveInterval;
-@property (nonatomic) NSTimeInterval                   loadTimeOffset;
-@property (nonatomic, copy) NSArray                    * heartbeatIntervals;
 
 /**
  Designated initializer.
@@ -40,31 +29,9 @@
 - (instancetype)initWithConfiguration:(SCORStreamingConfiguration *)streamingConfiguration;
 
 /**
- *  Resets Streaming to the default values.
- */
-- (void)reset;
-
-/**
- *  Creates a new playback session with the given labels.
- *
- *  @param labels   NSDictionary
- */
-- (void)createPlaybackSessionWithLabels:(NSDictionary *)labels;
-
-/**
  *  Creates a new playback session.
  */
 - (void)createPlaybackSession;
-
-/** 
- * Sets the DVR window length.
- */
-- (void) setDVRWindowLength:(NSInteger)newDVRWindowLength;
-
-/**
- * Sets the DVR window offset.
- */
-- (void) setDVRWindowOffset:(NSInteger)newDVRWindowOffset;
 
 #pragma mark - Delegates
 
@@ -82,8 +49,6 @@
  *  @param listener Must comply with <SCORStreamingDelegate>
  */
 - (void)removeListener:(id<SCORStreamingDelegate>)listener;
-
-
 
 @end
 

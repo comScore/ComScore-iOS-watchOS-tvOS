@@ -12,7 +12,7 @@
 /**
  Static class exposing all the public methods to use the ComScore Tagging library.
  
- All the internal tasks are executed asynchronously  to
+ All the expensive internal tasks are executed asynchronously  to
  avoid blocking the calling thread.
  
  <b>Configuring the library as a publisher</b>
@@ -32,7 +32,6 @@
      SCORPublisherConfiguration  publisherConfiguration =
      [SCORPublisherConfiguration publisherConfigurationWithBuilderBlock:^(SCORPublisherConfigurationBuilder  builder) {
         builder.publisherId = @"your_comscore_publisher_id";
-        builder.publisherSecret = @"your_comscore_publisher_secret";
         builder.vce = NO;
         builder.liveTransmissionMode = SCORLiveTransmissionModeLan;
      }];
@@ -143,37 +142,6 @@
 + (void)notifyHiddenEventWithLabels:(NSDictionary *)labels;
 
 /**
- *  Notifies of an aggregate event. The labels passed as parameter will override
- *  any sdk or persistent label.
- *
- *  @param labels NSDictionary, labels that should be added to the event
- */
-+ (void)aggregateWithLabels:(NSDictionary *)labels;
-
-/**
- *  Notifies of an aggregate eventusing the EventInfo object.
- *  The labels passed in the EventInfo will override any sdk or persistent
- *  label.
- *
- *  @param eventInfo <SCOREventInfo>, information to send in the event
- */
-+ (void)aggregateWithEventInfo:(SCOREventInfo *)eventInfo;
-
-/**
- *  Returns a copy of some tracking properties used internally.
- *  Please refer to <SCORTrackingProperty> for a list of possible keys.
- *
- *  @return NSDictionary, internal tracking properties
- */
-+ (NSDictionary *)trackingProperties;
-
-/**
- *  Call this method to notify that the user interacted with the application (e.g. pressing a
- *  button or skipping a song).
- */
-+ (void)notifyUserInteraction;
-
-/**
  *  Call this method to notify that the application is executing a task that provides a user
  *  experience (e.g. playing music). When the user experience is over you should call
  *  <notifyUxInactive> to notify it.
@@ -196,12 +164,6 @@
  *  Call this method to notify that the application no longer appears on the device screen.
  */
 + (void)notifyExitForeground;
-
-/**
- *  Accumulates the current timer registers, so that data won't be lost on crash.
- *  Triggers IO operations in a separate thread so please use it wisely.
- */
-+ (void)updateUsageProperties;
 
 /**
  *  Flushes offline cached measurements.
@@ -232,18 +194,22 @@
  */
 + (void)clearInternalData;
 
++ (void)notifyDistributedContentViewForPartner:(NSString *) distributorPartnerId content:(NSString *) distributorContentId;
+
 /**
  *  Requests the categories associated with the provided Page URL and, upon receipt
  *  of the data, executes a block with all categories as its parameters.
  *
  *  @param key                      Client identifier assigned by comScore
  *  @param url                      URL of the page needing categorization
- *  @param publisherConfiguration   SCORPublisherConfiguration instance to use
+ *  @param publisherId              The publisher Id to use
+ *  @param publisherUniqueDeviceId  The publisher unique device Id to use
  *  @param callback                 Block to be called with the result of the operation
  */
-+ (void) getActivationCategoriesWithKey:(NSString *)key
++ (void) activationCategoriesWithKey:(NSString *)key
                           url:(NSString *)url
-       publisherConfiguration:(SCORPublisherConfiguration *)publisherConfiguration
+                  publisherId:(NSString *)publisherId
+      publisherUniqueDeviceId:(NSString *)uniqueDeviceId
                         block:(void (^)(NSArray *data))callback;
 
 @end

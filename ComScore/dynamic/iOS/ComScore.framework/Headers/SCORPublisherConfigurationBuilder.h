@@ -4,9 +4,8 @@
 #import <Foundation/Foundation.h>
 #import "SCORLiveTransmissionMode.h"
 #import "SCOROfflineCacheMode.h"
-#import "SCORConfigurationDelegate.h"
-#import "SCORUsagePropertiesAutoUpdateMode.h"
 #import "SCORClientConfigurationBuilder.h"
+#import "SCORPublisherUniqueDeviceIdDelegate.h"
 
 
 @class SCORPublisherConfiguration;
@@ -22,10 +21,7 @@
  */
 @property(copy) NSString *publisherId;
 
-/**
- *  Publisher Secret.
- */
-@property(copy) NSString *publisherSecret;
+@property(nonatomic, weak) id<SCORPublisherUniqueDeviceIdDelegate> publisherUniqueDeviceIdDelegate;
 
 /**
  *  Builds a SCORPublisherConfiguration with the current parameters.

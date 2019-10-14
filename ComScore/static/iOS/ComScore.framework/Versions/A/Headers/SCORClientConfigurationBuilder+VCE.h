@@ -9,6 +9,6 @@
 /**
  *  Enables or disables VCE.
  */
-@property(nonatomic) BOOL vce;
+@property(nonatomic) BOOL vceEnabled;
 
 @end

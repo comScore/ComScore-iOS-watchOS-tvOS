@@ -11,7 +11,6 @@
 /** Called when the sate is changed. */
 - (void)onStateChanged:(SCORStreamingState)oldState
               newState:(SCORStreamingState)newState
-           eventLabels:(NSDictionary *)eventLabels
-             timeDelta:(NSTimeInterval)timeDelta;
+           eventLabels:(NSDictionary *)eventLabels;
 
 @end

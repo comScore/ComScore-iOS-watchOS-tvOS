@@ -10,6 +10,6 @@
 /**
  *  If either VCE is enabled or not for the current configuration.
  */
-@property(readonly) BOOL vce;
+@property(readonly) BOOL vceEnabled;
 
 @end

@@ -37,5 +37,13 @@ typedef NS_ENUM(NSInteger, SCORConfigurationType) {
     /**
      *  Notifies that the current configuration was applied.
      */
-            SCORConfigurationTypeTimeWindowElapsed = 20307
+            SCORConfigurationTypeTimeWindowElapsed = 20307,
+    /**
+     *  When the start labels has been changed.
+     */
+            SCORConfigurationTypeStartLabels = 20308,
+    /**
+     *  When the label order has been changed.
+     */
+            SCORConfigurationTypeLabelOrder = 20309
 };

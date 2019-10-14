@@ -4,8 +4,6 @@
 #import <Foundation/Foundation.h>
 #import "SCORLiveTransmissionMode.h"
 #import "SCOROfflineCacheMode.h"
-#import "SCORConfigurationDelegate.h"
-#import "SCORUsagePropertiesAutoUpdateMode.h"
 #import "SCORClientConfigurationBuilder.h"
 
 

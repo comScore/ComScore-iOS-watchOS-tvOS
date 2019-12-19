@@ -101,16 +101,6 @@
  */
 @property(nonatomic) bool preventAdSupportUsage;
 
-/**
- *  The auto start labels currently in use.
- */
-@property (readonly) NSDictionary *startLabels;
-
-/**
- *  Dictionary of all the set persistent labels.
- */
-@property (readonly) NSDictionary *persistentLabels;
-
 /** True if the System Clock Jump Detection is enabled. */
 @property(nonatomic) BOOL systemClockJumpDetection;
 
@@ -124,14 +114,6 @@
 - (void)addStartLabels:(NSDictionary *)startLabels;
 
 /**
- * Returns the value of the specified start label.
- *
- * @param name NSString
- * @return NSString or *nil*
- */
-- (NSString *)startLabelWithName:(NSString *)name;
-
-/**
  * Sets a start label. If the label exist it will override it with the new value
  * and if the value is nil the label will be removed. Start labels are included
  * in the start event.
@@ -140,15 +122,6 @@
  * @param value NSString or *nil*
  */
 - (void)setStartLabelWithName:(NSString *)name value:(NSString *)value;
-
-/**
- *  Returns true if the there's a start label with the given name.
- *
- *  @param labelName Label to check if exists
- *
- *  @return BOOL
- */
-- (BOOL)containsStartLabel:(NSString *)labelName;
 
 /**
  *  Removes the start label with the given name. If the label doesn't exist this method
@@ -167,18 +140,6 @@
  *  Enables or disables the keep alive measurements.
  */
 @property BOOL keepAliveMeasurementEnabled;
-
-/**
- *  Either if the secure transmission of measurements is enabled or not.
- */
-@property(readonly) BOOL secureTransmissionEnabled;
-
-/**
- *  Enables or disables the caching of measurements that were redirected by the server (With status code 301
- *  or 302).
- *  YES by default.
- */
-@property(readonly) BOOL httpRedirectCachingEnabled;
 
 /**
  *  The configured mode of usage properties auto-update.
@@ -211,14 +172,6 @@
  * @param value NSString or *nil*
  */
 - (void)setPersistentLabelWithName:(NSString *)name value:(NSString *)value;
-
-/**
- * Returns the value of the specified label. 
- *
- * @param name NSString
- * @return NSString or *nil*
- */
-- (NSString *)persistentLabelWithName:(NSString *)name;
 
 /**
  *  Returns true if the there's a label with the given name.

@@ -137,6 +137,12 @@
 - (void)setPlaylistTitle:(NSString *)playlistTitle;
 
 /**
+ * Used to populate label ns_st_sta.
+ * @param networkAffiliate
+ * */
+- (void) setNetworkAffiliate:(NSString *) networkAffiliate;
+
+/**
  * @param dictionaryClassificationC3
  * */
 - (void)setDictionaryClassificationC3:(NSString *)dictionaryClassificationC3;

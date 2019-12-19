@@ -44,8 +44,6 @@
 /** Configures the playback interval merge tolerance. */
 @property(nonatomic) long playbackIntervalMergeTolerance;
 
-@property(nonatomic) BOOL exitEndEvent;
-
 /** Sets an 'Asset thresholded playback counter delta' label ns_st_dtpc for counting asset starts with at
     least X seconds of playing time. The value provided will be rounded to the nearest lower multiple of
     1000, i.e., if the value 4300 is provided, value 4000 should be used. Default value is 3000. */

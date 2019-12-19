@@ -75,6 +75,8 @@
 
 - (void)setImplementationId:(NSString *)implementationId;
 
+- (void)setProjectId:(NSString *)projectId;
+
 /**
  * Sets the asset
  * @param assetMetadata the AssetMetadata instance with the new clip metadata.

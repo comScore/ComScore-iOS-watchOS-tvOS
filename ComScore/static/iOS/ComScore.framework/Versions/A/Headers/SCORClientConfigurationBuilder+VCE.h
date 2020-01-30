@@ -9,6 +9,6 @@
 /**
  *  Enables or disables VCE.
  */
-@property(nonatomic) BOOL vceEnabled;
+@property(nonatomic) BOOL vceEnabled __deprecated;
 
 @end

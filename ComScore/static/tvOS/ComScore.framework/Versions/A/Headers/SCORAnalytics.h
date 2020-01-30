@@ -32,7 +32,6 @@
      SCORPublisherConfiguration  publisherConfiguration =
      [SCORPublisherConfiguration publisherConfigurationWithBuilderBlock:^(SCORPublisherConfigurationBuilder  builder) {
         builder.publisherId = @"your_comscore_publisher_id";
-        builder.vce = NO;
         builder.liveTransmissionMode = SCORLiveTransmissionModeLan;
      }];
  
@@ -59,7 +58,6 @@
      [SCORPartnerConfiguration partnerConfigurationWithBuilderBlock:^(SCORPartnerConfigurationBuilder  builder) {
         builder.partnerId = @"your_comscore_partner_id";
         builder.externalClientId = @"your_external_client_id";
-        builder.vce = NO;
         builder.liveTransmissionMode = SCORLiveTransmissionModeLan;
      }];
  

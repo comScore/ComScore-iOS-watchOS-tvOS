@@ -12,12 +12,12 @@
  *
  *  @return NSString
  */
-+ (NSString *)vceVersion;
++ (NSString *)vceVersion __deprecated;
 
 /**
  *  Returns the VCE instance. Only works on iOS 7 or greater.
  *
  *  @return SCORVCE or *nil*
  */
-+ (SCORVCE *)sharedVCEInstance;
++ (SCORVCE *)sharedVCEInstance __deprecated;
 @end

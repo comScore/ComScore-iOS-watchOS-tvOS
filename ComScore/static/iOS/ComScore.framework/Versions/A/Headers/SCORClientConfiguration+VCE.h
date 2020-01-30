@@ -10,6 +10,6 @@
  *  Enables or disables VCE.
  *  Enabled by default.
  */
-@property(readonly) BOOL vceEnabled;
+@property(readonly) BOOL vceEnabled __deprecated;
 
 @end

@@ -15,5 +15,7 @@ typedef NS_ENUM(NSInteger, SCORStreamingContentMediaFormat) {
     SCORStreamingContentMediaFormatPreviewMovie = 1009,
     SCORStreamingContentMediaFormatExtraGeneric = 1010,
     SCORStreamingContentMediaFormatExtraEpisode = 1012,
-    SCORStreamingContentMediaFormatExtraMovie = 1013
+    SCORStreamingContentMediaFormatExtraMovie = 1013,
+    SCORContentMediaFormatFullContentPodcast = 1014,
+    SCORContentMediaFormatPartialContentPodcast = 1015
 };

@@ -49,6 +49,8 @@
     1000, i.e., if the value 4300 is provided, value 4000 should be used. Default value is 3000. */
 @property(nonatomic) long customStartMinimumPlayback;
 
+@property(nonatomic) BOOL autoResumeStateOnAssetChange;
+
 /**
  *  Builds a SCORStreamingConfiguration with the current parameters.
  *

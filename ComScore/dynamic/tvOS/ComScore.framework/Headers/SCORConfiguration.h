@@ -252,4 +252,6 @@
 
 - (void)removeCrossPublisherUniqueDeviceIdChangeDelegate:(id <SCORCrossPublisherUniqueDeviceIdChangeDelegate>)delegate;
 
+- (void) enableChildDirectedApplicationMode;
+
 @end

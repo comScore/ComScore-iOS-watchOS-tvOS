@@ -9,7 +9,7 @@ typedef NS_ENUM(NSInteger, SCORConfigurationType) {
     /**
      *  Notifies of a change in the persistent labels.
      */
-            SCORConfigurationTypePersistentLabels = 20300,
+            SCORConfigurationTypePersistentLabels __attribute__((deprecated)) = 20300,
     /**
      *  Notifies of a change in the partner configuration.
      */
@@ -41,7 +41,7 @@ typedef NS_ENUM(NSInteger, SCORConfigurationType) {
     /**
      *  When the start labels has been changed.
      */
-            SCORConfigurationTypeStartLabels = 20308,
+            SCORConfigurationTypeStartLabels __attribute__((deprecated)) = 20308,
     /**
      *  When the label order has been changed.
      */

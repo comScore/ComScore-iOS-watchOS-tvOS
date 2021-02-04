@@ -7,8 +7,3 @@ end
 target 'HelloWorld-tvOS' do
     pod 'ComScore', :path => '../'
 end
-
-target 'HelloWorld-watchOS Extension' do
-    pod 'ComScore/Static', :path => '../'
-end
-

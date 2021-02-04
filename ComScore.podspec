@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore'
   s.version          = '6.7.0'
-  s.summary          = 'Official analytics library for iOS, watchOS and tvOS from comScore'
+  s.summary          = 'Official analytics library for iOS and tvOS from comScore'
   s.description      = <<-DESC
-  This library is used to collect analytics from iOS, watchOS and tvOS applications. The library supports apps developed in native Objective C or Swift with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
+  This library is used to collect analytics from iOS and tvOS applications. The library supports apps developed in native Objective C or Swift with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
                        DESC
   s.homepage         = 'https://github.com/comscore/ComScore-iOS-watchOS-tvOS'
   s.license          = 'Custom'
@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
                          touch .pod
                          rm -rf ComScore/dynamic/iOS/ComScore.framework/strip-framework.sh
                          rm -rf ComScore/dynamic/tvOS/ComScore.framework/strip-framework.sh
-                         rm -rf ComScore/dynamic/watchOS/ComScore.framework/strip-framework.sh
                       CMD
 
   s.subspec 'Dynamic' do |ds|
@@ -40,15 +39,6 @@ Pod::Spec.new do |s|
       ds.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
       ds.tvos.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
       ds.tvos.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
-
-      ds.watchos.deployment_target = '2.0'
-      ds.watchos.vendored_frameworks = 'ComScore/dynamic/watchOS/ComScore.framework'
-      ds.watchos.preserve_paths = 'ComScore/dynamic/watchOS/ComScore.framework'
-      ds.watchos.public_header_files = 'ComScore/dynamic/watchOS/ComScore.framework/Headers/*.h'
-      ds.watchos.source_files = 'ComScore/dynamic/watchOS/ComScore.framework/Headers/*.h'
-      ds.watchos.resource_bundle = { 'SCORBundle' => '.pod' }
-      ds.watchos.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=watchsimulator*]' => 'arm64' }
-      ds.watchos.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=watchsimulator*]' => 'arm64' }
   end
 
   s.subspec 'Static' do |ss|
@@ -71,15 +61,6 @@ Pod::Spec.new do |s|
       ss.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
       ss.tvos.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
       ss.tvos.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
-
-      ss.watchos.deployment_target = '2.0'
-      ss.watchos.vendored_frameworks = 'ComScore/static/watchOS/ComScore.framework'
-      ss.watchos.preserve_paths = 'ComScore/static/watchOS/ComScore.framework'
-      ss.watchos.public_header_files = 'ComScore/static/watchOS/ComScore.framework/Versions/A/Headers/*.h'
-      ss.watchos.source_files = 'ComScore/static/watchOS/ComScore.framework/Versions/A/Headers/*.h'
-      ss.watchos.resource_bundle = { 'SCORBundle' => '.pod' }
-      ss.watchos.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=watchsimulator*]' => 'arm64' }
-      ss.watchos.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=watchsimulator*]' => 'arm64' }
   end
 
   s.default_subspec = 'Dynamic'

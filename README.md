@@ -4,6 +4,8 @@
 [![License](https://img.shields.io/cocoapods/l/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![Platform](https://img.shields.io/cocoapods/p/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 
+Contrary to the title of this repository as of version 6.8.0 only iOS, iPadOS and tvOS are supported.
+
 License
 =======
 

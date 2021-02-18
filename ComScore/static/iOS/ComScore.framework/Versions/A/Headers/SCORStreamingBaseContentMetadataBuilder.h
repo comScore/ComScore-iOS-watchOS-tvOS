@@ -14,159 +14,207 @@
 
 @protocol SCORStreamingBaseContentMetadataBuilder
 
+/**
+ * Used to populate custom labels.
+ *
+ * @param newCustomLabels - New custom labels
+ */
 - (void)setCustomLabels:(NSDictionary *)newCustomLabels;
 
 /**
  * Used to populate label ns_st_ci.
- * @param contentUniqueId
- * */
+ *
+ * @param contentUniqueId - Content unique ID
+ */
 - (void)setUniqueId:(NSString *)contentUniqueId;
 
 /**
  * Used to populate label ns_st_pu.
- * @param publisherName
- * */
+ *
+ * @param publisherName - Publisher name
+ */
 - (void)setPublisherName:(NSString *)publisherName;
 
 /**
  * Used to populate label ns_st_pr.
- * @param programTitle
- * */
+ *
+ * @param programTitle - Program title
+ */
 - (void)setProgramTitle:(NSString *)programTitle;
 
 /**
  * Used to populate label ns_st_ep.
- * @param episodeTitle
- * */
+ *
+ * @param episodeTitle - Episode title
+ */
 - (void)setEpisodeTitle:(NSString *)episodeTitle;
 
 /**
  * Used to populate label ns_st_sn.
- * @param episodeSeasonNumber
+ *
+ *  @param episodeSeasonNumber - Episode season number
  */
 - (void)setEpisodeSeasonNumber:(NSString *)episodeSeasonNumber;
 
 /**
  * Used to populate label ns_st_en.
- * @param episodeNumber
- **/
+ *
+ *  @param episodeNumber - Episode number
+ */
 - (void)setEpisodeNumber:(NSString *)episodeNumber;
 
 /**
  * Used to populate label ns_st_ge.
- * @param genre
- **/
+ *
+ *  @param genreName - Genre name
+ */
 - (void)setGenreName:(NSString *)genreName;
 
 /**
  * Used to populate label ns_st_tge.
- * @param genre
- **/
+ *
+ *  @param genreId - Genre ID
+ */
 - (void)setGenreId:(NSString *)genreId;
 
 /**
  * Used to populate label ns_st_dt.
- * @param dateOfProduction
- **/
+ *
+ *  @param year - Year
+ *  @param month - Month
+ *  @param day - Day
+ */
 - (void)setDateOfProductionYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day;
 
 /**
  * Used to populate label ns_st_tm.
- * @param timeOfProduction
- **/
+ *
+ *  @param hours - Hours
+ *  @param minutes - Minutes
+ */
 - (void)setTimeOfProductionHours:(NSInteger)hours minutes:(NSInteger)minutes;
 
 /**
  *  Used to populate label ns_st_ddt.
- * @param dateOfDigitalAiring
- **/
+ *
+ *  @param year - Year
+ *  @param month - Month
+ *  @param day - Day
+ */
 - (void)setDateOfDigitalAiringYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day;
 
 /**
  * Used to populate label ns_st_dtm.
- * @param timeOfDigitalAiring
- **/
+ *
+ *  @param hours - Hours
+ *  @param minutes - Minutes
+ */
 - (void)setTimeOfDigitalAiringHours:(NSInteger)hours minutes:(NSInteger)minutes;
 
 /**
  * Used to populate label ns_st_tdt.
- * @param dateOfTvAiring
- **/
+ *
+ *  @param year - Year
+ *  @param month - Month
+ *  @param day - Day
+ */
 - (void)setDateOfTvAiringYear:(NSInteger)year month:(NSInteger)month day:(NSInteger)day;
 
 /**
  * Used to populate label ns_st_ttm.
- * @param timeOfTvAiring
- **/
+ *
+ *  @param hours - Hours
+ *  @param minutes - Minutes
+ */
 - (void)setTimeOfTvAiringHours:(NSInteger)hours minutes:(NSInteger)minutes;
 
 /**
  * Used to populate label ns_st_st.
- * @param stationTitle
- **/
+ *
+ *  @param stationTitle - Station title
+ */
 - (void)setStationTitle:(NSString *)stationTitle;
 
 /**
  * Used to populate label ns_st_stc.
- * @param stationCode
- **/
+ *
+ *  @param stationCode : Station code
+ */
 - (void)setStationCode:(NSString *)stationCode;
 
 /**
  * Used to populate label ns_st_tpr.
- * @param programId
- **/
+ * @param programId - Program ID
+ */
 - (void)setProgramId:(NSString *)programId;
 
 /**
  * Used to populate label ns_st_tep.
- * @param episodeId
- **/
+ * @param episodeId - Episode ID
+ */
 - (void)setEpisodeId:(NSString *)episodeId;
 
 /**
  * Used to populate label ns_st_fee.
- * @param fee
- * */
+ * @param fee - Fee
+ */
 - (void)setFee:(NSInteger)fee;
 
 /**
  * Used to populate label ns_st_pl.
- * @param playlistTitle
- **/
+ * @param playlistTitle - Play list title
+ */
 - (void)setPlaylistTitle:(NSString *)playlistTitle;
 
 /**
  * Used to populate label ns_st_sta.
- * @param networkAffiliate
- * */
+ * @param networkAffiliate - Network affiliate
+ */
 - (void) setNetworkAffiliate:(NSString *) networkAffiliate;
 
 /**
- * @param dictionaryClassificationC3
- * */
+ * @param dictionaryClassificationC3 - Classification for C3
+ */
 - (void)setDictionaryClassificationC3:(NSString *)dictionaryClassificationC3;
 
 /**
- * @param dictionaryClassificationC4
- * */
+ * @param dictionaryClassificationC4 - Classification for C4
+ */
 - (void)setDictionaryClassificationC4:(NSString *)dictionaryClassificationC4;
 
 /**
- * @param dictionaryClassificationC6
- * */
+ * @param dictionaryClassificationC6 - Classification for C6
+ */
 - (void)setDictionaryClassificationC6:(NSString *)dictionaryClassificationC6;
 
+/**
+ * @param deliveryMode - Delivery mode
+ */
 - (void)setDeliveryMode:(SCORStreamingContentDeliveryMode) deliveryMode;
 
+/**
+ * @param contentDeliverySubscriptionType - Content Delivery Subscription Type
+ */
 - (void)setDeliverySubscriptionType:(SCORStreamingContentDeliverySubscriptionType) contentDeliverySubscriptionType;
 
+/**
+ * @param contentDeliveryComposition - Content delivery composition
+ */
 - (void)setDeliveryComposition:(SCORStreamingContentDeliveryComposition) contentDeliveryComposition;
 
+/**
+ * @param contentDeliveryAdvertisementCapability - Content delivery advertisement capability
+ */
 - (void)setDeliveryAdvertisementCapability:(SCORStreamingContentDeliveryAdvertisementCapability) contentDeliveryAdvertisementCapability;
 
+/**
+ * @param contentDistributionModel - Content distribution model
+ */
 - (void)setDistributionModel:(SCORStreamingContentDistributionModel) contentDistributionModel;
 
+/**
+ * @param contentMediaFormat - Content media format
+ */
 - (void)setMediaFormat:(SCORStreamingContentMediaFormat) contentMediaFormat;
 
 @end

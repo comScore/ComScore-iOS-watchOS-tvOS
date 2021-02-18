@@ -13,6 +13,11 @@
 
 #pragma mark - Events
 
+/**
+ * Starts from the position
+ *
+ *  @param position - Start position
+ */
 - (void)startFromPosition:(long) position;
 
 /**
@@ -61,31 +66,59 @@
 
 /**
  * Sets the DVR window length.
+ *
+ *  @param newDVRWindowLength - New DVR window length
  */
 - (void) setDVRWindowLength:(NSInteger)newDVRWindowLength;
 
 /**
  * Sets the DVR window offset.
+ *
+ *  @param newDVRWindowOffset - New DVR window offset
  */
 - (void) startFromDvrWindowOffset:(NSInteger)newDVRWindowOffset;
 
+/**
+ * Sets the Media player name
+ *
+ *  @param mediaPlayerName - Media player name
+ */
 - (void)setMediaPlayerName:(NSString *)mediaPlayerName;
 
+/**
+ * Sets the Media player version
+ *
+ *  @param mediaPlayerVersion - Media player version
+ */
 - (void)setMediaPlayerVersion:(NSString *)mediaPlayerVersion;
 
+/**
+ * Sets the Implementation ID
+ *
+ *  @param implementationId - Implementation ID
+ */
 - (void)setImplementationId:(NSString *)implementationId;
 
+/**
+ * Sets the Project ID
+ *
+ *  @param projectId - Project ID
+ */
 - (void)setProjectId:(NSString *)projectId;
 
 /**
- * Sets the asset
- * @param assetMetadata the AssetMetadata instance with the new clip metadata.
+ * Sets the asset metadata
+ *
+ * @param metadata The metadata instance
  */
 - (void)setMetadata:(SCORStreamingAssetMetadata *) metadata;
 
 - (NSString *) playbackSessionId;
 
-/**  Sets the segment number of the current asset. */
+/**  Sets the segment number of the current asset.
+ *
+ * @param segmentNumber - Segment number
+ */
 - (void)startFromSegment:(NSInteger) segmentNumber;
 
 /**  Indicates the entire playback session is looping. */

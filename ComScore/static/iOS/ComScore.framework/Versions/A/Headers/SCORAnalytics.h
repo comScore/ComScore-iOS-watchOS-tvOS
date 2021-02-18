@@ -201,7 +201,7 @@
  *  @param key                      Client identifier assigned by comScore
  *  @param url                      URL of the page needing categorization
  *  @param publisherId              The publisher Id to use
- *  @param publisherUniqueDeviceId  The publisher unique device Id to use
+ *  @param uniqueDeviceId           The publisher unique device Id to use
  *  @param callback                 Block to be called with the result of the operation
  */
 + (void) activationCategoriesWithKey:(NSString *)key

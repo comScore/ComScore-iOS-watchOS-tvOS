@@ -8,7 +8,12 @@
 @protocol SCORStreamingDelegate<NSObject>
 
 @optional
-/** Called when the sate is changed. */
+/** Called when the sate is changed.
+ *
+ * @param oldState - Old state
+ * @param newState - New state
+ * @param eventLabels - Event labels
+ */
 - (void)onStateChanged:(SCORStreamingState)oldState
               newState:(SCORStreamingState)newState
            eventLabels:(NSDictionary *)eventLabels;

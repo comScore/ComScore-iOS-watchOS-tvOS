@@ -21,42 +21,46 @@
  */
 - (SCORStreamingAdvertisementMetadata *)build;
 
+/**
+ * @param stack - Stack
+ * @param publisherId - Publisher ID
+ */
 - (void)setStack:(SCORStreamingStackedAdvertisementMetadata *)stack forPublisher:(NSString *)publisherId;
 
 /**
- * @param newRelatedContentMetadata
- * */
+ * @param newRelatedContentMetadata - New related content metadata
+ */
 - (void)setRelatedContentMetadata:(SCORStreamingContentMetadata *)newRelatedContentMetadata;
 
 /**
  * Used to populate labels ns_st_ct, ns_st_li and ns_st_ad.
- * @param newMediaType
- * */
+ * @param newMediaType - New media type
+ */
 - (void)setMediaType:(SCORStreamingAdvertisementType)newMediaType;
 
 /**
  * Used to populate labels ns_st_ct and ns_st_ty.
- * @param classifiedAsAudioStream
- * */
-- (void)classifyAsAudioStream:(BOOL)classifiedAsAudioStream ;
+ * @param classifiedAsAudioStream - Classified audio stream
+ */
+- (void)classifyAsAudioStream:(BOOL)classifiedAsAudioStream;
 
 /**
  * Used to populate label ns_st_cs.
- * @param width
- * @param height
- * */
+ * @param width - Width
+ * @param height - Height
+ */
 - (void)setVideoDimensionWidth:(NSInteger)width height: (NSInteger)height;
 
 /**
  * Used to populate label ns_st_cl.
- * @param length
- **/
+ * @param length - Length
+ */
 - (void)setLength:(NSInteger)length;
 
 /**
  * Used to populate label ns_st_cu.
- * @param clipUrl
- **/
+ * @param clipUrl - Clip URL
+ */
 - (void)setClipUrl:(NSString *)clipUrl;
 
 /**
@@ -81,18 +85,24 @@
 
 /**
  * Used to populate label ns_st_ams.
- * @param advertisementServer
- * */
+ * @param advertisementServer - Advertisement server
+ */
 - (void)setServer:(NSString *)advertisementServer;
 
 /**
  * Used to populate label ns_st_amc.
- * @param advertisementCallToActionUrl
- * */
+ * @param advertisementCallToActionUrl - Advertisement call to action URL
+ */
 - (void)setCallToActionUrl:(NSString *)advertisementCallToActionUrl;
 
+/**
+ * @param advertisementDeliveryType - Advertisement delivery type
+ */
 - (void)setDeliveryType:(SCORStreamingAdvertisementDeliveryType) advertisementDeliveryType;
 
+/**
+ * @param advertisementOwner - Advertisement owner
+ */
 - (void)setOwner:(SCORStreamingAdvertisementOwner)advertisementOwner;
 
 @end

@@ -35,7 +35,6 @@
 /** Adds or update the given labels. Existent labels that are not present on the provided StringPairArray
  *  won't be modified.
  *
- *  @param labels Collection of labels to be set
  */
 @property(copy) NSDictionary *labels;
 

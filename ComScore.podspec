@@ -20,20 +20,16 @@ Pod::Spec.new do |s|
 
   s.subspec 'Dynamic' do |ds|
       ds.ios.deployment_target = '8.0'
-      ds.ios.vendored_frameworks = 'ComScore/dynamic/iOS/ComScore.framework'
-      ds.ios.preserve_paths = 'ComScore/dynamic/iOS/ComScore.framework'
-      ds.ios.public_header_files = 'ComScore/dynamic/iOS/ComScore.framework/Headers/*.h'
-      ds.ios.source_files = 'ComScore/dynamic/iOS/ComScore.framework/Headers/*.h'
+      ds.ios.vendored_frameworks = 'ComScore/dynamic/ComScore.xcframework'
+      ds.ios.preserve_paths = 'ComScore/dynamic/ComScore.xcframework'
       ds.ios.frameworks = 'SystemConfiguration'
       ds.ios.resource_bundle = { 'SCORBundle' => '.pod' }
       ds.ios.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
       ds.ios.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
       ds.tvos.deployment_target = '9.0'
-      ds.tvos.vendored_frameworks = 'ComScore/dynamic/tvOS/ComScore.framework'
-      ds.tvos.preserve_paths = 'ComScore/dynamic/tvOS/ComScore.framework'
-      ds.tvos.public_header_files = 'ComScore/dynamic/tvOS/ComScore.framework/Headers/*.h'
-      ds.tvos.source_files = 'ComScore/dynamic/tvOS/ComScore.framework/Headers/*.h'
+      ds.tvos.vendored_frameworks = 'ComScore/dynamic/ComScore.xcframework'
+      ds.tvos.preserve_paths = 'ComScore/dynamic/ComScore.xcframework'
       ds.tvos.frameworks = 'SystemConfiguration'
       ds.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
       ds.tvos.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
@@ -42,20 +38,16 @@ Pod::Spec.new do |s|
 
   s.subspec 'Static' do |ss|
       ss.ios.deployment_target = '6.0'
-      ss.ios.vendored_frameworks = 'ComScore/static/iOS/ComScore.framework'
-      ss.ios.preserve_paths = 'ComScore/static/iOS/ComScore.framework'
-      ss.ios.public_header_files = 'ComScore/static/iOS/ComScore.framework/Versions/A/Headers/*.h'
-      ss.ios.source_files = 'ComScore/static/iOS/ComScore.framework/Versions/A/Headers/*.h'
+      ss.ios.vendored_frameworks = 'ComScore/static/ComScore.xcframework'
+      ss.ios.preserve_paths = 'ComScore/static/ComScore.xcframework'
       ss.ios.frameworks = 'SystemConfiguration'
       ss.ios.resource_bundle = { 'SCORBundle' => '.pod' }
       ss.ios.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
       ss.ios.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
 
       ss.tvos.deployment_target = '9.0'
-      ss.tvos.vendored_frameworks = 'ComScore/static/tvOS/ComScore.framework'
-      ss.tvos.preserve_paths = 'ComScore/static/tvOS/ComScore.framework'
-      ss.tvos.public_header_files = 'ComScore/static/tvOS/ComScore.framework/Versions/A/Headers/*.h'
-      ss.tvos.source_files = 'ComScore/static/tvOS/ComScore.framework/Versions/A/Headers/*.h'
+      ss.tvos.vendored_frameworks = 'ComScore/static/ComScore.xcframework'
+      ss.tvos.preserve_paths = 'ComScore/static/ComScore.xcframework'
       ss.tvos.frameworks = 'SystemConfiguration'
       ss.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
       ss.tvos.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=appletvsimulator*]' => 'arm64' }
@@ -63,6 +55,5 @@ Pod::Spec.new do |s|
   end
 
   s.default_subspec = 'Dynamic'
-  s.header_dir = 'ComScore'
   s.module_name = 'ComScore'
 end

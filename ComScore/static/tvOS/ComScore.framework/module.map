@@ -1,8 +1,0 @@
-framework module ComScore {
-    umbrella header "ComScore.h"
-    link framework "Security"
-    link framework "SystemConfiguration"
-    link "c++"
-    export *
-    module * { export * }
-}

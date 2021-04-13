@@ -35,7 +35,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'Static' do |ss|
-      ss.ios.deployment_target = '6.0'
+      ss.ios.deployment_target = '9.0'
       ss.ios.vendored_frameworks = 'ComScore/static/ComScore.xcframework'
       ss.ios.preserve_paths = 'ComScore/static/ComScore.xcframework'
       ss.ios.frameworks = 'SystemConfiguration'

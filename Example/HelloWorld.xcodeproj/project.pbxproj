@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		40279B4D4E424442A83B2B62 /* Pods_HelloWorld_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C545D30F7C30990A0E0215F /* Pods_HelloWorld_tvOS.framework */; };
-		8491D4997542562A34D21CA8 /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EE8CD7CFAF75BF47E91CDCA /* Pods_HelloWorld.framework */; };
+		01C4560A39F9E5E9154BA7B6 /* Pods_HelloWorld_tvOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A6954929535AFC1FC72D1A0 /* Pods_HelloWorld_tvOS.framework */; };
+		88DAB051B3DE3D1532BF92DB /* Pods_HelloWorld.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE3D313204DE5CDC5EA74006 /* Pods_HelloWorld.framework */; };
 		8C41A7361DABA0D5005C7665 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7351DABA0D5005C7665 /* main.m */; };
 		8C41A7391DABA0D5005C7665 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7381DABA0D5005C7665 /* AppDelegate.m */; };
 		8C41A73C1DABA0D5005C7665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A73B1DABA0D5005C7665 /* ViewController.m */; };
@@ -36,9 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		1EE8CD7CFAF75BF47E91CDCA /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2726F7E3D85402A5899DA158 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		2C545D30F7C30990A0E0215F /* Pods_HelloWorld_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -63,7 +61,9 @@
 		8C41A7591DABB5A5005C7665 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C41A75B1DABB5A5005C7665 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C41A75D1DABB5A5005C7665 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6954929535AFC1FC72D1A0 /* Pods_HelloWorld_tvOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld_tvOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3ADC57953C3DDBAE6F12F37 /* Pods-HelloWorld.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.release.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.release.xcconfig"; sourceTree = "<group>"; };
+		AE3D313204DE5CDC5EA74006 /* Pods_HelloWorld.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HelloWorld.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4C1EEBDED24BC46D70FA2F2 /* Pods-HelloWorld.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld/Pods-HelloWorld.debug.xcconfig"; sourceTree = "<group>"; };
 		C55EFE6C0043A78CAEE9935E /* Pods-HelloWorld-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HelloWorld-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		CAA4DC48F1E1438932FB2F7D /* ComScore.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ComScore.podspec; path = ../ComScore.podspec; sourceTree = "<group>"; };
@@ -75,7 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8491D4997542562A34D21CA8 /* Pods_HelloWorld.framework in Frameworks */,
+				88DAB051B3DE3D1532BF92DB /* Pods_HelloWorld.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,7 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				40279B4D4E424442A83B2B62 /* Pods_HelloWorld_tvOS.framework in Frameworks */,
+				01C4560A39F9E5E9154BA7B6 /* Pods_HelloWorld_tvOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,8 +118,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				1EE8CD7CFAF75BF47E91CDCA /* Pods_HelloWorld.framework */,
-				2C545D30F7C30990A0E0215F /* Pods_HelloWorld_tvOS.framework */,
+				AE3D313204DE5CDC5EA74006 /* Pods_HelloWorld.framework */,
+				9A6954929535AFC1FC72D1A0 /* Pods_HelloWorld_tvOS.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";

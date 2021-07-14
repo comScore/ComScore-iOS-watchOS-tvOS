@@ -9,10 +9,10 @@ Pod::Spec.new do |s|
   s.license          = 'Custom'
   s.author           = { "comScore" => "www.comscore.com" }
   s.source           = { :git => "https://github.com/comscore/ComScore-iOS-watchOS-tvOS.git", :tag => s.version.to_s }
-
-  s.libraries = 'c++'
-  s.frameworks = 'Security'
-  s.prepare_command = <<-CMD
+  s.platforms        = { :ios => "9.0", :osx => "11.0", :tvos => "9.0" }
+  s.libraries        = 'c++'
+  s.frameworks       = 'Security'
+  s.prepare_command  = <<-CMD
                          touch .pod
                          rm -rf ComScore/dynamic/ComScore.xcframework/ios-arm64_armv7/ComScore.framework/strip-framework.sh
                          rm -rf ComScore/dynamic/ComScore.xcframework/ios-arm64_i386_x86_64-simulator/ComScore.framework/strip-framework.sh
@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
                       CMD
 
   s.subspec 'Dynamic' do |ds|
-      ds.ios.deployment_target = '8.0'
+      ds.ios.deployment_target = '9.0'
       ds.ios.vendored_frameworks = 'ComScore/dynamic/ComScore.xcframework'
       ds.ios.preserve_paths = 'ComScore/dynamic/ComScore.xcframework'
       ds.ios.frameworks = 'SystemConfiguration'

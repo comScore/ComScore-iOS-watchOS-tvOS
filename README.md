@@ -1,5 +1,6 @@
 # comScore Analytics SDK for iOS & tvOS
 
+[![CI Status](https://github.com/comScore/ComScore-iOS-watchOS-tvOS/workflows/ComScore%20CI/badge.svg?branch=master)](https://github.com/comScore/ComScore-iOS-watchOS-tvOS/actions)
 [![Version](https://img.shields.io/cocoapods/v/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![License](https://img.shields.io/cocoapods/l/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![Platform](https://img.shields.io/cocoapods/p/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)

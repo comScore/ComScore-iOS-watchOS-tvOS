@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore'
-  s.version          = '6.9.0'
+  s.version          = '6.10.0'
   s.summary          = 'Official analytics library for iOS and tvOS from comScore'
   s.description      = <<-DESC
   This library is used to collect analytics from iOS and tvOS applications. The library supports apps developed in native Objective C or Swift with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.license          = 'Custom'
   s.author           = { "comScore" => "www.comscore.com" }
   s.source           = { :git => "https://github.com/comscore/ComScore-iOS-watchOS-tvOS.git", :tag => s.version.to_s }
-  s.platforms        = { :ios => "9.0", :osx => "11.0", :tvos => "9.0" }
+  s.platforms        = { :ios => "9.0", :tvos => "9.0" }
   s.libraries        = 'c++'
   s.frameworks       = 'Security'
   s.prepare_command  = <<-CMD

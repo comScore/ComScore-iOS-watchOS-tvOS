@@ -305,7 +305,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ComScore/ComScore.framework/ComScore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ComScore/Dynamic/ComScore.framework/ComScore",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -323,7 +323,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ComScore/ComScore.framework/ComScore",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ComScore/Dynamic/ComScore.framework/ComScore",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

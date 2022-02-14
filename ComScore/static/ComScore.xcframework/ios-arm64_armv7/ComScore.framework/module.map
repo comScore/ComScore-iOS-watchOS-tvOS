@@ -3,6 +3,7 @@ framework module ComScore {
     link framework "Security"
     link framework "SystemConfiguration"
     link "c++"
+    link "z"
     export *
     module * { export * }
 }

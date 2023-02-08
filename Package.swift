@@ -17,7 +17,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "ComScore",
-            path: "Sources/ComScore/ComScore.xcframework"
+            path: "ComScore/dynamic/ComScore.xcframework"
         )
     ]
 )

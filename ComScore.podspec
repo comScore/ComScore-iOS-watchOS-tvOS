@@ -14,8 +14,8 @@ Pod::Spec.new do |s|
   s.frameworks       = 'Security'
   s.prepare_command  = <<-CMD
                          touch .pod
-                         rm -rf ComScore/dynamic/ComScore.xcframework/ios-arm64_armv7/ComScore.framework/strip-framework.sh
-                         rm -rf ComScore/dynamic/ComScore.xcframework/ios-arm64_i386_x86_64-simulator/ComScore.framework/strip-framework.sh
+                         rm -rf ComScore/dynamic/ComScore.xcframework/ios-arm64/ComScore.framework/strip-framework.sh
+                         rm -rf ComScore/dynamic/ComScore.xcframework/ios-arm64_x86_64-simulator/ComScore.framework/strip-framework.sh
                          rm -rf ComScore/dynamic/ComScore.xcframework/tvos-arm64/ComScore.framework/strip-framework.sh
                          rm -rf ComScore/dynamic/ComScore.xcframework/tvos-arm64_x86_64-simulator/ComScore.framework/strip-framework.sh
                       CMD

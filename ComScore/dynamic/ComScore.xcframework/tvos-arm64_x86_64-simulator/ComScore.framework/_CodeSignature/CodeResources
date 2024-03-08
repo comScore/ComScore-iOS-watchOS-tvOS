@@ -22,7 +22,7 @@
 		</data>
 		<key>Headers/SCORConfiguration.h</key>
 		<data>
-		qL06UktoTzMO/wE92hDslppmGDw=
+		tkpFsLwmTqdv979WrhmPP4siPNc=
 		</data>
 		<key>Headers/SCORConfigurationDelegate.h</key>
 		<data>
@@ -130,7 +130,7 @@
 		</data>
 		<key>Headers/SCORStreamingContentDeliveryMode.h</key>
 		<data>
-		lNOhLG6WkYcJDDbRxDE8sGqgkic=
+		IVp1z77OFj2kVwZWhss0QqD/loU=
 		</data>
 		<key>Headers/SCORStreamingContentDeliverySubscriptionType.h</key>
 		<data>
@@ -202,11 +202,15 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dG6xpQHqm3GA27Sxvd+5RVflEls=
+		DozAV+p3q9Nou+/Ingfv4qYYaE4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		XfULy36v5GkyzyNR7OnyRqyjtuc=
+		xDT7FG9/2JcyjkOJZ43TOAEgTpE=
+		</data>
+		<key>PrivacyInfo.xcprivacy</key>
+		<data>
+		GOpQ/Cx8UAE3RhLsfZCRzIGJ3d8=
 		</data>
 		<key>strip-framework.sh</key>
 		<data>
@@ -247,7 +251,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			2TzNmFP3mAbnna0wIYHWpTJQ4+ZmI/WZ2CkwsJkItJs=
+			4L+nzsGVRRFOVyOLoCL/6nHnbOYLH6sdb373kdEZwlE=
 			</data>
 		</dict>
 		<key>Headers/SCORConfigurationDelegate.h</key>
@@ -436,7 +440,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			y4F2Xc55VWurPwQpMScGA77Q3Hq/ZNDCJCF2zyJOztE=
+			z/mGlFv1ZiCkLuciJQ5M01FWntwvhRLylPtjGff3wCs=
 			</data>
 		</dict>
 		<key>Headers/SCORStreamingContentDeliverySubscriptionType.h</key>
@@ -562,7 +566,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ie8zFTDyA/84kTBFMsyOjIN3CckcRAVoSal/bd7lFGo=
+			Cy07AR1E2lRNz6cxhrHq0BgoYW/YWT6GX15y4CJux5k=
+			</data>
+		</dict>
+		<key>PrivacyInfo.xcprivacy</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RwcCd4flYIqHf9/M0ioPQ42YdUkpQp/l88sMp3Jq7RM=
 			</data>
 		</dict>
 		<key>strip-framework.sh</key>

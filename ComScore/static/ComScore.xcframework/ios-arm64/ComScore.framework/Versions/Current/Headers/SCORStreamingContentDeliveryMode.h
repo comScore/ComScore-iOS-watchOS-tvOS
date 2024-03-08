@@ -5,5 +5,6 @@
 /** Available content delivery modes. */
 typedef NS_ENUM(NSInteger, SCORStreamingContentDeliveryMode) {
     SCORStreamingContentDeliveryModeLinear = 501,
-    SCORStreamingContentDeliveryModeOndemand = 502
+    SCORStreamingContentDeliveryModeOndemand = 502,
+    SCORStreamingContentDeliveryModeDvr = 503
 };

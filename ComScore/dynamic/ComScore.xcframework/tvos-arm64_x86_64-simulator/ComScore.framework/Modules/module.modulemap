@@ -1,6 +1,6 @@
 framework module ComScore {
   umbrella header "ComScore.h"
-
   export *
+
   module * { export * }
 }

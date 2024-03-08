@@ -101,8 +101,17 @@
  */
 @property(nonatomic) bool preventAdSupportUsage;
 
-/** True if the System Clock Jump Detection is enabled. */
-@property(nonatomic) BOOL systemClockJumpDetection;
+/**
+ * Deprecated, Use systemClockJumpDetectionEnabled instead.
+ * True if the System Clock Jump Detection is enabled.
+ */
+@property(nonatomic) BOOL systemClockJumpDetection __attribute__((deprecated("This property is deprecated, "
+                     "use systemClockJumpDetectionEnabled instead.")));
+
+/**
+ * True if the System Clock Jump Detection is enabled.
+ */
+@property(nonatomic) BOOL systemClockJumpDetectionEnabled;
 
 @property(nonatomic) long systemClockJumpDetectionInterval;
 

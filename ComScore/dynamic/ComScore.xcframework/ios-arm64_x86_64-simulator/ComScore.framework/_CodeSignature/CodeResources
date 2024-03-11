@@ -232,10 +232,6 @@
 		<data>
 		GOpQ/Cx8UAE3RhLsfZCRzIGJ3d8=
 		</data>
-		<key>strip-framework.sh</key>
-		<data>
-		hXHo7ymvvMNoHBOibY3tS0JKogk=
-		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
@@ -629,13 +625,6 @@
 			<key>hash2</key>
 			<data>
 			RwcCd4flYIqHf9/M0ioPQ42YdUkpQp/l88sMp3Jq7RM=
-			</data>
-		</dict>
-		<key>strip-framework.sh</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			6ZOVIYc6HC3OJyLE4a0aqKi/D7Gh3hZx1m57ZfUIick=
 			</data>
 		</dict>
 	</dict>

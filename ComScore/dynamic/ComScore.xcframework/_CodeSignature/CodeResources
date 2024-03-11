@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/ComScore.framework/ComScore</key>
 		<data>
-		xq4ou8DWkh3HOIw+61lYvDaCxQI=
+		9gg7wRHNeroJno7Hx2SxnCx8B7M=
 		</data>
 		<key>ios-arm64/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -242,7 +242,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/ComScore</key>
 		<data>
-		gZRERs7+EjOipWaDglu8zG120Bc=
+		CPI5yB61ltnYG87Ia4EpiqH+R/0=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -482,7 +482,7 @@
 		</data>
 		<key>tvos-arm64/ComScore.framework/ComScore</key>
 		<data>
-		4OJ3iP7q0C18J29EBa993AsRjn8=
+		40z6MRtHomZI1V7Tpg0QTs93pqE=
 		</data>
 		<key>tvos-arm64/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -698,7 +698,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/ComScore</key>
 		<data>
-		uRvRgtNuPNHsGrQumBzp/X8zNaY=
+		OhFXHw4vDQeiydE3Czy4ynhBX3s=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -923,11 +923,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xq4ou8DWkh3HOIw+61lYvDaCxQI=
+			9gg7wRHNeroJno7Hx2SxnCx8B7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			Gv9bFp7jhMiAGBPPH7GVspvz0ocvPUFf23fIZ2VMxbc=
+			6A9XGlVi+Cuksf68VhbV9M5JDYOQWeMLkZK2c8MVX0g=
 			</data>
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/ComScore.h</key>
@@ -1572,11 +1572,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gZRERs7+EjOipWaDglu8zG120Bc=
+			CPI5yB61ltnYG87Ia4EpiqH+R/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ocNrOvaTkjbkjyN6ZJQJkrmGt+UyJ4MpIE1LLFBxAX4=
+			BnO8AcIIoVYu+OKvE59QcCiJVf00uHwLjpopHpt2Atg=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
@@ -2232,11 +2232,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4OJ3iP7q0C18J29EBa993AsRjn8=
+			40z6MRtHomZI1V7Tpg0QTs93pqE=
 			</data>
 			<key>hash2</key>
 			<data>
-			5eFCzBcVzx68g3+MsXMuvILXbVULqKAdJx/ckiEMDXY=
+			k6CfmRoFRc5oXyg9fbPm9NeNE53nJt4lTSDLas5QDCg=
 			</data>
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/ComScore.h</key>
@@ -2826,11 +2826,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uRvRgtNuPNHsGrQumBzp/X8zNaY=
+			OhFXHw4vDQeiydE3Czy4ynhBX3s=
 			</data>
 			<key>hash2</key>
 			<data>
-			77mMx7YCCMyqhx3UnOv0LoCFxl/uETz2GwXWtPq0qqU=
+			d2sakcFG/RO9vaPbqVsTn3OH196knKShiCK139lTqEc=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>

@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
   s.frameworks       = 'Security'
   s.prepare_command  = <<-CMD
                          touch .pod
-                         find ComScore/dynamic/ComScore.xcframework/ -type f -name "strip-framework.sh" -delete 
                       CMD
 
   s.subspec 'Dynamic' do |ds|

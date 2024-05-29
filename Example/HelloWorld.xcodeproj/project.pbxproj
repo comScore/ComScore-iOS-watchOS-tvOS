@@ -203,9 +203,9 @@
 				8C41A72E1DABA0D5005C7665 /* Sources */,
 				8C41A72F1DABA0D5005C7665 /* Frameworks */,
 				8C41A7301DABA0D5005C7665 /* Resources */,
-				1AC20C8C6C11806BFFA25387 /* [CP] Embed Pods Frameworks */,
-				3A30096F45DAD0EF7D65E350 /* [CP] Copy Pods Resources */,
 				8C41A7871DABB5DE005C7665 /* Embed Watch Content */,
+				81F97B68C04FAE37FA781A95 /* [CP] Copy Pods Resources */,
+				6B8216A0D434745C0D829C3D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,8 +224,8 @@
 				8C41A7491DABB5A5005C7665 /* Sources */,
 				8C41A74A1DABB5A5005C7665 /* Frameworks */,
 				8C41A74B1DABB5A5005C7665 /* Resources */,
-				39CBDF222FFDD2ACAE481F2C /* [CP] Embed Pods Frameworks */,
-				D1323F399A3268C96B48CCE0 /* [CP] Copy Pods Resources */,
+				CB393FD382E3AFB1184549A8 /* [CP] Copy Pods Resources */,
+				8C1C3C0B2865C59954FB07D2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -298,60 +298,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1AC20C8C6C11806BFFA25387 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ComScore/Dynamic/ComScore.framework/ComScore",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComScore.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		39CBDF222FFDD2ACAE481F2C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh",
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ComScore/Dynamic/ComScore.framework/ComScore",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComScore.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		3A30096F45DAD0EF7D65E350 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh",
-				"${PODS_CONFIGURATION_BUILD_DIR}/ComScore-iOS/SCORBundle.bundle",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SCORBundle.bundle",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5AC6C06E96E9180251403721 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -370,7 +316,61 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		D1323F399A3268C96B48CCE0 /* [CP] Copy Pods Resources */ = {
+		6B8216A0D434745C0D829C3D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ComScore/ComScore.framework/ComScore",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComScore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		81F97B68C04FAE37FA781A95 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/ComScore-iOS/SCORBundle.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SCORBundle.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld/Pods-HelloWorld-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8C1C3C0B2865C59954FB07D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh",
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/ComScore/ComScore.framework/ComScore",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ComScore.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HelloWorld-tvOS/Pods-HelloWorld-tvOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB393FD382E3AFB1184549A8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

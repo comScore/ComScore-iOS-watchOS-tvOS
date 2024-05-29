@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore'
+  s.module_name      = 'ComScore'
   s.version          = '6.12.3'
   s.summary          = 'Official analytics library for iOS and tvOS from Comscore'
   s.description      = <<-DESC
@@ -16,34 +17,11 @@ Pod::Spec.new do |s|
                          touch .pod
                       CMD
 
-  s.subspec 'Dynamic' do |ds|
-      ds.ios.deployment_target = '11.0'
-      ds.ios.vendored_frameworks = 'ComScore/dynamic/ComScore.xcframework'
-      ds.ios.preserve_paths = 'ComScore/dynamic/ComScore.xcframework'
-      ds.ios.frameworks = 'SystemConfiguration'
-      ds.ios.resource_bundle = { 'SCORBundle' => '.pod' }
+  s.vendored_frameworks = 'ComScore/ComScore.xcframework'
+  s.preserve_paths      = 'ComScore/ComScore.xcframework'
+  s.frameworks          = 'SystemConfiguration'
+  s.resource_bundle     = { 'SCORBundle' => '.pod' }
 
-      ds.tvos.deployment_target = '11.0'
-      ds.tvos.vendored_frameworks = 'ComScore/dynamic/ComScore.xcframework'
-      ds.tvos.preserve_paths = 'ComScore/dynamic/ComScore.xcframework'
-      ds.tvos.frameworks = 'SystemConfiguration'
-      ds.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
-  end
-
-  s.subspec 'Static' do |ss|
-      ss.ios.deployment_target = '11.0'
-      ss.ios.vendored_frameworks = 'ComScore/static/ComScore.xcframework'
-      ss.ios.preserve_paths = 'ComScore/static/ComScore.xcframework'
-      ss.ios.frameworks = 'SystemConfiguration'
-      ss.ios.resource_bundle = { 'SCORBundle' => '.pod' }
-
-      ss.tvos.deployment_target = '11.0'
-      ss.tvos.vendored_frameworks = 'ComScore/static/ComScore.xcframework'
-      ss.tvos.preserve_paths = 'ComScore/static/ComScore.xcframework'
-      ss.tvos.frameworks = 'SystemConfiguration'
-      ss.tvos.resource_bundle = { 'SCORBundle' => '.pod' }
-  end
-
-  s.default_subspec = 'Dynamic'
-  s.module_name = 'ComScore'
+  s.ios.deployment_target  = '11.0'
+  s.tvos.deployment_target = '11.0'
 end

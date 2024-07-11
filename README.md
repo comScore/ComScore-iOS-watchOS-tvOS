@@ -1,4 +1,4 @@
-# comScore Analytics SDK for iOS & tvOS
+# Comscore Analytics SDK for iOS & tvOS
 
 [![Version](https://img.shields.io/cocoapods/v/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![License](https://img.shields.io/cocoapods/l/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
@@ -9,7 +9,7 @@ Contrary to the title of this repository as of version 6.8.0 only iOS, iPadOS an
 License
 =======
 
-Copyright (c) 2021 comScore, Inc.
+Copyright (c) 2021 Comscore, Inc.
 
 Use of this SDK is subject to the licenses and other terms and conditions set forth herein, including the materials provided in the SDK deliverables. Your use of this SDK and/or transmission of data to Comscore constitutes your agreement to these licenses and other terms and conditions, including the Data Sharing Agreement.
 
@@ -24,7 +24,7 @@ Installation
 CocoaPods
 ---------
 
-comScore Analytics is also available through [CocoaPods](http://cocoapods.org). The podspec supports iOS & tvOS devices only. 
+Comscore Analytics is also available through [CocoaPods](http://cocoapods.org). The podspec supports iOS & tvOS devices only. 
 
 To install it, simply add the following line to your Podfile:
 
@@ -35,12 +35,12 @@ pod "ComScore"
 Manual
 ------
 
-There is separate implementation documentation which contains instructions for adding the framework to your project, configuring the comScore library and tagging your project.
+There is separate implementation documentation which contains instructions for adding the framework to your project, configuring the Comscore library and tagging your project.
 
-Please contact your comScore client services representative to acquire the implementation documentation appropriate for your reporting needs. 
-If you do not know who your comScore client services representative is, then please send an e-mail to tagsupport@comscore.com mentioning your client name, comScore client ID and a description of your project and/or reporting needs.
+Please contact your Comscore client services representative to acquire the implementation documentation appropriate for your reporting needs. 
+If you do not know who your Comscore client services representative is, then please send an e-mail to tagsupport@comscore.com mentioning your client name, Comscore client ID and a description of your project and/or reporting needs.
 
 Author
 ======
 
-comScore, Inc.
+Comscore, Inc.

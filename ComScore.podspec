@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore'
   s.module_name      = 'ComScore'
-  s.version          = '6.13.0'
+  s.version          = '6.14.0'
   s.summary          = 'Official analytics library for iOS and tvOS from Comscore'
   s.description      = <<-DESC
   This library is used to collect analytics from iOS and tvOS applications. The library supports apps developed in native Objective C or Swift with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.

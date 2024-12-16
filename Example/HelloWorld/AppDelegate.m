@@ -15,10 +15,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     SCORPublisherConfiguration *publisherConfiguration = [SCORPublisherConfiguration publisherConfigurationWithBuilderBlock:^(SCORPublisherConfigurationBuilder *builder) {
-        builder.publisherId = @"1000001";
+        builder.publisherId = @"1234567";
     }];
     
     [[SCORAnalytics configuration] addClientWithConfiguration:publisherConfiguration];
+    [[SCORAnalytics configuration] enableImplementationValidationMode];
     [SCORAnalytics start];
 
     

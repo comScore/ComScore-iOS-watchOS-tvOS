@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/ComScore.framework/ComScore</key>
 		<data>
-		y/CkUz1T/m2CeJcXiYMLCtluvz4=
+		70uohpP5rTRqz8rQO/NuYghRdXQ=
 		</data>
 		<key>ios-arm64/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAnalyticsProtocol.h</key>
 		<data>
-		yaCqhbbIdSMLnFIckzC2khKcQTg=
+		YO6S1M+7IMaePfqlmsyORtk2O3E=
 		</data>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAssetMetadata.h</key>
 		<data>
@@ -226,7 +226,7 @@
 		</data>
 		<key>ios-arm64/ComScore.framework/Info.plist</key>
 		<data>
-		TH/8PHmlwLusTChxSO7hUlSvgCA=
+		kNlcVj0wgskWk8zvWQ7zHgoGRhc=
 		</data>
 		<key>ios-arm64/ComScore.framework/Modules/module.modulemap</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/ComScore</key>
 		<data>
-		RZ6jGcg2KVE8tGUqrOh8WN7NVOc=
+		6e32VEkXiCMY84prJBSIPqOl8eo=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -350,7 +350,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAnalyticsProtocol.h</key>
 		<data>
-		yaCqhbbIdSMLnFIckzC2khKcQTg=
+		YO6S1M+7IMaePfqlmsyORtk2O3E=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAssetMetadata.h</key>
 		<data>
@@ -458,7 +458,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Info.plist</key>
 		<data>
-		lY0+2qfAGpT+vN+/ERmyRKI8PYk=
+		PAoDNTTTf/7rNNa7ETw0Hy0C9s4=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Modules/module.modulemap</key>
 		<data>
@@ -470,11 +470,11 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		m9Y8ehSxe5cqnMS87SXayl8SQsg=
+		UgBlPDwWwu+daNhvbOzyXxqJ67c=
 		</data>
 		<key>tvos-arm64/ComScore.framework/ComScore</key>
 		<data>
-		eFRw9uSa+FZLjUctfopTr0AzyR8=
+		umtc8fGT5qOCmetwNf+1IvX1FxU=
 		</data>
 		<key>tvos-arm64/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -570,7 +570,7 @@
 		</data>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAnalyticsProtocol.h</key>
 		<data>
-		yaCqhbbIdSMLnFIckzC2khKcQTg=
+		YO6S1M+7IMaePfqlmsyORtk2O3E=
 		</data>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAssetMetadata.h</key>
 		<data>
@@ -674,7 +674,7 @@
 		</data>
 		<key>tvos-arm64/ComScore.framework/Info.plist</key>
 		<data>
-		VyMlWamzVkMR29ixwnMUvGL16rM=
+		uLuPWjZpd+bMpy2sOOnoTe6iFhY=
 		</data>
 		<key>tvos-arm64/ComScore.framework/Modules/module.modulemap</key>
 		<data>
@@ -686,7 +686,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/ComScore</key>
 		<data>
-		T0foqAeJ7kP1RdUNdtYs9Id9h1M=
+		8j9xcnHAF1FhASsoOt/tBHJ0v7Q=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -782,7 +782,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAnalyticsProtocol.h</key>
 		<data>
-		yaCqhbbIdSMLnFIckzC2khKcQTg=
+		YO6S1M+7IMaePfqlmsyORtk2O3E=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAssetMetadata.h</key>
 		<data>
@@ -886,7 +886,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Info.plist</key>
 		<data>
-		W0yNCg5caT9QqBxlsdQ4XgAPadA=
+		QU8swn48a51im9pUjRRRCOaRdYA=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Modules/module.modulemap</key>
 		<data>
@@ -898,28 +898,20 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/_CodeSignature/CodeResources</key>
 		<data>
-		0Xiuyn7N/I0sYtYEYESx4vl7PY8=
+		IOUDDddGSAtCOfJ8V1yXfo++To8=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
 		<key>ios-arm64/ComScore.framework/ComScore</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			y/CkUz1T/m2CeJcXiYMLCtluvz4=
-			</data>
 			<key>hash2</key>
 			<data>
-			/Gsotzsr1UZpUemeaxKf/4R017dHEBMnrQhNGyB0Uy0=
+			ZxR2tmb5hiDQj2hoVFpx7/wSW/XW54qT3V+60mOyZWs=
 			</data>
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/ComScore.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iPHDMQjeElVgtxwXrIATO3hh9Ig=
-			</data>
 			<key>hash2</key>
 			<data>
 			Xhb6paHHNzADGJYOs9ZT7nMCqMmcVcziDO8fbFCArE8=
@@ -927,10 +919,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORAnalytics+VCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UrGvZmTE0lvOuqGnY40CAH3f0x8=
-			</data>
 			<key>hash2</key>
 			<data>
 			BWND/bBQBsjPqmaeBZvYhcOYGUAzwC1GhveLxPJ6gCg=
@@ -938,10 +926,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1DIdmmBN4F79v8TfVbJ0jjNBlg8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XxZnMD5bqGQwFCpbLbZcpq5UdgDK3h5h5zVIxi3enzI=
@@ -949,10 +933,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORClientConfiguration+VCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7G3P/qwdh+6XDzH9ql+OOqGtkug=
-			</data>
 			<key>hash2</key>
 			<data>
 			jGZDFOtc9qDobdKrYMb5/01o6UfsnE5cKeiWWPfhGUM=
@@ -960,10 +940,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORClientConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			atO2TBTcp9Zo57zCm4iUaFNIenE=
-			</data>
 			<key>hash2</key>
 			<data>
 			K5sWEaGmNqgtSD3bHoCy2NURdC+ylphNHswFLIw9KMw=
@@ -971,10 +947,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORClientConfigurationBuilder+VCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PpO11eONjvNoRBmGGmzlrgATZFU=
-			</data>
 			<key>hash2</key>
 			<data>
 			PhzGggXxtemy+6JYNJ5tnmKHUgNVhYywKLAXySsol/k=
@@ -982,10 +954,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORClientConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLP8w7JDXPvnQNSuJIIhsJCd05M=
-			</data>
 			<key>hash2</key>
 			<data>
 			5LpNhL8V0NRNa24aIo3j4cpvkAfb0hYlY1C+0faCl6w=
@@ -993,10 +961,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORConfiguration+VCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhfPdF6an6ZulYQApp9yl6EalGM=
-			</data>
 			<key>hash2</key>
 			<data>
 			k5s7nhYRHlPM/18imEFDddYu2j1mo/j8ocrMC1m1rFE=
@@ -1004,10 +968,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tkpFsLwmTqdv979WrhmPP4siPNc=
-			</data>
 			<key>hash2</key>
 			<data>
 			4L+nzsGVRRFOVyOLoCL/6nHnbOYLH6sdb373kdEZwlE=
@@ -1015,10 +975,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORConfigurationDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t5Q5HvZUeD+BEJiuchMzKtHtk1Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			TWCS0vyFmcgiHFtLrv4WVYz/fIJO8G9JGGvWK/AMwyA=
@@ -1026,10 +982,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORConfigurationType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AqYOase4rxD6F6OjQzyDtUhMb6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			2vRLf3fBUW4H5wuzMiD1MV9xwEfsOZiqS5XAp2p7mVs=
@@ -1037,10 +989,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORCrossPublisherUniqueDeviceIdChangeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r7xGnw2BnjqFQPpkNDxw4G8unBI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ir4mgf0p9eB7QfvfD9VZCPlB2TtkFgODbQXx6nj3HIc=
@@ -1048,10 +996,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCOREventInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZEXOF3c9KtDSccspvVbqbtTUaMc=
-			</data>
 			<key>hash2</key>
 			<data>
 			J84yGSpozkEAKFBZpNykVuR+JB41JmWi3JRyD+7q+iw=
@@ -1059,10 +1003,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORLiveTransmissionMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GSWHeIjo2zCn2EQey+rJbQInoiQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			HtlyHo9VgG5/H8AHaDkEA23IKAjtkYehEyTWj8D7TsE=
@@ -1070,10 +1010,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORLogLevel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I0Tg7FbvQiEfm3Byb5LP5BgwxiE=
-			</data>
 			<key>hash2</key>
 			<data>
 			got07gbJ/196xCJinI2suQDcTFvyEBFZZB8L13A3ls4=
@@ -1081,10 +1017,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCOROfflineCacheMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AWxxnZjj5SRmcqjO9rCxSBsUfE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			ONJTVK+/E66pSfSGpo8lfLOn5GHgE+VN++gdvvwVcM0=
@@ -1092,10 +1024,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORPartnerConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6cck3IQJCO3UM3WDnXx3uf/jpw0=
-			</data>
 			<key>hash2</key>
 			<data>
 			5355TQC+XcPY++vOXs+2ueDlwtMRTvp3qcQZzxH6cak=
@@ -1103,10 +1031,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORPartnerConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			b5LIDA8aldSZm/OwHUHJ9TY7IqA=
-			</data>
 			<key>hash2</key>
 			<data>
 			6N4+YEKHWrL8y8UjKHOOui8gyxZxE5zx02wfvAooH94=
@@ -1114,10 +1038,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORPublisherConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZKbv7OhOhqo1ayv+fsJ0S3JBLBM=
-			</data>
 			<key>hash2</key>
 			<data>
 			mOQhvS4OXzhIK9Xsb+OX0pcg+OeuLfLEzP8YLa1foDM=
@@ -1125,10 +1045,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORPublisherConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zj/Cg/13eRtnW8lnWJz//cl3690=
-			</data>
 			<key>hash2</key>
 			<data>
 			ndLAZXxReWA5tXv/3Vyj9v9vlaalt0wQqf4lUQDNjWU=
@@ -1136,10 +1052,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORPublisherUniqueDeviceIdDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uP9TRM2guXJ5AK1vLVovQhDWU6g=
-			</data>
 			<key>hash2</key>
 			<data>
 			yWyXS/0otU6ey+st/sG62szj9CszOCnqTCIxfu6SWjE=
@@ -1147,10 +1059,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementDeliveryType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oKyRomeYuv0CUn2O2CuPle9YTFY=
-			</data>
 			<key>hash2</key>
 			<data>
 			ekeZIxblgSQQ4usY8I2GBG2ztLDDYdZDqtzJPrRwFNo=
@@ -1158,10 +1066,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rVEeJNMFU3/1ToUqUoz+bRPPRWw=
-			</data>
 			<key>hash2</key>
 			<data>
 			bA7jhCs7/wicSkxssDmLSmSkMt6znF1XO0Iy6QZj/Sk=
@@ -1169,10 +1073,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7TiCImwLlQ0oh/90GrdJoETlKI4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Djy7PzoPN+K0AScMYMjXfVb2m/dbDJbLYSN1H2FLL7o=
@@ -1180,10 +1080,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementOwner.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0RUwWAefgVtsOwT7atpeMqR8HR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			3W2L7NU6GEfxChZYr0G8BriT3Z8UjdHLCmO8uuurz2w=
@@ -1191,10 +1087,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DzI76BTYcewAk56oGE5TTSsKGgA=
-			</data>
 			<key>hash2</key>
 			<data>
 			U7qJtyRHWnOnWss3D3HPhP+WK+2xU+NbPy4UgHiPkLI=
@@ -1202,10 +1094,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zkNpy6gGhcbKQqmyl+k9KX8GhKA=
-			</data>
 			<key>hash2</key>
 			<data>
 			DGrcy94z9xMgg8lLjRpAx6YmQRcq2voIoPk41Cuuoxw=
@@ -1213,21 +1101,13 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAnalyticsProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yaCqhbbIdSMLnFIckzC2khKcQTg=
-			</data>
 			<key>hash2</key>
 			<data>
-			9PpwFy+twrgn4rM8Jg0PHyJGOLxt3TwQqcio72GTWOM=
+			HFDuoJ7LrOEEe8iEU7uk2AEJuxkBNB9bfifdgQ3J8XM=
 			</data>
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingAssetMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J05cVArZNbGvLkMX7vhIOo3qedo=
-			</data>
 			<key>hash2</key>
 			<data>
 			BNRqB2U4fgPKaMtF7CL0iUT9eqwsIpHKr+ghgLh5FjA=
@@ -1235,10 +1115,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingBaseAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7zBvP8WcBUwuDk40RB2MFBb023Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			nXZZbRaCQ5OMgec64nezTbv3oHyO77VMyDXqEO2fh5U=
@@ -1246,10 +1122,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingBaseContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+JkxacpLJ7SBsLQnbLf2AHIL3Gg=
-			</data>
 			<key>hash2</key>
 			<data>
 			zCyfJ3CpeVuIGSdYGzHS1GfGUtVN3SEsFojcp3CS7P4=
@@ -1257,10 +1129,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KTKMEFdy9HWoGuiRCAd7kAje4iM=
-			</data>
 			<key>hash2</key>
 			<data>
 			ETuVf3IfkKkW4p9PaOfk2KgOmtbGqgdq9PXc+y8MeqI=
@@ -1268,10 +1136,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yFo8/2A0sin4CDgQMfTr/HRftIg=
-			</data>
 			<key>hash2</key>
 			<data>
 			5AUeUHEbHEK0X/buiCNl9RcmVS1HttUlvwa9WIDh4mA=
@@ -1279,10 +1143,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentDeliveryAdvertisementCapability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LPSB7aKU/5LSXEOTyAIwMMutY6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			l+shXzTXHf9Eod9RhR+e0W5frXnwsCR0MpW/bLecYpQ=
@@ -1290,10 +1150,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentDeliveryComposition.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PLoaIvlqYRm8XI8CZXCtXHt9lRs=
-			</data>
 			<key>hash2</key>
 			<data>
 			f5a/yx5ih3Pk9/U+WflugKswCgZv+bcPdV2Z7T7uz0E=
@@ -1301,10 +1157,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentDeliveryMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IVp1z77OFj2kVwZWhss0QqD/loU=
-			</data>
 			<key>hash2</key>
 			<data>
 			z/mGlFv1ZiCkLuciJQ5M01FWntwvhRLylPtjGff3wCs=
@@ -1312,10 +1164,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentDeliverySubscriptionType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wbmg3QJkNmglDToZ2Lxx3MQ+Lxs=
-			</data>
 			<key>hash2</key>
 			<data>
 			pO1mxQJjpnCO5nwnaG7AyB0/KDuZd2zbHmhX1MUPzdA=
@@ -1323,10 +1171,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentDistributionModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t3g8pIdDwUrPtN3ArG9TwaVjq/M=
-			</data>
 			<key>hash2</key>
 			<data>
 			zpDTWon70fwZAQMCZyE1mThNLPxn+grI5J+yhUEXcas=
@@ -1334,10 +1178,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentFeedType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SuR9v9rENPoWF6u9V/KC28cP95E=
-			</data>
 			<key>hash2</key>
 			<data>
 			m0LA6W+4ZB/pNAxmM7KLopTmL6aAoaw/PMCSi2WHh/c=
@@ -1345,10 +1185,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentMediaFormat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+5hzUQp0C9cyYnEG3TC4ho4AZlg=
-			</data>
 			<key>hash2</key>
 			<data>
 			57tTCx0RJPqXMLcPUKi5ql1zqnWVWg1yTHdJi6h1omg=
@@ -1356,10 +1192,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vgs7bV4vab5dbR55cC0sE6LRcmQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			fP0i7/82Nqzip8S35ctjl44NuUi0Bry9fC5Yrv8LUvk=
@@ -1367,10 +1199,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0F5/V65K+NgGOmTOGmh3b1y/MkY=
-			</data>
 			<key>hash2</key>
 			<data>
 			5VE+gm2haoSoeeQPac9EvMIdkuL0zpKTBE4IHKwQ4NI=
@@ -1378,10 +1206,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingContentType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zgNdTROqaTCpF0II2nERbd4Lx/Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			DYaOuwWQkYYo3v5P7vZVQl/lqLTnKMOafz7+vuUusBM=
@@ -1389,10 +1213,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			adeCaHvBk90tgOjgN/0/x7EJPXI=
-			</data>
 			<key>hash2</key>
 			<data>
 			4wXx0dpDYQsvQ5gzeLNBWGAypKBOC4GXM09J1e9oTW0=
@@ -1400,10 +1220,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingExtendedAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iXExPuEPkyTpLW3duPojuCAz+RU=
-			</data>
 			<key>hash2</key>
 			<data>
 			OaMprYOtkaFd7xOq/hdkwe/uim7+oHTlo58AnPrEv/8=
@@ -1411,10 +1227,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingPublisherConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zoDU7cn5oCLZ74N58zhw/i+OsiE=
-			</data>
 			<key>hash2</key>
 			<data>
 			+bJF7dhHY+U9detnejWhG+oS6Tv5vrFdflGKsp2jOKM=
@@ -1422,10 +1234,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingStackedAdvertisementMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E6iro7zJOqJEipfbfR4ODWzzIEI=
-			</data>
 			<key>hash2</key>
 			<data>
 			qRDvK+UrHEyW500SSpA5Ec3aP6ueGzE1iu+3rvrCHPI=
@@ -1433,10 +1241,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingStackedAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c3wDnjWKvO8RmMUZoBcu7D9cCQo=
-			</data>
 			<key>hash2</key>
 			<data>
 			J8xJYCnBuxDhNbr9QGBeNxwOPR1GixrQnB9zczYl18s=
@@ -1444,10 +1248,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingStackedContentMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vj5lXtWCpAYkxlpnhOuW+c04cAg=
-			</data>
 			<key>hash2</key>
 			<data>
 			KvOy6wmAh8+CVLy50hv56jHGr0RzkIMS6nODcSmGD+U=
@@ -1455,10 +1255,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingStackedContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iL3oNNMAYcFMW3WQ44ZGAqPvvoQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			TzxvsTluAFKp6svehMbcYywdJDErm5uRLWcffKNHypo=
@@ -1466,10 +1262,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bGPXZ8b9hY1acGovAAmtTOJOy+Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			wPgoS3B7To4ETmY0g1MCfOXeajzqmvW8qR60m0kkZ9c=
@@ -1477,10 +1269,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORStreamingWindowState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ktvH9vtgZF1LLZk3EB8rNSinG4E=
-			</data>
 			<key>hash2</key>
 			<data>
 			4iFi7K0AkrNhrn+ef+fohn4tDMX2ONvn00WYjNCgn2U=
@@ -1488,10 +1276,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORUsagePropertiesAutoUpdateMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mLNAoYQwjXKS3SkClAOiWjuz5dA=
-			</data>
 			<key>hash2</key>
 			<data>
 			QlmSkibpAOBTJJqnONI7zo9omg1nU3BVsIBtWGScrj4=
@@ -1499,10 +1283,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/SCORVCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwRRHc9SAfx+f66Kpe0qFYJCC2A=
-			</data>
 			<key>hash2</key>
 			<data>
 			G//Z/vgamMoGDTlFoPpY07gMH/5hsh/hay48TpdeKzE=
@@ -1510,21 +1290,13 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			TH/8PHmlwLusTChxSO7hUlSvgCA=
-			</data>
 			<key>hash2</key>
 			<data>
-			CP0kJoxPa7Z21DXP08ETMqWJ8agfVC+2FMt810WhnG8=
+			ePV0SN/fgoGRKeqK42hjjzNQBvTd3QcFmVw9u93qp70=
 			</data>
 		</dict>
 		<key>ios-arm64/ComScore.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xDT7FG9/2JcyjkOJZ43TOAEgTpE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Cy07AR1E2lRNz6cxhrHq0BgoYW/YWT6GX15y4CJux5k=
@@ -1532,10 +1304,6 @@
 		</dict>
 		<key>ios-arm64/ComScore.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GOpQ/Cx8UAE3RhLsfZCRzIGJ3d8=
-			</data>
 			<key>hash2</key>
 			<data>
 			RwcCd4flYIqHf9/M0ioPQ42YdUkpQp/l88sMp3Jq7RM=
@@ -1543,21 +1311,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/ComScore</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			RZ6jGcg2KVE8tGUqrOh8WN7NVOc=
-			</data>
 			<key>hash2</key>
 			<data>
-			5pmEe/yUriDqkGRDxwKM4iDBKDdoS7tZON9dwZxI7WM=
+			Z1MW98Bfj3VndYUvOVO2yjJbDvnDL8sBvb32Mmu4L/c=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iPHDMQjeElVgtxwXrIATO3hh9Ig=
-			</data>
 			<key>hash2</key>
 			<data>
 			Xhb6paHHNzADGJYOs9ZT7nMCqMmcVcziDO8fbFCArE8=
@@ -1565,10 +1325,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORAnalytics+VCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UrGvZmTE0lvOuqGnY40CAH3f0x8=
-			</data>
 			<key>hash2</key>
 			<data>
 			BWND/bBQBsjPqmaeBZvYhcOYGUAzwC1GhveLxPJ6gCg=
@@ -1576,10 +1332,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1DIdmmBN4F79v8TfVbJ0jjNBlg8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XxZnMD5bqGQwFCpbLbZcpq5UdgDK3h5h5zVIxi3enzI=
@@ -1587,10 +1339,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORClientConfiguration+VCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7G3P/qwdh+6XDzH9ql+OOqGtkug=
-			</data>
 			<key>hash2</key>
 			<data>
 			jGZDFOtc9qDobdKrYMb5/01o6UfsnE5cKeiWWPfhGUM=
@@ -1598,10 +1346,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORClientConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			atO2TBTcp9Zo57zCm4iUaFNIenE=
-			</data>
 			<key>hash2</key>
 			<data>
 			K5sWEaGmNqgtSD3bHoCy2NURdC+ylphNHswFLIw9KMw=
@@ -1609,10 +1353,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORClientConfigurationBuilder+VCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PpO11eONjvNoRBmGGmzlrgATZFU=
-			</data>
 			<key>hash2</key>
 			<data>
 			PhzGggXxtemy+6JYNJ5tnmKHUgNVhYywKLAXySsol/k=
@@ -1620,10 +1360,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORClientConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLP8w7JDXPvnQNSuJIIhsJCd05M=
-			</data>
 			<key>hash2</key>
 			<data>
 			5LpNhL8V0NRNa24aIo3j4cpvkAfb0hYlY1C+0faCl6w=
@@ -1631,10 +1367,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORConfiguration+VCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			UhfPdF6an6ZulYQApp9yl6EalGM=
-			</data>
 			<key>hash2</key>
 			<data>
 			k5s7nhYRHlPM/18imEFDddYu2j1mo/j8ocrMC1m1rFE=
@@ -1642,10 +1374,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tkpFsLwmTqdv979WrhmPP4siPNc=
-			</data>
 			<key>hash2</key>
 			<data>
 			4L+nzsGVRRFOVyOLoCL/6nHnbOYLH6sdb373kdEZwlE=
@@ -1653,10 +1381,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORConfigurationDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t5Q5HvZUeD+BEJiuchMzKtHtk1Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			TWCS0vyFmcgiHFtLrv4WVYz/fIJO8G9JGGvWK/AMwyA=
@@ -1664,10 +1388,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORConfigurationType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AqYOase4rxD6F6OjQzyDtUhMb6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			2vRLf3fBUW4H5wuzMiD1MV9xwEfsOZiqS5XAp2p7mVs=
@@ -1675,10 +1395,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORCrossPublisherUniqueDeviceIdChangeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r7xGnw2BnjqFQPpkNDxw4G8unBI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ir4mgf0p9eB7QfvfD9VZCPlB2TtkFgODbQXx6nj3HIc=
@@ -1686,10 +1402,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCOREventInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZEXOF3c9KtDSccspvVbqbtTUaMc=
-			</data>
 			<key>hash2</key>
 			<data>
 			J84yGSpozkEAKFBZpNykVuR+JB41JmWi3JRyD+7q+iw=
@@ -1697,10 +1409,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORLiveTransmissionMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GSWHeIjo2zCn2EQey+rJbQInoiQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			HtlyHo9VgG5/H8AHaDkEA23IKAjtkYehEyTWj8D7TsE=
@@ -1708,10 +1416,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORLogLevel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I0Tg7FbvQiEfm3Byb5LP5BgwxiE=
-			</data>
 			<key>hash2</key>
 			<data>
 			got07gbJ/196xCJinI2suQDcTFvyEBFZZB8L13A3ls4=
@@ -1719,10 +1423,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCOROfflineCacheMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AWxxnZjj5SRmcqjO9rCxSBsUfE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			ONJTVK+/E66pSfSGpo8lfLOn5GHgE+VN++gdvvwVcM0=
@@ -1730,10 +1430,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPartnerConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6cck3IQJCO3UM3WDnXx3uf/jpw0=
-			</data>
 			<key>hash2</key>
 			<data>
 			5355TQC+XcPY++vOXs+2ueDlwtMRTvp3qcQZzxH6cak=
@@ -1741,10 +1437,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPartnerConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			b5LIDA8aldSZm/OwHUHJ9TY7IqA=
-			</data>
 			<key>hash2</key>
 			<data>
 			6N4+YEKHWrL8y8UjKHOOui8gyxZxE5zx02wfvAooH94=
@@ -1752,10 +1444,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPublisherConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZKbv7OhOhqo1ayv+fsJ0S3JBLBM=
-			</data>
 			<key>hash2</key>
 			<data>
 			mOQhvS4OXzhIK9Xsb+OX0pcg+OeuLfLEzP8YLa1foDM=
@@ -1763,10 +1451,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPublisherConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zj/Cg/13eRtnW8lnWJz//cl3690=
-			</data>
 			<key>hash2</key>
 			<data>
 			ndLAZXxReWA5tXv/3Vyj9v9vlaalt0wQqf4lUQDNjWU=
@@ -1774,10 +1458,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPublisherUniqueDeviceIdDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uP9TRM2guXJ5AK1vLVovQhDWU6g=
-			</data>
 			<key>hash2</key>
 			<data>
 			yWyXS/0otU6ey+st/sG62szj9CszOCnqTCIxfu6SWjE=
@@ -1785,10 +1465,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementDeliveryType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oKyRomeYuv0CUn2O2CuPle9YTFY=
-			</data>
 			<key>hash2</key>
 			<data>
 			ekeZIxblgSQQ4usY8I2GBG2ztLDDYdZDqtzJPrRwFNo=
@@ -1796,10 +1472,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rVEeJNMFU3/1ToUqUoz+bRPPRWw=
-			</data>
 			<key>hash2</key>
 			<data>
 			bA7jhCs7/wicSkxssDmLSmSkMt6znF1XO0Iy6QZj/Sk=
@@ -1807,10 +1479,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7TiCImwLlQ0oh/90GrdJoETlKI4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Djy7PzoPN+K0AScMYMjXfVb2m/dbDJbLYSN1H2FLL7o=
@@ -1818,10 +1486,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementOwner.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0RUwWAefgVtsOwT7atpeMqR8HR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			3W2L7NU6GEfxChZYr0G8BriT3Z8UjdHLCmO8uuurz2w=
@@ -1829,10 +1493,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DzI76BTYcewAk56oGE5TTSsKGgA=
-			</data>
 			<key>hash2</key>
 			<data>
 			U7qJtyRHWnOnWss3D3HPhP+WK+2xU+NbPy4UgHiPkLI=
@@ -1840,10 +1500,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zkNpy6gGhcbKQqmyl+k9KX8GhKA=
-			</data>
 			<key>hash2</key>
 			<data>
 			DGrcy94z9xMgg8lLjRpAx6YmQRcq2voIoPk41Cuuoxw=
@@ -1851,21 +1507,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAnalyticsProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yaCqhbbIdSMLnFIckzC2khKcQTg=
-			</data>
 			<key>hash2</key>
 			<data>
-			9PpwFy+twrgn4rM8Jg0PHyJGOLxt3TwQqcio72GTWOM=
+			HFDuoJ7LrOEEe8iEU7uk2AEJuxkBNB9bfifdgQ3J8XM=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAssetMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J05cVArZNbGvLkMX7vhIOo3qedo=
-			</data>
 			<key>hash2</key>
 			<data>
 			BNRqB2U4fgPKaMtF7CL0iUT9eqwsIpHKr+ghgLh5FjA=
@@ -1873,10 +1521,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingBaseAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7zBvP8WcBUwuDk40RB2MFBb023Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			nXZZbRaCQ5OMgec64nezTbv3oHyO77VMyDXqEO2fh5U=
@@ -1884,10 +1528,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingBaseContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+JkxacpLJ7SBsLQnbLf2AHIL3Gg=
-			</data>
 			<key>hash2</key>
 			<data>
 			zCyfJ3CpeVuIGSdYGzHS1GfGUtVN3SEsFojcp3CS7P4=
@@ -1895,10 +1535,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KTKMEFdy9HWoGuiRCAd7kAje4iM=
-			</data>
 			<key>hash2</key>
 			<data>
 			ETuVf3IfkKkW4p9PaOfk2KgOmtbGqgdq9PXc+y8MeqI=
@@ -1906,10 +1542,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yFo8/2A0sin4CDgQMfTr/HRftIg=
-			</data>
 			<key>hash2</key>
 			<data>
 			5AUeUHEbHEK0X/buiCNl9RcmVS1HttUlvwa9WIDh4mA=
@@ -1917,10 +1549,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDeliveryAdvertisementCapability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LPSB7aKU/5LSXEOTyAIwMMutY6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			l+shXzTXHf9Eod9RhR+e0W5frXnwsCR0MpW/bLecYpQ=
@@ -1928,10 +1556,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDeliveryComposition.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PLoaIvlqYRm8XI8CZXCtXHt9lRs=
-			</data>
 			<key>hash2</key>
 			<data>
 			f5a/yx5ih3Pk9/U+WflugKswCgZv+bcPdV2Z7T7uz0E=
@@ -1939,10 +1563,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDeliveryMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IVp1z77OFj2kVwZWhss0QqD/loU=
-			</data>
 			<key>hash2</key>
 			<data>
 			z/mGlFv1ZiCkLuciJQ5M01FWntwvhRLylPtjGff3wCs=
@@ -1950,10 +1570,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDeliverySubscriptionType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wbmg3QJkNmglDToZ2Lxx3MQ+Lxs=
-			</data>
 			<key>hash2</key>
 			<data>
 			pO1mxQJjpnCO5nwnaG7AyB0/KDuZd2zbHmhX1MUPzdA=
@@ -1961,10 +1577,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDistributionModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t3g8pIdDwUrPtN3ArG9TwaVjq/M=
-			</data>
 			<key>hash2</key>
 			<data>
 			zpDTWon70fwZAQMCZyE1mThNLPxn+grI5J+yhUEXcas=
@@ -1972,10 +1584,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentFeedType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SuR9v9rENPoWF6u9V/KC28cP95E=
-			</data>
 			<key>hash2</key>
 			<data>
 			m0LA6W+4ZB/pNAxmM7KLopTmL6aAoaw/PMCSi2WHh/c=
@@ -1983,10 +1591,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentMediaFormat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+5hzUQp0C9cyYnEG3TC4ho4AZlg=
-			</data>
 			<key>hash2</key>
 			<data>
 			57tTCx0RJPqXMLcPUKi5ql1zqnWVWg1yTHdJi6h1omg=
@@ -1994,10 +1598,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vgs7bV4vab5dbR55cC0sE6LRcmQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			fP0i7/82Nqzip8S35ctjl44NuUi0Bry9fC5Yrv8LUvk=
@@ -2005,10 +1605,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0F5/V65K+NgGOmTOGmh3b1y/MkY=
-			</data>
 			<key>hash2</key>
 			<data>
 			5VE+gm2haoSoeeQPac9EvMIdkuL0zpKTBE4IHKwQ4NI=
@@ -2016,10 +1612,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zgNdTROqaTCpF0II2nERbd4Lx/Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			DYaOuwWQkYYo3v5P7vZVQl/lqLTnKMOafz7+vuUusBM=
@@ -2027,10 +1619,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			adeCaHvBk90tgOjgN/0/x7EJPXI=
-			</data>
 			<key>hash2</key>
 			<data>
 			4wXx0dpDYQsvQ5gzeLNBWGAypKBOC4GXM09J1e9oTW0=
@@ -2038,10 +1626,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingExtendedAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iXExPuEPkyTpLW3duPojuCAz+RU=
-			</data>
 			<key>hash2</key>
 			<data>
 			OaMprYOtkaFd7xOq/hdkwe/uim7+oHTlo58AnPrEv/8=
@@ -2049,10 +1633,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingPublisherConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zoDU7cn5oCLZ74N58zhw/i+OsiE=
-			</data>
 			<key>hash2</key>
 			<data>
 			+bJF7dhHY+U9detnejWhG+oS6Tv5vrFdflGKsp2jOKM=
@@ -2060,10 +1640,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingStackedAdvertisementMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E6iro7zJOqJEipfbfR4ODWzzIEI=
-			</data>
 			<key>hash2</key>
 			<data>
 			qRDvK+UrHEyW500SSpA5Ec3aP6ueGzE1iu+3rvrCHPI=
@@ -2071,10 +1647,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingStackedAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c3wDnjWKvO8RmMUZoBcu7D9cCQo=
-			</data>
 			<key>hash2</key>
 			<data>
 			J8xJYCnBuxDhNbr9QGBeNxwOPR1GixrQnB9zczYl18s=
@@ -2082,10 +1654,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingStackedContentMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vj5lXtWCpAYkxlpnhOuW+c04cAg=
-			</data>
 			<key>hash2</key>
 			<data>
 			KvOy6wmAh8+CVLy50hv56jHGr0RzkIMS6nODcSmGD+U=
@@ -2093,10 +1661,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingStackedContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iL3oNNMAYcFMW3WQ44ZGAqPvvoQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			TzxvsTluAFKp6svehMbcYywdJDErm5uRLWcffKNHypo=
@@ -2104,10 +1668,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bGPXZ8b9hY1acGovAAmtTOJOy+Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			wPgoS3B7To4ETmY0g1MCfOXeajzqmvW8qR60m0kkZ9c=
@@ -2115,10 +1675,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingWindowState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ktvH9vtgZF1LLZk3EB8rNSinG4E=
-			</data>
 			<key>hash2</key>
 			<data>
 			4iFi7K0AkrNhrn+ef+fohn4tDMX2ONvn00WYjNCgn2U=
@@ -2126,10 +1682,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORUsagePropertiesAutoUpdateMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mLNAoYQwjXKS3SkClAOiWjuz5dA=
-			</data>
 			<key>hash2</key>
 			<data>
 			QlmSkibpAOBTJJqnONI7zo9omg1nU3BVsIBtWGScrj4=
@@ -2137,10 +1689,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/SCORVCE.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			nwRRHc9SAfx+f66Kpe0qFYJCC2A=
-			</data>
 			<key>hash2</key>
 			<data>
 			G//Z/vgamMoGDTlFoPpY07gMH/5hsh/hay48TpdeKzE=
@@ -2148,21 +1696,13 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			lY0+2qfAGpT+vN+/ERmyRKI8PYk=
-			</data>
 			<key>hash2</key>
 			<data>
-			Q07mNawhDJ98UV4dAxyWAFPRsp2vxS4IIuKH4LGcRi0=
+			hAljhkVz7N23wQy2hjXrF9GhCXRFxAt88ACu0MRKzIo=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xDT7FG9/2JcyjkOJZ43TOAEgTpE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Cy07AR1E2lRNz6cxhrHq0BgoYW/YWT6GX15y4CJux5k=
@@ -2170,10 +1710,6 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GOpQ/Cx8UAE3RhLsfZCRzIGJ3d8=
-			</data>
 			<key>hash2</key>
 			<data>
 			RwcCd4flYIqHf9/M0ioPQ42YdUkpQp/l88sMp3Jq7RM=
@@ -2181,32 +1717,20 @@
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			m9Y8ehSxe5cqnMS87SXayl8SQsg=
-			</data>
 			<key>hash2</key>
 			<data>
-			l+LfFaATE+caKU6nCWGZT0opZ306aSurCmcyVZ5lgHw=
+			j5XJTMzfyuedq4GqNLgFwXD9ZA3jhPCRGj9gADCNo9M=
 			</data>
 		</dict>
 		<key>tvos-arm64/ComScore.framework/ComScore</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			eFRw9uSa+FZLjUctfopTr0AzyR8=
-			</data>
 			<key>hash2</key>
 			<data>
-			B/mBasLOunALTAt5GGpnvEvwU6SqHhZiaUWVZyDArSI=
+			8C+R2soxgFE3ZaISxCIrt/4up2qt1R0oeI5qTm07+Ps=
 			</data>
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/ComScore.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zcIBQv6739K4JtzaDqpKKVI74xM=
-			</data>
 			<key>hash2</key>
 			<data>
 			X5cplUGnYxdoTwhaNjPEx5bopVrwbEglele+xAWLsX4=
@@ -2214,10 +1738,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1DIdmmBN4F79v8TfVbJ0jjNBlg8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XxZnMD5bqGQwFCpbLbZcpq5UdgDK3h5h5zVIxi3enzI=
@@ -2225,10 +1745,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORClientConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			atO2TBTcp9Zo57zCm4iUaFNIenE=
-			</data>
 			<key>hash2</key>
 			<data>
 			K5sWEaGmNqgtSD3bHoCy2NURdC+ylphNHswFLIw9KMw=
@@ -2236,10 +1752,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORClientConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLP8w7JDXPvnQNSuJIIhsJCd05M=
-			</data>
 			<key>hash2</key>
 			<data>
 			5LpNhL8V0NRNa24aIo3j4cpvkAfb0hYlY1C+0faCl6w=
@@ -2247,10 +1759,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tkpFsLwmTqdv979WrhmPP4siPNc=
-			</data>
 			<key>hash2</key>
 			<data>
 			4L+nzsGVRRFOVyOLoCL/6nHnbOYLH6sdb373kdEZwlE=
@@ -2258,10 +1766,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORConfigurationDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t5Q5HvZUeD+BEJiuchMzKtHtk1Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			TWCS0vyFmcgiHFtLrv4WVYz/fIJO8G9JGGvWK/AMwyA=
@@ -2269,10 +1773,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORConfigurationType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AqYOase4rxD6F6OjQzyDtUhMb6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			2vRLf3fBUW4H5wuzMiD1MV9xwEfsOZiqS5XAp2p7mVs=
@@ -2280,10 +1780,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORCrossPublisherUniqueDeviceIdChangeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r7xGnw2BnjqFQPpkNDxw4G8unBI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ir4mgf0p9eB7QfvfD9VZCPlB2TtkFgODbQXx6nj3HIc=
@@ -2291,10 +1787,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCOREventInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZEXOF3c9KtDSccspvVbqbtTUaMc=
-			</data>
 			<key>hash2</key>
 			<data>
 			J84yGSpozkEAKFBZpNykVuR+JB41JmWi3JRyD+7q+iw=
@@ -2302,10 +1794,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORLiveTransmissionMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GSWHeIjo2zCn2EQey+rJbQInoiQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			HtlyHo9VgG5/H8AHaDkEA23IKAjtkYehEyTWj8D7TsE=
@@ -2313,10 +1801,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORLogLevel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I0Tg7FbvQiEfm3Byb5LP5BgwxiE=
-			</data>
 			<key>hash2</key>
 			<data>
 			got07gbJ/196xCJinI2suQDcTFvyEBFZZB8L13A3ls4=
@@ -2324,10 +1808,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCOROfflineCacheMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AWxxnZjj5SRmcqjO9rCxSBsUfE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			ONJTVK+/E66pSfSGpo8lfLOn5GHgE+VN++gdvvwVcM0=
@@ -2335,10 +1815,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORPartnerConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6cck3IQJCO3UM3WDnXx3uf/jpw0=
-			</data>
 			<key>hash2</key>
 			<data>
 			5355TQC+XcPY++vOXs+2ueDlwtMRTvp3qcQZzxH6cak=
@@ -2346,10 +1822,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORPartnerConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			b5LIDA8aldSZm/OwHUHJ9TY7IqA=
-			</data>
 			<key>hash2</key>
 			<data>
 			6N4+YEKHWrL8y8UjKHOOui8gyxZxE5zx02wfvAooH94=
@@ -2357,10 +1829,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORPublisherConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZKbv7OhOhqo1ayv+fsJ0S3JBLBM=
-			</data>
 			<key>hash2</key>
 			<data>
 			mOQhvS4OXzhIK9Xsb+OX0pcg+OeuLfLEzP8YLa1foDM=
@@ -2368,10 +1836,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORPublisherConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zj/Cg/13eRtnW8lnWJz//cl3690=
-			</data>
 			<key>hash2</key>
 			<data>
 			ndLAZXxReWA5tXv/3Vyj9v9vlaalt0wQqf4lUQDNjWU=
@@ -2379,10 +1843,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORPublisherUniqueDeviceIdDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uP9TRM2guXJ5AK1vLVovQhDWU6g=
-			</data>
 			<key>hash2</key>
 			<data>
 			yWyXS/0otU6ey+st/sG62szj9CszOCnqTCIxfu6SWjE=
@@ -2390,10 +1850,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementDeliveryType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oKyRomeYuv0CUn2O2CuPle9YTFY=
-			</data>
 			<key>hash2</key>
 			<data>
 			ekeZIxblgSQQ4usY8I2GBG2ztLDDYdZDqtzJPrRwFNo=
@@ -2401,10 +1857,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rVEeJNMFU3/1ToUqUoz+bRPPRWw=
-			</data>
 			<key>hash2</key>
 			<data>
 			bA7jhCs7/wicSkxssDmLSmSkMt6znF1XO0Iy6QZj/Sk=
@@ -2412,10 +1864,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7TiCImwLlQ0oh/90GrdJoETlKI4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Djy7PzoPN+K0AScMYMjXfVb2m/dbDJbLYSN1H2FLL7o=
@@ -2423,10 +1871,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementOwner.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0RUwWAefgVtsOwT7atpeMqR8HR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			3W2L7NU6GEfxChZYr0G8BriT3Z8UjdHLCmO8uuurz2w=
@@ -2434,10 +1878,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAdvertisementType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DzI76BTYcewAk56oGE5TTSsKGgA=
-			</data>
 			<key>hash2</key>
 			<data>
 			U7qJtyRHWnOnWss3D3HPhP+WK+2xU+NbPy4UgHiPkLI=
@@ -2445,10 +1885,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zkNpy6gGhcbKQqmyl+k9KX8GhKA=
-			</data>
 			<key>hash2</key>
 			<data>
 			DGrcy94z9xMgg8lLjRpAx6YmQRcq2voIoPk41Cuuoxw=
@@ -2456,21 +1892,13 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAnalyticsProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yaCqhbbIdSMLnFIckzC2khKcQTg=
-			</data>
 			<key>hash2</key>
 			<data>
-			9PpwFy+twrgn4rM8Jg0PHyJGOLxt3TwQqcio72GTWOM=
+			HFDuoJ7LrOEEe8iEU7uk2AEJuxkBNB9bfifdgQ3J8XM=
 			</data>
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingAssetMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J05cVArZNbGvLkMX7vhIOo3qedo=
-			</data>
 			<key>hash2</key>
 			<data>
 			BNRqB2U4fgPKaMtF7CL0iUT9eqwsIpHKr+ghgLh5FjA=
@@ -2478,10 +1906,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingBaseAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7zBvP8WcBUwuDk40RB2MFBb023Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			nXZZbRaCQ5OMgec64nezTbv3oHyO77VMyDXqEO2fh5U=
@@ -2489,10 +1913,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingBaseContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+JkxacpLJ7SBsLQnbLf2AHIL3Gg=
-			</data>
 			<key>hash2</key>
 			<data>
 			zCyfJ3CpeVuIGSdYGzHS1GfGUtVN3SEsFojcp3CS7P4=
@@ -2500,10 +1920,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KTKMEFdy9HWoGuiRCAd7kAje4iM=
-			</data>
 			<key>hash2</key>
 			<data>
 			ETuVf3IfkKkW4p9PaOfk2KgOmtbGqgdq9PXc+y8MeqI=
@@ -2511,10 +1927,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yFo8/2A0sin4CDgQMfTr/HRftIg=
-			</data>
 			<key>hash2</key>
 			<data>
 			5AUeUHEbHEK0X/buiCNl9RcmVS1HttUlvwa9WIDh4mA=
@@ -2522,10 +1934,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentDeliveryAdvertisementCapability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LPSB7aKU/5LSXEOTyAIwMMutY6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			l+shXzTXHf9Eod9RhR+e0W5frXnwsCR0MpW/bLecYpQ=
@@ -2533,10 +1941,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentDeliveryComposition.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PLoaIvlqYRm8XI8CZXCtXHt9lRs=
-			</data>
 			<key>hash2</key>
 			<data>
 			f5a/yx5ih3Pk9/U+WflugKswCgZv+bcPdV2Z7T7uz0E=
@@ -2544,10 +1948,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentDeliveryMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IVp1z77OFj2kVwZWhss0QqD/loU=
-			</data>
 			<key>hash2</key>
 			<data>
 			z/mGlFv1ZiCkLuciJQ5M01FWntwvhRLylPtjGff3wCs=
@@ -2555,10 +1955,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentDeliverySubscriptionType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wbmg3QJkNmglDToZ2Lxx3MQ+Lxs=
-			</data>
 			<key>hash2</key>
 			<data>
 			pO1mxQJjpnCO5nwnaG7AyB0/KDuZd2zbHmhX1MUPzdA=
@@ -2566,10 +1962,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentDistributionModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t3g8pIdDwUrPtN3ArG9TwaVjq/M=
-			</data>
 			<key>hash2</key>
 			<data>
 			zpDTWon70fwZAQMCZyE1mThNLPxn+grI5J+yhUEXcas=
@@ -2577,10 +1969,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentFeedType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SuR9v9rENPoWF6u9V/KC28cP95E=
-			</data>
 			<key>hash2</key>
 			<data>
 			m0LA6W+4ZB/pNAxmM7KLopTmL6aAoaw/PMCSi2WHh/c=
@@ -2588,10 +1976,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentMediaFormat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+5hzUQp0C9cyYnEG3TC4ho4AZlg=
-			</data>
 			<key>hash2</key>
 			<data>
 			57tTCx0RJPqXMLcPUKi5ql1zqnWVWg1yTHdJi6h1omg=
@@ -2599,10 +1983,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vgs7bV4vab5dbR55cC0sE6LRcmQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			fP0i7/82Nqzip8S35ctjl44NuUi0Bry9fC5Yrv8LUvk=
@@ -2610,10 +1990,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0F5/V65K+NgGOmTOGmh3b1y/MkY=
-			</data>
 			<key>hash2</key>
 			<data>
 			5VE+gm2haoSoeeQPac9EvMIdkuL0zpKTBE4IHKwQ4NI=
@@ -2621,10 +1997,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingContentType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zgNdTROqaTCpF0II2nERbd4Lx/Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			DYaOuwWQkYYo3v5P7vZVQl/lqLTnKMOafz7+vuUusBM=
@@ -2632,10 +2004,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			adeCaHvBk90tgOjgN/0/x7EJPXI=
-			</data>
 			<key>hash2</key>
 			<data>
 			4wXx0dpDYQsvQ5gzeLNBWGAypKBOC4GXM09J1e9oTW0=
@@ -2643,10 +2011,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingExtendedAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iXExPuEPkyTpLW3duPojuCAz+RU=
-			</data>
 			<key>hash2</key>
 			<data>
 			OaMprYOtkaFd7xOq/hdkwe/uim7+oHTlo58AnPrEv/8=
@@ -2654,10 +2018,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingPublisherConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zoDU7cn5oCLZ74N58zhw/i+OsiE=
-			</data>
 			<key>hash2</key>
 			<data>
 			+bJF7dhHY+U9detnejWhG+oS6Tv5vrFdflGKsp2jOKM=
@@ -2665,10 +2025,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingStackedAdvertisementMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E6iro7zJOqJEipfbfR4ODWzzIEI=
-			</data>
 			<key>hash2</key>
 			<data>
 			qRDvK+UrHEyW500SSpA5Ec3aP6ueGzE1iu+3rvrCHPI=
@@ -2676,10 +2032,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingStackedAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c3wDnjWKvO8RmMUZoBcu7D9cCQo=
-			</data>
 			<key>hash2</key>
 			<data>
 			J8xJYCnBuxDhNbr9QGBeNxwOPR1GixrQnB9zczYl18s=
@@ -2687,10 +2039,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingStackedContentMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vj5lXtWCpAYkxlpnhOuW+c04cAg=
-			</data>
 			<key>hash2</key>
 			<data>
 			KvOy6wmAh8+CVLy50hv56jHGr0RzkIMS6nODcSmGD+U=
@@ -2698,10 +2046,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingStackedContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iL3oNNMAYcFMW3WQ44ZGAqPvvoQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			TzxvsTluAFKp6svehMbcYywdJDErm5uRLWcffKNHypo=
@@ -2709,10 +2053,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bGPXZ8b9hY1acGovAAmtTOJOy+Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			wPgoS3B7To4ETmY0g1MCfOXeajzqmvW8qR60m0kkZ9c=
@@ -2720,10 +2060,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORStreamingWindowState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ktvH9vtgZF1LLZk3EB8rNSinG4E=
-			</data>
 			<key>hash2</key>
 			<data>
 			4iFi7K0AkrNhrn+ef+fohn4tDMX2ONvn00WYjNCgn2U=
@@ -2731,10 +2067,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/SCORUsagePropertiesAutoUpdateMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mLNAoYQwjXKS3SkClAOiWjuz5dA=
-			</data>
 			<key>hash2</key>
 			<data>
 			QlmSkibpAOBTJJqnONI7zo9omg1nU3BVsIBtWGScrj4=
@@ -2742,21 +2074,13 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			VyMlWamzVkMR29ixwnMUvGL16rM=
-			</data>
 			<key>hash2</key>
 			<data>
-			fOeUTV2Xv6MCD6qj0+fF5Zzmg7/aekxCls9AtRj8bz4=
+			5JvwBP5FqI0okmk13ddS41WZmeEf3J5/lC3SziOfWqI=
 			</data>
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xDT7FG9/2JcyjkOJZ43TOAEgTpE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Cy07AR1E2lRNz6cxhrHq0BgoYW/YWT6GX15y4CJux5k=
@@ -2764,10 +2088,6 @@
 		</dict>
 		<key>tvos-arm64/ComScore.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GOpQ/Cx8UAE3RhLsfZCRzIGJ3d8=
-			</data>
 			<key>hash2</key>
 			<data>
 			RwcCd4flYIqHf9/M0ioPQ42YdUkpQp/l88sMp3Jq7RM=
@@ -2775,21 +2095,13 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/ComScore</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			T0foqAeJ7kP1RdUNdtYs9Id9h1M=
-			</data>
 			<key>hash2</key>
 			<data>
-			6zsN7FkCj6TRhwxnEfxgwYGN24NUQMAGssS8eiar3vY=
+			CtHLD/a/UoGroz4PHg6XnoSZrF1lXlG4j/dlfGS+n28=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zcIBQv6739K4JtzaDqpKKVI74xM=
-			</data>
 			<key>hash2</key>
 			<data>
 			X5cplUGnYxdoTwhaNjPEx5bopVrwbEglele+xAWLsX4=
@@ -2797,10 +2109,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			1DIdmmBN4F79v8TfVbJ0jjNBlg8=
-			</data>
 			<key>hash2</key>
 			<data>
 			XxZnMD5bqGQwFCpbLbZcpq5UdgDK3h5h5zVIxi3enzI=
@@ -2808,10 +2116,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORClientConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			atO2TBTcp9Zo57zCm4iUaFNIenE=
-			</data>
 			<key>hash2</key>
 			<data>
 			K5sWEaGmNqgtSD3bHoCy2NURdC+ylphNHswFLIw9KMw=
@@ -2819,10 +2123,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORClientConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zLP8w7JDXPvnQNSuJIIhsJCd05M=
-			</data>
 			<key>hash2</key>
 			<data>
 			5LpNhL8V0NRNa24aIo3j4cpvkAfb0hYlY1C+0faCl6w=
@@ -2830,10 +2130,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			tkpFsLwmTqdv979WrhmPP4siPNc=
-			</data>
 			<key>hash2</key>
 			<data>
 			4L+nzsGVRRFOVyOLoCL/6nHnbOYLH6sdb373kdEZwlE=
@@ -2841,10 +2137,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORConfigurationDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t5Q5HvZUeD+BEJiuchMzKtHtk1Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			TWCS0vyFmcgiHFtLrv4WVYz/fIJO8G9JGGvWK/AMwyA=
@@ -2852,10 +2144,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORConfigurationType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AqYOase4rxD6F6OjQzyDtUhMb6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			2vRLf3fBUW4H5wuzMiD1MV9xwEfsOZiqS5XAp2p7mVs=
@@ -2863,10 +2151,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORCrossPublisherUniqueDeviceIdChangeDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			r7xGnw2BnjqFQPpkNDxw4G8unBI=
-			</data>
 			<key>hash2</key>
 			<data>
 			Ir4mgf0p9eB7QfvfD9VZCPlB2TtkFgODbQXx6nj3HIc=
@@ -2874,10 +2158,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCOREventInfo.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZEXOF3c9KtDSccspvVbqbtTUaMc=
-			</data>
 			<key>hash2</key>
 			<data>
 			J84yGSpozkEAKFBZpNykVuR+JB41JmWi3JRyD+7q+iw=
@@ -2885,10 +2165,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORLiveTransmissionMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GSWHeIjo2zCn2EQey+rJbQInoiQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			HtlyHo9VgG5/H8AHaDkEA23IKAjtkYehEyTWj8D7TsE=
@@ -2896,10 +2172,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORLogLevel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			I0Tg7FbvQiEfm3Byb5LP5BgwxiE=
-			</data>
 			<key>hash2</key>
 			<data>
 			got07gbJ/196xCJinI2suQDcTFvyEBFZZB8L13A3ls4=
@@ -2907,10 +2179,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCOROfflineCacheMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			AWxxnZjj5SRmcqjO9rCxSBsUfE0=
-			</data>
 			<key>hash2</key>
 			<data>
 			ONJTVK+/E66pSfSGpo8lfLOn5GHgE+VN++gdvvwVcM0=
@@ -2918,10 +2186,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPartnerConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			6cck3IQJCO3UM3WDnXx3uf/jpw0=
-			</data>
 			<key>hash2</key>
 			<data>
 			5355TQC+XcPY++vOXs+2ueDlwtMRTvp3qcQZzxH6cak=
@@ -2929,10 +2193,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPartnerConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			b5LIDA8aldSZm/OwHUHJ9TY7IqA=
-			</data>
 			<key>hash2</key>
 			<data>
 			6N4+YEKHWrL8y8UjKHOOui8gyxZxE5zx02wfvAooH94=
@@ -2940,10 +2200,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPublisherConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ZKbv7OhOhqo1ayv+fsJ0S3JBLBM=
-			</data>
 			<key>hash2</key>
 			<data>
 			mOQhvS4OXzhIK9Xsb+OX0pcg+OeuLfLEzP8YLa1foDM=
@@ -2951,10 +2207,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPublisherConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zj/Cg/13eRtnW8lnWJz//cl3690=
-			</data>
 			<key>hash2</key>
 			<data>
 			ndLAZXxReWA5tXv/3Vyj9v9vlaalt0wQqf4lUQDNjWU=
@@ -2962,10 +2214,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORPublisherUniqueDeviceIdDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			uP9TRM2guXJ5AK1vLVovQhDWU6g=
-			</data>
 			<key>hash2</key>
 			<data>
 			yWyXS/0otU6ey+st/sG62szj9CszOCnqTCIxfu6SWjE=
@@ -2973,10 +2221,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementDeliveryType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			oKyRomeYuv0CUn2O2CuPle9YTFY=
-			</data>
 			<key>hash2</key>
 			<data>
 			ekeZIxblgSQQ4usY8I2GBG2ztLDDYdZDqtzJPrRwFNo=
@@ -2984,10 +2228,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			rVEeJNMFU3/1ToUqUoz+bRPPRWw=
-			</data>
 			<key>hash2</key>
 			<data>
 			bA7jhCs7/wicSkxssDmLSmSkMt6znF1XO0Iy6QZj/Sk=
@@ -2995,10 +2235,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7TiCImwLlQ0oh/90GrdJoETlKI4=
-			</data>
 			<key>hash2</key>
 			<data>
 			Djy7PzoPN+K0AScMYMjXfVb2m/dbDJbLYSN1H2FLL7o=
@@ -3006,10 +2242,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementOwner.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0RUwWAefgVtsOwT7atpeMqR8HR4=
-			</data>
 			<key>hash2</key>
 			<data>
 			3W2L7NU6GEfxChZYr0G8BriT3Z8UjdHLCmO8uuurz2w=
@@ -3017,10 +2249,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAdvertisementType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			DzI76BTYcewAk56oGE5TTSsKGgA=
-			</data>
 			<key>hash2</key>
 			<data>
 			U7qJtyRHWnOnWss3D3HPhP+WK+2xU+NbPy4UgHiPkLI=
@@ -3028,10 +2256,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zkNpy6gGhcbKQqmyl+k9KX8GhKA=
-			</data>
 			<key>hash2</key>
 			<data>
 			DGrcy94z9xMgg8lLjRpAx6YmQRcq2voIoPk41Cuuoxw=
@@ -3039,21 +2263,13 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAnalyticsProtocol.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yaCqhbbIdSMLnFIckzC2khKcQTg=
-			</data>
 			<key>hash2</key>
 			<data>
-			9PpwFy+twrgn4rM8Jg0PHyJGOLxt3TwQqcio72GTWOM=
+			HFDuoJ7LrOEEe8iEU7uk2AEJuxkBNB9bfifdgQ3J8XM=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingAssetMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			J05cVArZNbGvLkMX7vhIOo3qedo=
-			</data>
 			<key>hash2</key>
 			<data>
 			BNRqB2U4fgPKaMtF7CL0iUT9eqwsIpHKr+ghgLh5FjA=
@@ -3061,10 +2277,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingBaseAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			7zBvP8WcBUwuDk40RB2MFBb023Q=
-			</data>
 			<key>hash2</key>
 			<data>
 			nXZZbRaCQ5OMgec64nezTbv3oHyO77VMyDXqEO2fh5U=
@@ -3072,10 +2284,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingBaseContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+JkxacpLJ7SBsLQnbLf2AHIL3Gg=
-			</data>
 			<key>hash2</key>
 			<data>
 			zCyfJ3CpeVuIGSdYGzHS1GfGUtVN3SEsFojcp3CS7P4=
@@ -3083,10 +2291,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			KTKMEFdy9HWoGuiRCAd7kAje4iM=
-			</data>
 			<key>hash2</key>
 			<data>
 			ETuVf3IfkKkW4p9PaOfk2KgOmtbGqgdq9PXc+y8MeqI=
@@ -3094,10 +2298,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingConfigurationBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			yFo8/2A0sin4CDgQMfTr/HRftIg=
-			</data>
 			<key>hash2</key>
 			<data>
 			5AUeUHEbHEK0X/buiCNl9RcmVS1HttUlvwa9WIDh4mA=
@@ -3105,10 +2305,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDeliveryAdvertisementCapability.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			LPSB7aKU/5LSXEOTyAIwMMutY6Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			l+shXzTXHf9Eod9RhR+e0W5frXnwsCR0MpW/bLecYpQ=
@@ -3116,10 +2312,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDeliveryComposition.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			PLoaIvlqYRm8XI8CZXCtXHt9lRs=
-			</data>
 			<key>hash2</key>
 			<data>
 			f5a/yx5ih3Pk9/U+WflugKswCgZv+bcPdV2Z7T7uz0E=
@@ -3127,10 +2319,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDeliveryMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			IVp1z77OFj2kVwZWhss0QqD/loU=
-			</data>
 			<key>hash2</key>
 			<data>
 			z/mGlFv1ZiCkLuciJQ5M01FWntwvhRLylPtjGff3wCs=
@@ -3138,10 +2326,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDeliverySubscriptionType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			wbmg3QJkNmglDToZ2Lxx3MQ+Lxs=
-			</data>
 			<key>hash2</key>
 			<data>
 			pO1mxQJjpnCO5nwnaG7AyB0/KDuZd2zbHmhX1MUPzdA=
@@ -3149,10 +2333,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentDistributionModel.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			t3g8pIdDwUrPtN3ArG9TwaVjq/M=
-			</data>
 			<key>hash2</key>
 			<data>
 			zpDTWon70fwZAQMCZyE1mThNLPxn+grI5J+yhUEXcas=
@@ -3160,10 +2340,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentFeedType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			SuR9v9rENPoWF6u9V/KC28cP95E=
-			</data>
 			<key>hash2</key>
 			<data>
 			m0LA6W+4ZB/pNAxmM7KLopTmL6aAoaw/PMCSi2WHh/c=
@@ -3171,10 +2347,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentMediaFormat.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			+5hzUQp0C9cyYnEG3TC4ho4AZlg=
-			</data>
 			<key>hash2</key>
 			<data>
 			57tTCx0RJPqXMLcPUKi5ql1zqnWVWg1yTHdJi6h1omg=
@@ -3182,10 +2354,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			Vgs7bV4vab5dbR55cC0sE6LRcmQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			fP0i7/82Nqzip8S35ctjl44NuUi0Bry9fC5Yrv8LUvk=
@@ -3193,10 +2361,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0F5/V65K+NgGOmTOGmh3b1y/MkY=
-			</data>
 			<key>hash2</key>
 			<data>
 			5VE+gm2haoSoeeQPac9EvMIdkuL0zpKTBE4IHKwQ4NI=
@@ -3204,10 +2368,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingContentType.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zgNdTROqaTCpF0II2nERbd4Lx/Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			DYaOuwWQkYYo3v5P7vZVQl/lqLTnKMOafz7+vuUusBM=
@@ -3215,10 +2375,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingDelegate.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			adeCaHvBk90tgOjgN/0/x7EJPXI=
-			</data>
 			<key>hash2</key>
 			<data>
 			4wXx0dpDYQsvQ5gzeLNBWGAypKBOC4GXM09J1e9oTW0=
@@ -3226,10 +2382,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingExtendedAnalytics.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iXExPuEPkyTpLW3duPojuCAz+RU=
-			</data>
 			<key>hash2</key>
 			<data>
 			OaMprYOtkaFd7xOq/hdkwe/uim7+oHTlo58AnPrEv/8=
@@ -3237,10 +2389,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingPublisherConfiguration.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			zoDU7cn5oCLZ74N58zhw/i+OsiE=
-			</data>
 			<key>hash2</key>
 			<data>
 			+bJF7dhHY+U9detnejWhG+oS6Tv5vrFdflGKsp2jOKM=
@@ -3248,10 +2396,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingStackedAdvertisementMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			E6iro7zJOqJEipfbfR4ODWzzIEI=
-			</data>
 			<key>hash2</key>
 			<data>
 			qRDvK+UrHEyW500SSpA5Ec3aP6ueGzE1iu+3rvrCHPI=
@@ -3259,10 +2403,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingStackedAdvertisementMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			c3wDnjWKvO8RmMUZoBcu7D9cCQo=
-			</data>
 			<key>hash2</key>
 			<data>
 			J8xJYCnBuxDhNbr9QGBeNxwOPR1GixrQnB9zczYl18s=
@@ -3270,10 +2410,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingStackedContentMetadata.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			vj5lXtWCpAYkxlpnhOuW+c04cAg=
-			</data>
 			<key>hash2</key>
 			<data>
 			KvOy6wmAh8+CVLy50hv56jHGr0RzkIMS6nODcSmGD+U=
@@ -3281,10 +2417,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingStackedContentMetadataBuilder.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			iL3oNNMAYcFMW3WQ44ZGAqPvvoQ=
-			</data>
 			<key>hash2</key>
 			<data>
 			TzxvsTluAFKp6svehMbcYywdJDErm5uRLWcffKNHypo=
@@ -3292,10 +2424,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			bGPXZ8b9hY1acGovAAmtTOJOy+Y=
-			</data>
 			<key>hash2</key>
 			<data>
 			wPgoS3B7To4ETmY0g1MCfOXeajzqmvW8qR60m0kkZ9c=
@@ -3303,10 +2431,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORStreamingWindowState.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			ktvH9vtgZF1LLZk3EB8rNSinG4E=
-			</data>
 			<key>hash2</key>
 			<data>
 			4iFi7K0AkrNhrn+ef+fohn4tDMX2ONvn00WYjNCgn2U=
@@ -3314,10 +2438,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/SCORUsagePropertiesAutoUpdateMode.h</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			mLNAoYQwjXKS3SkClAOiWjuz5dA=
-			</data>
 			<key>hash2</key>
 			<data>
 			QlmSkibpAOBTJJqnONI7zo9omg1nU3BVsIBtWGScrj4=
@@ -3325,21 +2445,13 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Info.plist</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			W0yNCg5caT9QqBxlsdQ4XgAPadA=
-			</data>
 			<key>hash2</key>
 			<data>
-			Re+BDhlUHOnBxPm1PGLqz3o6OSMWQjFHe1DMZiosDYM=
+			kKcEDD5nWfSNlNOpKRSlxXSjQBGR5KBuRPgO5HevMzQ=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Modules/module.modulemap</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			xDT7FG9/2JcyjkOJZ43TOAEgTpE=
-			</data>
 			<key>hash2</key>
 			<data>
 			Cy07AR1E2lRNz6cxhrHq0BgoYW/YWT6GX15y4CJux5k=
@@ -3347,10 +2459,6 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/PrivacyInfo.xcprivacy</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			GOpQ/Cx8UAE3RhLsfZCRzIGJ3d8=
-			</data>
 			<key>hash2</key>
 			<data>
 			RwcCd4flYIqHf9/M0ioPQ42YdUkpQp/l88sMp3Jq7RM=
@@ -3358,13 +2466,9 @@
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/_CodeSignature/CodeResources</key>
 		<dict>
-			<key>hash</key>
-			<data>
-			0Xiuyn7N/I0sYtYEYESx4vl7PY8=
-			</data>
 			<key>hash2</key>
 			<data>
-			nVsZeeQ3yHxtF9axBgZIPG4zGi6Bmvms9/UfOKcLv28=
+			dgJPMYfiM32AZgZDspfaNa2X7ID/ZSlXPQTsVzBve2g=
 			</data>
 		</dict>
 	</dict>

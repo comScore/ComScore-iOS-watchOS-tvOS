@@ -1,12 +1,12 @@
 use_frameworks!
 
 target 'HelloWorld' do
-  platform :ios, '12.0'
+  platform :ios, '15.6'
   pod 'ComScore', :path => '../'
 
 end
 
 target 'HelloWorld-tvOS' do
-	platform :tvos, '12.0'
+	platform :tvos, '15.6'
     pod 'ComScore', :path => '../'
 end

@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name             = 'ComScore'
   s.module_name      = 'ComScore'
-  s.version          = '6.15.0'
+  s.version          = '6.16.0'
   s.summary          = 'Official analytics library for iOS and tvOS from Comscore'
   s.description      = <<-DESC
   This library is used to collect analytics from iOS and tvOS applications. The library supports apps developed in native Objective C or Swift with Apple Xcode or in other languages/tools which can include and use native Objective C libraries.
@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.license          = 'Custom'
   s.author           = { "Comscore" => "www.comscore.com" }
   s.source           = { :git => "https://github.com/comscore/ComScore-iOS-watchOS-tvOS.git", :tag => s.version.to_s }
-  s.platforms        = { :ios => "12.0", :osx => "12.0", :tvos => "12.0" }
+  s.platforms        = { :ios => "15.6", :osx => "15.6", :tvos => "15.6" }
   s.libraries        = 'c++', 'z'
   s.frameworks       = 'SystemConfiguration'
   s.prepare_command  = <<-CMD
@@ -19,9 +19,9 @@ Pod::Spec.new do |s|
   s.preserve_paths   = 'ComScore/ComScore.xcframework'
   s.resource_bundle  = { 'SCORBundle' => '.pod' }
   
-  s.ios.deployment_target   = '12.0'
+  s.ios.deployment_target   = '15.6'
   s.ios.vendored_frameworks = 'ComScore/ComScore.xcframework'
 
-  s.tvos.deployment_target   = '12.0'
+  s.tvos.deployment_target   = '15.6'
   s.tvos.vendored_frameworks = 'ComScore/ComScore.xcframework'
 end

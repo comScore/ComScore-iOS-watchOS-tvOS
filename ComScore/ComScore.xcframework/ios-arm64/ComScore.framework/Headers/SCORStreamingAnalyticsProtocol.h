@@ -128,4 +128,24 @@
 
 - (SCORStreamingExtendedAnalytics*)extendedAnalytics;
 
+/**
+ * Sets whether the child-directed playback session flag should be enabled.
+ * This change takes effect on the next transition to IDLE state.
+ * If called while not in IDLE state, the change will be queued and applied
+ * when the state machine next enters IDLE. Multiple calls while not in IDLE
+ * will result in only the last call taking effect.
+ *
+ * @param enabled YES to enable child-directed mode, NO to disable
+ */
+- (void)setChildDirectedPlaybackSessionEnabled:(BOOL)enabled;
+
+/**
+ * Returns whether the CURRENT playback session is marked as child-directed.
+ * This returns the actual value the playback session sends in measurements,
+ * not any pending configured value.
+ *
+ * @return YES if current playback session is child-directed, NO otherwise
+ */
+- (BOOL)isChildDirectedPlaybackSessionEnabled;
+
 @end

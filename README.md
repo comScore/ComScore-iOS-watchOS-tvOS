@@ -1,5 +1,13 @@
 # Comscore Analytics SDK for iOS & tvOS
 
+> **⚠️ DEPRECATION NOTICE**
+>
+> **CocoaPods distribution is deprecated and will be discontinued on December 2, 2026.**
+>
+> Please migrate to **Swift Package Manager** for future updates: https://github.com/comScore/Comscore-Swift-Package-Manager
+>
+> This CocoaPods distribution will continue to receive updates until December 2, 2026, but no new versions will be published after that date.
+
 [![Version](https://img.shields.io/cocoapods/v/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![License](https://img.shields.io/cocoapods/l/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
 [![Platform](https://img.shields.io/cocoapods/p/ComScore.svg?style=flat)](http://cocoapods.org/pods/ComScore)
@@ -21,8 +29,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Installation
 ============
 
-CocoaPods
----------
+Swift Package Manager (Recommended)
+------------------------------------
+
+**Swift Package Manager is now the recommended installation method.**
+
+For installation instructions, please visit: https://github.com/comScore/Comscore-Swift-Package-Manager
+
+CocoaPods (Deprecated)
+----------------------
+
+> **⚠️ DEPRECATED:** CocoaPods support will be discontinued on December 2, 2026. Please use Swift Package Manager instead.
 
 Comscore Analytics is also available through [CocoaPods](http://cocoapods.org). The podspec supports iOS & tvOS devices only. 
 

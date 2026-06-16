@@ -1,5 +1,5 @@
 PODS:
-  - ComScore (6.16.0)
+  - ComScore (6.17.0)
 
 DEPENDENCIES:
   - ComScore (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  ComScore: 7e0437eb4610a2815a98db074eb01b9e04f665c2
+  ComScore: 4b18e03b06a711f4ae2d42f7b0b2306d6993350d
 
 PODFILE CHECKSUM: 4ecfb38c9dea3a7333f3e2e63d298e4a25c20cd5
 

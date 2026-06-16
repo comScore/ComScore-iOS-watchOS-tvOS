@@ -6,7 +6,7 @@
 	<dict>
 		<key>ios-arm64/ComScore.framework/ComScore</key>
 		<data>
-		70uohpP5rTRqz8rQO/NuYghRdXQ=
+		hu2jgh9/0ZSBAUE2sXwVMumCZfY=
 		</data>
 		<key>ios-arm64/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -238,7 +238,7 @@
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/ComScore</key>
 		<data>
-		6e32VEkXiCMY84prJBSIPqOl8eo=
+		NvEPVXxudQ7WDannlQjZ/lm6iaM=
 		</data>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -474,7 +474,7 @@
 		</data>
 		<key>tvos-arm64/ComScore.framework/ComScore</key>
 		<data>
-		umtc8fGT5qOCmetwNf+1IvX1FxU=
+		+mHMhSsAZwD7C3Hj9xztK7Y2qi8=
 		</data>
 		<key>tvos-arm64/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -686,7 +686,7 @@
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/ComScore</key>
 		<data>
-		8j9xcnHAF1FhASsoOt/tBHJ0v7Q=
+		l4XM8poATFRDgm0+vc41v1bVIfU=
 		</data>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
 		<data>
@@ -907,7 +907,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZxR2tmb5hiDQj2hoVFpx7/wSW/XW54qT3V+60mOyZWs=
+			vaufJ8YPDXrNx9JAy27oPKkjNHAJyH9VaoFhOjuuxcE=
 			</data>
 		</dict>
 		<key>ios-arm64/ComScore.framework/Headers/ComScore.h</key>
@@ -1313,7 +1313,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z1MW98Bfj3VndYUvOVO2yjJbDvnDL8sBvb32Mmu4L/c=
+			9oDmPtGUgf0PhxvrwmXGOT4xlx98UMhJN/mI7qxVfHY=
 			</data>
 		</dict>
 		<key>ios-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>
@@ -1726,7 +1726,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8C+R2soxgFE3ZaISxCIrt/4up2qt1R0oeI5qTm07+Ps=
+			8NazCkipHfnF+RSvN/tBRYluPSP+elxbQgfbG8GZcOE=
 			</data>
 		</dict>
 		<key>tvos-arm64/ComScore.framework/Headers/ComScore.h</key>
@@ -2097,7 +2097,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CtHLD/a/UoGroz4PHg6XnoSZrF1lXlG4j/dlfGS+n28=
+			L8HM9vE6IyW7oiqtsuzKAyFs/sV3q/nL2UzTd70RuZM=
 			</data>
 		</dict>
 		<key>tvos-arm64_x86_64-simulator/ComScore.framework/Headers/ComScore.h</key>

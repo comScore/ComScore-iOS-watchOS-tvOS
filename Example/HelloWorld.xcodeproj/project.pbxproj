@@ -20,6 +20,8 @@
 		8C41A7571DABB5A5005C7665 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C41A7561DABB5A5005C7665 /* ViewController.m */; };
 		8C41A75A1DABB5A5005C7665 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A7581DABB5A5005C7665 /* Main.storyboard */; };
 		8C41A75C1DABB5A5005C7665 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C41A75B1DABB5A5005C7665 /* Assets.xcassets */; };
+		A7FBC903A68E7168AF7FC69D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8E4B11B55415E29DC87C83 /* SceneDelegate.m */; };
+		C69A9A833EB7F80A78959DEE /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0451D80484AA0A0FA61B6990 /* SceneDelegate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -36,7 +38,11 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0451D80484AA0A0FA61B6990 /* SceneDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
 		2726F7E3D85402A5899DA158 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3F8E4B11B55415E29DC87C83 /* SceneDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		67325B85645918B90A656613 /* SceneDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		93CBCDD55BC42A2784158E01 /* SceneDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -146,6 +152,8 @@
 				8C41A7421DABA0D5005C7665 /* LaunchScreen.storyboard */,
 				8C41A7451DABA0D5005C7665 /* Info.plist */,
 				8C41A7341DABA0D5005C7665 /* Supporting Files */,
+				93CBCDD55BC42A2784158E01 /* SceneDelegate.h */,
+				3F8E4B11B55415E29DC87C83 /* SceneDelegate.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -169,6 +177,8 @@
 				8C41A75B1DABB5A5005C7665 /* Assets.xcassets */,
 				8C41A75D1DABB5A5005C7665 /* Info.plist */,
 				8C41A74F1DABB5A5005C7665 /* Supporting Files */,
+				67325B85645918B90A656613 /* SceneDelegate.h */,
+				0451D80484AA0A0FA61B6990 /* SceneDelegate.m */,
 			);
 			path = "HelloWorld-tvOS";
 			sourceTree = "<group>";
@@ -416,6 +426,7 @@
 				8C41A73C1DABA0D5005C7665 /* ViewController.m in Sources */,
 				8C41A7391DABA0D5005C7665 /* AppDelegate.m in Sources */,
 				8C41A7361DABA0D5005C7665 /* main.m in Sources */,
+				A7FBC903A68E7168AF7FC69D /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,6 +437,7 @@
 				8C41A7571DABB5A5005C7665 /* ViewController.m in Sources */,
 				8C41A7541DABB5A5005C7665 /* AppDelegate.m in Sources */,
 				8C41A7511DABB5A5005C7665 /* main.m in Sources */,
+				C69A9A833EB7F80A78959DEE /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
